@@ -1,0 +1,33 @@
+
+
+technology = {
+	titles = {
+		d_valyria
+		d_gelios
+		d_tyria
+		d_perzyria
+		d_drakaria
+		d_egrys
+		d_nuqiria
+		d_oros
+		d_aeksios
+	}
+
+	769 = {
+		military = 0
+		economy = 0
+		culture = 0
+	}
+		
+	1337 = {
+		military = 0
+		economy = 0
+		culture = 0
+	}
+
+}
+
+
+
+
+

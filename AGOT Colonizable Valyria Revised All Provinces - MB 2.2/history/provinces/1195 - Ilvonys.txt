@@ -1,0 +1,25 @@
+
+# County Title
+title = c_ilvonys
+
+# Settlements
+max_settlements = 4
+
+b_ilvonys = castle
+b_ilvonys2 = city
+b_ilvonys3 = temple
+
+# Misc
+culture = eastern_valyrian
+religion = valyrian_rel
+
+# History
+1.1.1 = {
+	b_ilvonys = ca_asoiaf_valyria_basevalue_1
+	b_ilvonys = ca_asoiaf_valyria_basevalue_2
+	b_ilvonys = ca_asoiaf_valyria_basevalue_3
+	
+	b_ilvonys2 = ct_asoiaf_valyria_basevalue_1
+	b_ilvonys2 = ct_asoiaf_valyria_basevalue_2
+}
+

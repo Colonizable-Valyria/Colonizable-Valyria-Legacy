@@ -1,0 +1,24 @@
+
+# County Title
+title = c_zoklos
+
+# Settlements
+max_settlements = 3
+
+b_zoklos = castle
+b_zokloscity = city
+b_zoklostemple = temple
+
+# Misc
+culture = eastern_valyrian
+religion = valyrian_rel
+
+# History
+1.1.1 = {
+	b_zoklos = ca_asoiaf_valyria_basevalue_1
+	b_zoklos = ca_asoiaf_valyria_basevalue_2
+	
+	b_zokloscity = ct_asoiaf_valyria_basevalue_1
+	b_zokloscity = ct_asoiaf_valyria_basevalue_2
+	b_zokloscity = ct_asoiaf_valyria_basevalue_3
+}

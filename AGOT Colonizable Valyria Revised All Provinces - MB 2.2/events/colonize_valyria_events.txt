@@ -1,0 +1,461 @@
+#Unoccupied Province Events
+namespace = colonise_val
+
+#Initialise Unoccupied province
+#now in history, was colonise_val.1
+
+####  Colonists of Valyria become deformed
+#gone, was colonise_val.2
+
+#Smoking Sea - Straits
+character_event = {
+	id = colonise_val.3
+	desc = "EVTDESCevil.1"
+	picture = "GFX_valyria_dragon"
+	
+	ai = no #to prevent too much abuse
+		
+	trigger = {
+		start_date = 7886.1.1
+		OR = {
+			location = { province_id = 1008 }
+			location = { province_id = 1009 }
+		}
+		NOT = { religion = old_ones }
+		NOT = { has_artifact = dragon_egg }
+		NOT = { has_artifact = valyrian_steel }
+		NOT = { has_artifact = valyrian_armour }
+		NOT = { wealth = 500 }
+		NOT = {
+			has_game_rule = {
+				name = silly_events
+				value = off
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 7		
+	}
+		
+	option = {
+		name = "EVTOPTAevil.1"
+		chronicle = {
+			entry = CHRONICLE_SMOKING_SEA
+		}
+		random_list = {
+			95 = {								
+				set_graphical_culture = cat
+				add_trait = ruthless
+				change_variable = { which = "tyrant" value = 10 } 
+				character_event = { id = maintenance.1 } #tyrant trait
+				
+				troops = -0.95
+			}
+			2 = {
+				prestige = 250
+				wealth = 500
+				chronicle = {
+					entry = CHRONICLE_SMOKING_SEA_TREASURES
+				}
+			}
+			1 = {
+				trigger = {
+					NOT = { has_game_rule = { name = dragon_hatching_taming value = off } }
+				}
+				modifier = {
+					factor = 0
+					has_artifact = dragon_egg
+				}
+				prestige = 250
+				add_artifact = dragon_egg
+				new_artifact = { set_artifact_flag = heirloom_@PREV }
+				chronicle = {
+					entry = CHRONICLE_SMOKING_SEA_DRAGON_EGG
+				}
+			}
+			1 = {
+				modifier = {
+					factor = 0
+					has_artifact = valyrian_steel
+				}			
+				prestige = 250
+				add_artifact = valyrian_steel
+				new_artifact = { set_artifact_flag = heirloom_@PREV }
+				chronicle = {
+					entry = CHRONICLE_SMOKING_SEA_SWORD
+				}
+			}
+			1 = {
+				modifier = {
+					factor = 0
+					has_artifact = valyrian_armour
+				}
+				prestige = 250
+				add_artifact = valyrian_armour
+				new_artifact = { set_artifact_flag = heirloom_@PREV }
+				# chronicle = {
+					# entry = CHRONICLE_SMOKING_SEA_SWORD
+				# }
+			}
+		}
+	}
+}
+
+#Valyria dragon egg
+province_event = {
+	id = colonise_val.4
+
+	hide_window = yes
+	has_flag = colony_province
+	
+	trigger = {
+		region = world_valyria
+		has_province_flag = ruined_province
+		owner = { 
+			NOT = { culture = ruin } 
+		}
+		NOT = { has_province_flag = ruin_dragon_egg }
+		NOT = { has_game_rule = { name = dragon_hatching_taming value = off } }
+	}
+	
+	mean_time_to_happen = {
+		years = 150
+	}
+	
+	immediate = { 
+		set_province_flag = ruin_dragon_egg
+		owner = { character_event = { id = unoccupied.1501 } } 
+	}
+
+	option = {
+		name = OK
+	}
+}
+
+###Dragon Staff###
+province_event = {
+	id = colonise_val.5
+	
+	hide_Window = yes
+	has_flag = colony_province
+	
+	trigger = {
+		province_id = 597
+		has_province_flag = ruined_province
+		NOT = { has_province_flag = valyrian_staff_found }
+		NOT = { any_character = { has_artifact = valyrian_Staff } }
+		NOT = { has_character_flag = valyrian_staff_stuck }
+		owner = {
+			NOT = { culture = ruin }
+		}
+	}
+	
+	mean_time_to_happen = {
+		years = 10
+	}
+	
+	immediate = { owner = { narrative_event = { id = colonise_val.6 } } }
+}
+
+#Intro Valyria
+narrative_event = {
+	id = colonise_val.6
+	title = "EVTtitlecolonise_val.6"
+	desc = "EVTDESCcolonise_val.6"
+	picture = "GFX_valyria_dragon"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = {
+			text = "EVTOPTAcolonise_val.6"
+		}
+		immediate = { narrative_event = { id = colonise_val.7 } }
+		character_event = { id = colonise_val.8 months = 12 random = 12 }
+	}
+}
+
+narrative_event = {
+	id = colonise_val.7
+	title = "EVTtitlecolonise_val.6"
+	desc = "EVTDESCcolonise_val.7"
+	picture = "GFX_valyria_dragon"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = {
+			text = "EVTOPTAcolonise_val.7"
+		}
+		if = {
+			limit = {
+				NOT = { has_landed_title = k_valyria }
+			}
+			k_valyria = { add_pressed_claim = ROOT }
+		}
+	}
+}
+
+#Discovery/Door Check
+narrative_event = {
+	id = colonise_val.8
+	title = "EVTtitlecolonise_val.8"
+	desc = "EVTDESCcolonise_val.8"
+	picture = "GFX_evt_valyria_2"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = {
+			text = "EVTOPTAcolonise_val.8"
+		}
+		immediate = { narrative_event = { id = colonise_val.9 } }
+	}
+}
+
+narrative_event = {
+	id = colonise_val.9
+	title = "EVTtitlecolonise_val.8"
+	desc = "EVTDESCcolonise_val.9"
+	picture = "GFX_evt_valyria_2"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = {
+			text = "EVTOPTAcolonise_val.9"
+		}
+		immediate = { narrative_event = { id = colonise_val.10 } }
+	}
+}
+
+narrative_event = {
+	id = colonise_val.10
+	title = "EVTtitlecolonise_val.8"
+	desc = "EVTDESCcolonise_val.10"
+	picture = "GFX_evt_valyria_2"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = {
+			text = "EVTOPTAcolonise_val.10"
+		}
+		immediate = { narrative_event = { id = colonise_val.15 } }
+	}
+	option = {
+		trigger = {
+			OR = {
+				is_smart_incl_genius_trigger = yes
+				learning = 15
+			}
+		}
+		name = {
+			text = "EVTOPTBcolonise_val.10"
+		}
+		immediate = { 
+			narrative_event = { id = colonise_val.11 } 
+			clr_character_flag = valyrian_staff_stuck
+		}
+	}
+}
+
+#Dragon Staff
+narrative_event = {
+	id = colonise_val.11
+	title = "EVTtitlecolonise_val.11"
+	desc = "EVTDESCcolonise_val.11"
+	picture = GFX_evt_valyria
+
+	is_triggered_only = yes
+	
+	option = {
+		name = {
+			text = "EVTOPTBcolonise_val.11"
+		}	
+		immediate = { narrative_event = { id = colonise_val.12 } }	
+	}
+}
+
+narrative_event = {
+	id = colonise_val.12
+	title = "EVTtitlecolonise_val.11"
+	desc = "EVTDESCcolonise_val.12"
+	picture = "GFX_evt_valyria"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = {
+			text = "EVTOPTBcolonise_val.12"
+		}
+		immediate = { narrative_event = { id = colonise_val.13 } }
+	}
+}
+
+narrative_event = {
+	id = colonise_val.13
+	title = "EVTtitlecolonise_val.11"
+	desc = "EVTDESCcolonise_val.13"
+	picture = "GFX_evt_valyria"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = {
+			text = "EVTOPTBcolonise_val.13"
+		}
+		immediate = { narrative_event = { id = colonise_val.14 } }
+	}
+}
+
+narrative_event = {
+	id = colonise_val.14
+	title = "EVTtitlecolonise_val.11"
+	desc = "EVTDESCcolonise_val.14"
+	picture = "GFX_evt_valyria"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = {
+			text = "EVTOPTAcolonise_val.14"
+		}	
+		FROM = { set_province_flag = valyrian_staff_found }
+		add_artifact = valyrian_staff
+		new_artifact = { set_artifact_flag = heirloom_@ROOT }
+		wealth = 250		
+		prestige = 100
+	}
+}
+#Failure
+narrative_event = {
+	id = colonise_val.15
+	title = "EVTtitlecolonise_val.15"
+	desc = "EVTDESCcolonise_val.15"
+	picture = "GFX_valyria_dragon"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = {
+			text = "EVTOPTAcolonise_val.15"
+		}
+		set_character_flag = valyrian_staff_stuck
+	}
+}
+###Dragon Crown###
+province_event = {
+	id = colonise_val.16
+	
+	hide_Window = yes
+	has_flag = colony_province
+	
+	trigger = {
+		province_id = 759
+		has_province_flag = ruined_province
+		NOT = { has_province_flag = dragon_crown_found }
+		NOT = { any_character = { has_artifact = dragon_crown } }
+		NOT = { has_character_flag = dragon_crown_stuck }
+		owner = {
+			NOT = { culture = ruin }
+		}
+	}
+	
+	mean_time_to_happen = {
+		years = 10
+	}
+	
+	immediate = { owner = { narrative_event = { id = colonise_val.17 } } }
+}
+narrative_event = {
+	id = colonise_val.17
+	title = "EVTtitlecolonise_val.17"
+	desc = "EVTDESCcolonise_val.17"
+	picture = "GFX_valyria_dragon"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = {
+			text = "EVTOPTAcolonise_val.17"
+		}
+		immediate = { narrative_event = { id = colonise_val.18 } }
+		character_event = { id = colonise_val.20 months = 12 random = 12 }
+	}
+}
+narrative_event = {
+	id = colonise_val.18
+	title = "EVTtitlecolonise_val.17"
+	desc = "EVTDESCcolonise_val.18"
+	picture = "GFX_valyria_dragon"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = {
+			text = "EVTOPTAcolonise_val.18"
+		}
+		immediate = { narrative_event = { id = colonise_val.19 } }
+	}
+}
+narrative_event = {
+	id = colonise_val.19
+	title = "EVTtitlecolonise_val.17"
+	desc = "EVTDESCcolonise_val.19"
+	picture = "GFX_valyria_dragon"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = {
+			text = "EVTOPTAcolonise_val.19"
+		}
+	}
+}
+narrative_event = {
+	id = colonise_val.20
+	title = "EVTtitlecolonise_val.20"
+	desc = "EVTDESCcolonise_val.20"
+	picture = "GFX_valyria_dragon"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = {
+			text = "EVTOPTAcolonise_val.20"
+		}
+		immediate = { narrative_event = { id = colonise_val.21 } }
+	}
+}
+narrative_event = {
+	id = colonise_val.21
+	title = "EVTtitlecolonise_val.20"
+	desc = "EVTDESCcolonise_val.21"
+	picture = "GFX_valyria_dragon"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = {
+			text = "EVTOPTAcolonise_val.21"
+		}
+		immediate = { narrative_event = { id = colonise_val.22 } }
+	}
+}
+narrative_event = {
+	id = colonise_val.22
+	title = "EVTtitlecolonise_val.20"
+	desc = "EVTDESCcolonise_val.22"
+	picture = "GFX_valyria_dragon"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = {
+			text = "EVTOPTAcolonise_val.22"
+		}
+		immediate = { narrative_event = { id = colonise_val.19 } }
+	}
+}

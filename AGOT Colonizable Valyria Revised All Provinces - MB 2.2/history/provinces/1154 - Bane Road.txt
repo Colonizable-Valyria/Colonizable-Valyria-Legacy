@@ -1,0 +1,24 @@
+
+# County Title
+title = c_bane_road
+
+# Settlements
+max_settlements = 3
+
+b_bane_road = castle
+b_bane_roadcity = city
+b_bane_roadtemple = temple
+
+# Misc
+culture = eastern_valyrian
+religion = valyrian_rel
+
+# History
+1.1.1 = {
+	b_bane_road = ca_asoiaf_valyria_basevalue_1
+	b_bane_road = ca_asoiaf_valyria_basevalue_2
+	b_bane_road = ca_asoiaf_valyria_basevalue_3
+	
+	b_bane_roadcity = ct_asoiaf_valyria_basevalue_1
+	b_bane_roadcity = ct_asoiaf_valyria_basevalue_2
+}

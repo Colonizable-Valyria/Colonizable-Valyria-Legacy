@@ -1,0 +1,26 @@
+
+# County Title
+title = c_vestperzys
+
+# Settlements
+max_settlements = 3
+
+b_vestperzys = castle
+b_vestperzyscity = city
+b_vestperzystemple = temple
+
+# Misc
+culture = eastern_valyrian
+religion = valyrian_rel
+
+# History
+1.1.1 = {
+	b_vestperzys = ca_asoiaf_valyria_basevalue_1
+	b_vestperzys = ca_asoiaf_valyria_basevalue_2
+	b_vestperzys = ca_asoiaf_valyria_basevalue_3
+	
+	
+	b_vestperzyscity = ct_asoiaf_valyria_basevalue_1
+	b_vestperzyscity = ct_asoiaf_valyria_basevalue_2
+	b_vestperzyscity = ct_asoiaf_valyria_basevalue_3
+}

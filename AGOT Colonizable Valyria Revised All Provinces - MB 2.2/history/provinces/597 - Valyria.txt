@@ -1,0 +1,41 @@
+
+# County Title
+title = c_valyria
+
+# Settlements
+max_settlements = 7
+
+b_valyria2 = castle
+b_valyria = city
+b_valyria3 = temple
+#b_mandios = city
+#b_skoryia = castle
+#b_biarvys = city
+#b_verdagos = castle
+
+# Misc
+culture = eastern_valyrian
+religion = valyrian_rel
+
+terrain = valyrianroad
+
+# History
+1.1.1 = {
+	b_valyria = ct_asoiaf_valyria_basevalue_1
+	b_valyria = ct_asoiaf_valyria_basevalue_2
+	b_valyria = ct_asoiaf_valyria_basevalue_3
+	b_valyria = ct_asoiaf_valyria_basevalue_4
+	b_valyria = ct_asoiaf_valyria_basevalue_5
+	b_valyria = ct_asoiaf_valyria_basevalue_6
+	b_valyria = ct_valyrian_architecture
+	
+	b_valyria2 = ca_asoiaf_valyria_basevalue_1
+	b_valyria2 = ca_asoiaf_valyria_basevalue_2
+	b_valyria2 = ca_asoiaf_valyria_basevalue_3
+	b_valyria2 = ca_asoiaf_valyria_basevalue_4
+	b_valyria2 = ca_asoiaf_valyria_basevalue_5
+	b_valyria2 = ca_asoiaf_valyria_basevalue_6
+	b_valyria2 = ca_valyrian_architecture
+	
+}
+

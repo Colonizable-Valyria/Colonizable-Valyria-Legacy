@@ -1,0 +1,25 @@
+
+# County Title
+title = c_elieperzys
+
+# Settlements
+max_settlements = 3
+
+b_elieperzys = castle
+b_elieperzyscity = city
+b_elieperzystemple = temple
+
+# Misc
+culture = eastern_valyrian
+religion = valyrian_rel
+
+# History
+1.1.1 = {
+	b_elieperzys = ca_asoiaf_valyria_basevalue_1
+	b_elieperzys = ca_asoiaf_valyria_basevalue_2
+	b_elieperzys = ca_asoiaf_valyria_basevalue_3
+	
+	b_elieperzyscity = ct_asoiaf_valyria_basevalue_1
+	b_elieperzyscity = ct_asoiaf_valyria_basevalue_2
+	b_elieperzyscity = ct_asoiaf_valyria_basevalue_3	
+}

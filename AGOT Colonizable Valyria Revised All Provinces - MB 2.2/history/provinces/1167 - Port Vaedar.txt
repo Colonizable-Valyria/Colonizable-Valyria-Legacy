@@ -1,0 +1,24 @@
+
+# County Title
+title = c_port_vaedar
+
+# Settlements
+max_settlements = 3
+
+b_port_vaedar = castle
+b_port_vaedarcity = city
+b_port_vaedartemple = temple
+
+# Misc
+culture = eastern_valyrian
+religion = valyrian_rel
+
+# History
+1.1.1 = {
+	b_port_vaedar = ca_asoiaf_valyria_basevalue_1
+	b_port_vaedar = ca_asoiaf_valyria_basevalue_2
+	b_port_vaedar = ca_asoiaf_valyria_basevalue_3
+		
+	b_port_vaedarcity = ct_asoiaf_valyria_basevalue_1	
+	b_port_vaedarcity = ct_asoiaf_valyria_basevalue_2
+}

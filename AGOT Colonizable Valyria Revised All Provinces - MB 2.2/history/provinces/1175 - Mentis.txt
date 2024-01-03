@@ -1,0 +1,24 @@
+
+# County Title
+title = c_mentis
+
+# Settlements
+max_settlements = 3
+
+b_mentis = castle
+b_mentiscity = city
+b_mentistemple = temple
+
+# Misc
+culture = eastern_valyrian
+religion = valyrian_rel
+
+# History
+1.1.1 = {
+	b_mentis = ca_asoiaf_valyria_basevalue_1
+	b_mentis = ca_asoiaf_valyria_basevalue_2
+	b_mentis = ct_asoiaf_valyria_basevalue_3
+		
+	b_mentiscity = ct_asoiaf_valyria_basevalue_1
+	b_mentiscity = ct_asoiaf_valyria_basevalue_2
+}

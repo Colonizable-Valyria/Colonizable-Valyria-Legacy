@@ -1,0 +1,24 @@
+
+# County Title
+title = c_lentun
+
+# Settlements
+max_settlements = 3
+
+b_lentun = castle
+b_lentuncity = city
+b_lentuntemple = temple
+
+# Misc
+culture = eastern_valyrian
+religion = valyrian_rel
+
+# History
+1.1.1 = {
+	b_lentun = ca_asoiaf_valyria_basevalue_1
+	b_lentun = ca_asoiaf_valyria_basevalue_2
+	b_lentun = ca_asoiaf_valyria_basevalue_3
+		
+	b_lentuncity = ct_asoiaf_valyria_basevalue_1	
+	b_lentuncity = ct_asoiaf_valyria_basevalue_2
+}

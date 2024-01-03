@@ -1,0 +1,541 @@
+castle = {
+
+	###Balancing buildings###
+	ca_asoiaf_valyria_basevalue_1 = {
+		desc = ca_asoiaf_basevalue_1_desc
+		potential = {
+			region = world_valyrian_peninsula
+		}
+		trigger = { always = no }
+		gold_cost = 200
+		build_time = 730
+		light_infantry = 120
+		heavy_infantry = 300
+		light_cavalry = 60
+		knights = 8
+		ai_creation_factor = 0
+		tax_income = 0.3
+		fort_level = 1
+	}
+	ca_asoiaf_valyria_basevalue_2 = {
+		desc = ca_asoiaf_basevalue_2_desc
+		potential = {
+			region = world_valyrian_peninsula
+		}
+		trigger = { always = no }
+		upgrades_from = ca_asoiaf_valyria_basevalue_1
+		gold_cost = 400
+		build_time = 730
+		light_infantry = 180
+		heavy_infantry = 450
+		light_cavalry = 90
+		knights = 12
+		ai_creation_factor = 0
+		tax_income = 0.56
+		fort_level = 1
+	}
+	ca_asoiaf_valyria_basevalue_3 = {
+		desc = ca_asoiaf_basevalue_3_desc
+		potential = {
+			region = world_valyrian_peninsula
+		}
+		trigger = { always = no }
+		upgrades_from = ca_asoiaf_valyria_basevalue_2
+		gold_cost = 800
+		build_time = 730
+		light_infantry = 270
+		heavy_infantry = 670
+		light_cavalry = 130
+		knights = 18
+		ai_creation_factor = 0
+		tax_income = 0.85
+		fort_level = 1
+	}
+	ca_asoiaf_valyria_basevalue_4 = {
+		desc = ca_asoiaf_basevalue_4_desc
+		potential = {
+			region = world_valyrian_peninsula
+		}
+		trigger = { always = no }
+		upgrades_from = ca_asoiaf_valyria_basevalue_3
+		gold_cost = 1600
+		build_time = 730
+		light_infantry = 400
+		heavy_infantry = 1000
+		light_cavalry = 190
+		knights = 24
+		ai_creation_factor = 0
+		tax_income = 1.25
+		fort_level = 1
+	}
+	ca_asoiaf_valyria_basevalue_5 = {
+		desc = ca_asoiaf_basevalue_5_desc
+		potential = {
+			region = world_valyrian_peninsula
+		}
+		trigger = { always = no }
+		upgrades_from = ca_asoiaf_valyria_basevalue_4
+		gold_cost = 2400
+		build_time = 730
+		light_infantry = 600
+		heavy_infantry = 1500
+		light_cavalry = 280
+		knights =36
+		ai_creation_factor = 0
+		tax_income = 1.87
+		fort_level = 1
+		garrison_size = 0.25
+	}
+	ca_asoiaf_valyria_basevalue_6 = {
+		desc = ca_asoiaf_basevalue_6_desc
+		potential = {
+			region = world_valyrian_peninsula
+		}
+		trigger = { always = no }
+		upgrades_from = ca_asoiaf_valyria_basevalue_5
+		gold_cost = 3200
+		build_time = 730
+		light_infantry = 900
+		heavy_infantry = 2250
+		light_cavalry = 420
+		knights = 54
+		ai_creation_factor = 0
+		tax_income = 2.8
+		fort_level = 1
+		garrison_size = 0.25
+	}
+	
+	ca_valyrian_architecture = {
+		desc = ca_valyrian_architecture_desc
+		potential = {
+			region = world_valyrian_peninsula
+		}
+		trigger = { 
+			hidden_tooltip = { TECH_CASTLE_CONSTRUCTION = 0 } 
+			FROM = { culture = high_valyrian }
+		}
+		
+		gold_cost = 500
+		fort_level = 2
+		tax_income = 2
+		build_time = 1825
+		ai_creation_factor = 110
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	
+	#Valyria Mines
+	ca_valyria_mines_1 = {
+		desc = ca_valyria_mines_desc	
+		potential = {
+			region = world_valyria
+		}
+		trigger = { 
+			hidden_tooltip = { TECH_CASTLE_CONSTRUCTION = 0 }
+			owner = {
+				show_scope_change = no
+				custom_tooltip = {
+					text = TOOLTIPvalyria_mines_A
+					trigger_if = {
+						limit = { is_patrician = yes }
+						family_palace = { has_building = fp_asoiaf_slavepit_1 }
+					}
+					trigger_else = {
+						capital_holding = {
+							OR = {
+								has_building = ca_asoiaf_slavepit_1
+								has_building = ct_asoiaf_slavepit_1
+								has_building = tp_asoiaf_slavepit_1
+								has_building = no_asoiaf_slavepit_1
+							}
+						}
+					}
+				}	
+			}
+		}
+		is_active_trigger = {
+			owner = {
+				show_scope_change = no
+				custom_tooltip = {
+					text = TOOLTIPvalyria_mines_A
+					trigger_if = {
+						limit = { is_patrician = yes }
+						family_palace = { has_building = fp_asoiaf_slavepit_1 }
+					}
+					trigger_else = {
+						capital_holding = {
+							OR = {
+								has_building = ca_asoiaf_slavepit_1
+								has_building = ct_asoiaf_slavepit_1
+								has_building = tp_asoiaf_slavepit_1
+								has_building = no_asoiaf_slavepit_1
+							}
+						}
+					}
+				}	
+			}
+		}
+		gold_cost = 100
+		build_time = 365
+		tax_income = 6
+		tradevalue = 10
+		
+		ai_creation_factor = 125
+		#extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	ca_valyria_mines_2 = {
+		desc = ca_valyria_mines_desc	
+		potential = {
+			region = world_valyria
+		}
+		trigger = { 
+			hidden_tooltip = { TECH_CASTLE_CONSTRUCTION = 0 }
+			owner = {
+				show_scope_change = no
+				custom_tooltip = {
+					text = TOOLTIPvalyria_mines_B
+					trigger_if = {
+						limit = { is_patrician = yes }
+						family_palace = { has_building = fp_asoiaf_slavepit_4 }
+					}
+					trigger_else = {
+						capital_holding = {
+							OR = {
+								has_building = ca_asoiaf_slavepit_4
+								has_building = ct_asoiaf_slavepit_4
+								has_building = tp_asoiaf_slavepit_4
+								has_building = no_asoiaf_slavepit_4
+							}
+						}
+					}
+				}	
+			}
+		}
+		is_active_trigger = {
+			owner = {
+				show_scope_change = no
+				custom_tooltip = {
+					text = TOOLTIPvalyria_mines_B
+					trigger_if = {
+						limit = { is_patrician = yes }
+						family_palace = { has_building = fp_asoiaf_slavepit_4 }
+					}
+					trigger_else = {
+						capital_holding = {
+							OR = {
+								has_building = ca_asoiaf_slavepit_4
+								has_building = ct_asoiaf_slavepit_4
+								has_building = tp_asoiaf_slavepit_4
+								has_building = no_asoiaf_slavepit_4
+							}
+						}
+					}
+				}	
+			}
+		}
+		upgrades_from = ca_valyria_mines_1
+		
+		gold_cost = 100
+		build_time = 365
+		tax_income = 12
+		tradevalue = 15
+		
+		ai_creation_factor = 125
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	
+	#Long Summer Wealth
+	ca_long_summer_1 = {
+		desc = ca_long_summer_desc	
+		potential = {
+			region = world_long_summer
+		}
+		gold_cost = 100
+		build_time = 365
+		tax_income = 4
+		tradevalue = 10
+		
+		ai_creation_factor = 125
+		trigger = { hidden_tooltip = { TECH_CASTLE_CONSTRUCTION = 0 } }
+		extra_tech_building_start = 0.1
+	}
+	ca_long_summer_2 = {
+		desc = ca_long_summer_desc
+		potential = {
+			region = world_long_summer
+		}
+		upgrades_from = ca_long_summer_1
+		
+		gold_cost = 100
+		build_time = 365
+		tax_income = 4
+		tradevalue = 15
+		
+		ai_creation_factor = 125
+		trigger = { hidden_tooltip = { TECH_CASTLE_CONSTRUCTION = 0 } }
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+}	
+	
+city = {
+	ct_asoiaf_valyria_basevalue_1 = {
+		desc = ct_asoiaf_basevalue_1_desc
+		potential = {
+			region = world_valyrian_peninsula
+		}
+		trigger = { always = no }
+		gold_cost = 200
+		build_time = 730
+		light_infantry = 150
+		archers = 80
+		ai_creation_factor = 0
+		tax_income = 0.5
+		fort_level = 1
+	}
+	ct_asoiaf_valyria_basevalue_2 = {
+		desc = ct_asoiaf_basevalue_2_desc
+		potential = {
+			region = world_valyrian_peninsula
+		}
+		trigger = { always = no }
+		upgrades_from = ct_asoiaf_valyria_basevalue_1
+		gold_cost = 400
+		build_time = 730
+		light_infantry = 220
+		archers = 120
+		ai_creation_factor = 0
+		tax_income = 0.75
+		fort_level = 1
+	}
+	ct_asoiaf_valyria_basevalue_3 = {
+		desc = ct_asoiaf_basevalue_3_desc
+		potential = {
+			region = world_valyrian_peninsula
+		}
+		trigger = { always = no }
+		upgrades_from = ct_asoiaf_valyria_basevalue_2
+		gold_cost = 800
+		build_time = 730
+		light_infantry = 330
+		archers = 180
+		ai_creation_factor = 0
+		tax_income = 1.1
+		fort_level = 1
+	}
+	ct_asoiaf_valyria_basevalue_4 = {
+		desc = ct_asoiaf_basevalue_4_desc
+		potential = {
+			region = world_valyrian_peninsula
+		}
+		trigger = { always = no }
+		upgrades_from = ct_asoiaf_valyria_basevalue_3
+		gold_cost = 1600
+		build_time = 730
+		light_infantry = 500
+		archers = 270
+		ai_creation_factor = 0
+		tax_income = 1.7
+		fort_level = 1
+	}
+	ct_asoiaf_valyria_basevalue_5 = {
+		desc = ct_asoiaf_basevalue_5_desc
+		potential = {
+			region = world_valyrian_peninsula
+		}
+		trigger = { always = no }
+		upgrades_from = ct_asoiaf_valyria_basevalue_4
+		gold_cost = 2400
+		build_time = 730
+		light_infantry = 750
+		archers = 400
+		ai_creation_factor = 0
+		tax_income = 2.5
+		fort_level = 1
+		garrison_size = 0.25
+	}
+	ct_asoiaf_valyria_basevalue_6 = {
+		desc = ct_asoiaf_basevalue_6_desc
+		potential = {
+			region = world_valyrian_peninsula
+		}
+		trigger = { always = no }
+		upgrades_from = ct_asoiaf_valyria_basevalue_5
+		gold_cost = 3200
+		build_time = 730
+		light_infantry = 1120
+		archers = 600
+		ai_creation_factor = 0
+		tax_income = 3.75
+		fort_level = 1
+		garrison_size = 0.25
+	}
+	
+	ct_valyrian_architecture = {
+		desc = ca_valyrian_architecture_desc
+		potential = {
+			region = world_valyrian_peninsula
+		}
+		trigger = { 
+			hidden_tooltip = { TECH_CASTLE_CONSTRUCTION = 0 } 
+			FROM = { culture = high_valyrian }
+		}
+		
+		gold_cost = 500
+		fort_level = 2
+		tax_income = 2
+		build_time = 1825
+		ai_creation_factor = 110
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	
+	#Valyria Mines
+	ct_valyria_mines_1 = {
+		desc = ca_valyria_mines_desc	
+		potential = {
+			region = world_valyria
+		}
+		trigger = { 
+			hidden_tooltip = { TECH_CASTLE_CONSTRUCTION = 0 }
+			owner = {
+				show_scope_change = no
+				custom_tooltip = {
+					text = TOOLTIPvalyria_mines_A
+					trigger_if = {
+						limit = { is_patrician = yes }
+						family_palace = { has_building = fp_asoiaf_slavepit_1 }
+					}
+					trigger_else = {
+						capital_holding = {
+							OR = {
+								has_building = ca_asoiaf_slavepit_1
+								has_building = ct_asoiaf_slavepit_1
+								has_building = tp_asoiaf_slavepit_1
+								has_building = no_asoiaf_slavepit_1
+							}
+						}
+					}
+				}	
+			}
+		}
+		is_active_trigger = {
+			owner = {
+				show_scope_change = no
+				custom_tooltip = {
+					text = TOOLTIPvalyria_mines_A
+					trigger_if = {
+						limit = { is_patrician = yes }
+						family_palace = { has_building = fp_asoiaf_slavepit_1 }
+					}
+					trigger_else = {
+						capital_holding = {
+							OR = {
+								has_building = ca_asoiaf_slavepit_1
+								has_building = ct_asoiaf_slavepit_1
+								has_building = tp_asoiaf_slavepit_1
+								has_building = no_asoiaf_slavepit_1
+							}
+						}
+					}
+				}	
+			}
+		}
+		gold_cost = 100
+		build_time = 365
+		tax_income = 6
+		tradevalue = 10
+		
+		ai_creation_factor = 125
+		#extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	ct_valyria_mines_2 = {
+		desc = ca_valyria_mines_desc	
+		potential = {
+			region = world_valyria
+		}
+		trigger = { 
+			hidden_tooltip = { TECH_CASTLE_CONSTRUCTION = 0 }
+			owner = {
+				show_scope_change = no
+				custom_tooltip = {
+					text = TOOLTIPvalyria_mines_B
+					trigger_if = {
+						limit = { is_patrician = yes }
+						family_palace = { has_building = fp_asoiaf_slavepit_4 }
+					}
+					trigger_else = {
+						capital_holding = {
+							OR = {
+								has_building = ca_asoiaf_slavepit_4
+								has_building = ct_asoiaf_slavepit_4
+								has_building = tp_asoiaf_slavepit_4
+								has_building = no_asoiaf_slavepit_4
+							}
+						}
+					}
+				}	
+			}
+		}
+		is_active_trigger = {
+			owner = {
+				show_scope_change = no
+				custom_tooltip = {
+					text = TOOLTIPvalyria_mines_B
+					trigger_if = {
+						limit = { is_patrician = yes }
+						family_palace = { has_building = fp_asoiaf_slavepit_4 }
+					}
+					trigger_else = {
+						capital_holding = {
+							OR = {
+								has_building = ca_asoiaf_slavepit_4
+								has_building = ct_asoiaf_slavepit_4
+								has_building = tp_asoiaf_slavepit_4
+								has_building = no_asoiaf_slavepit_4
+							}
+						}
+					}
+				}	
+			}
+		}
+		upgrades_from = ct_valyria_mines_1
+		
+		gold_cost = 100
+		build_time = 365
+		tax_income = 12
+		tradevalue = 15
+		
+		ai_creation_factor = 125
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	
+	#Long Summer Wealth
+	ct_long_summer_1 = {
+		desc = ca_long_summer_desc	
+		potential = {
+			region = world_long_summer
+		}
+		gold_cost = 100
+		build_time = 365
+		tax_income = 4
+		tradevalue = 10
+		
+		ai_creation_factor = 125
+		trigger = { hidden_tooltip = { TECH_CASTLE_CONSTRUCTION = 0 } }
+		extra_tech_building_start = 0.1
+	}
+	ct_long_summer_2 = {
+		desc = ca_long_summer_desc
+		potential = {
+			region = world_long_summer
+		}
+		upgrades_from = ct_long_summer_1
+		
+		gold_cost = 100
+		build_time = 365
+		tax_income = 4
+		tradevalue = 15
+		
+		ai_creation_factor = 125
+		trigger = { hidden_tooltip = { TECH_CASTLE_CONSTRUCTION = 0 } }
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+}

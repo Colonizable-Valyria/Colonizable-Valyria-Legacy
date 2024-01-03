@@ -1,0 +1,18 @@
+chimera_bl = {
+	monthly_character_prestige = 0.25
+	martial = 1
+	valyrian_opinion = 10
+	valyrian_rel_group_opinion = 5
+ 	bloodline_effect_mystic = 1
+ 	bloodline_effect_traditional_claim = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodline_aurion
+	flags = { 
+		historical_bloodline 
+		bloodline_mystic 
+		dynastic_claim_k_valyria
+		dynastic_claim_d_valyria
+		dynastic_claim_c_valyria
+	}
+}

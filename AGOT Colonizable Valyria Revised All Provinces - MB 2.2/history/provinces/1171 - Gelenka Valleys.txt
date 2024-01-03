@@ -1,0 +1,25 @@
+#1171 - Gelenka Valleys
+
+# County Title
+title = c_gelenka_valleys
+
+# Settlements
+max_settlements = 3
+
+b_gelenka_valleys = castle
+b_gelenka_valleyscity = city
+b_gelenka_valleystemple = temple
+
+# Misc
+culture = eastern_valyrian
+religion = valyrian_rel
+
+# History
+1.1.1 = {
+	b_gelenka_valleys = ca_asoiaf_valyria_basevalue_1
+	b_gelenka_valleys = ca_asoiaf_valyria_basevalue_2
+	b_gelenka_valleys = ca_asoiaf_valyria_basevalue_3
+		
+	b_gelenka_valleyscity = ct_asoiaf_valyria_basevalue_1	
+	b_gelenka_valleyscity = ct_asoiaf_valyria_basevalue_2
+}

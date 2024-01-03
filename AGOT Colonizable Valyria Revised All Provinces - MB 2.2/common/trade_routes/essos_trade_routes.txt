@@ -1,0 +1,380 @@
+far_east_trade_route = {
+	wealth = 100			# Total base wealth of silk route
+
+	modifier = {			# How the trade route modifies the provinces it passes
+		castle_tax_modifier = 0.05
+		city_tax_modifier = 0.05
+		temple_tax_modifier = 0.05
+		trade_route_value = 1
+		icon = 4
+	}
+	
+	trade_post_display_trigger = {
+		far_east_trade_route_post_trigger = yes
+	}
+
+	start = {				# Start provinces of trade route
+		835 # Nefer
+		862 # Lanqoyi		
+		875 # Xin		
+		795 # Asshai
+		770 # Jinqi	
+	}
+	
+	##Northern Sea Route
+	path = {	# Nefer - Port of Ibben
+		835 1120 1118 1116 986 595 985
+	}
+	
+	##Yi Ti to Bone Mountains
+	path = {	# Xin - Tiqui
+		875 774 777 778 779 780
+	}
+	path = {	# Trader Town - Tiqui
+		847 848 780
+	}
+	path = {	# Tiqui - Bayasabhad
+		780 781 674
+	}
+	# path = {	# Bayasabhad - Samyriana
+	# 	674 676 847
+	# }
+	# path = {	# Trader Town - Kayakayanaya (via Steel Road)
+	# 	847 846 842 680
+	# }
+	path = {	# Trader Town - Samyriana
+		847 844 678
+	}
+	path = {	# Samyriana - Yinishar
+		678 677 660
+	}
+	
+	##Roads to Vaes Dothrak
+	path = {	# Lanqoyi - Trader Town
+		862 863 864 865 847
+	}
+	path = {	# Nefer - Kayakayanaya
+		835 837 853 852 851 841 680
+	}
+	path = {	# Kayakayanaya - Vaes Dothrak
+		680 682 717 716 709
+	}
+	path = {	# Yinishar - Vaes Dothrak
+		660 713 714 715 709
+	}
+		
+	##Roads to Qarth
+	path = {	# Bayasabhad - Qarth
+		674 671 665 664 663
+	}
+	# path = {	# Nekhos - Kosrak (via Old Waste Road)
+	#	650 653 652 648
+	# }
+	
+	##Roads to Meereen
+	path = {	# Yinishar - Kosrak
+		660 659 658 648 
+	}
+	path = {	# Kosrak - Hesh
+		648 646 638
+	}
+	
+	##Southern Sea Route
+	path = {	# Asshai - Ctl Jade Sea
+		795 1112 1109 1110 790 1100
+	}
+	# path = {	# Asshai - Jinqi
+	# 	795 1111 1105 770
+	# }
+	path = {	# Jinqi - Yin Coast
+		770 1103 792 1102 1101
+	}
+	path = {	# Yin - Coast
+		1101 765
+	}
+
+	path = {	# Yin - Qarth
+		765 1095 1021 1019
+	}	
+	# path = {	# Yin - Qarth (via Asabhad)
+	# 	765 764 763 669 668 666 664 663
+	# }
+	path = {	# Yin Coast - Ctl Jade Sea
+		1101 1100
+	}
+	path = {	# Ctl Jade Sea - Vahar
+		1100 1099 788 1023 728 727 1025 729
+	}
+}
+
+central_trade_route = {
+	wealth = 200			# Total base wealth of silk route
+
+	modifier = {			# How the trade route modifies the provinces it passes
+		castle_tax_modifier = 0.05
+		city_tax_modifier = 0.05
+		temple_tax_modifier = 0.05
+		trade_route_value = 1
+		icon = 4
+	}
+	
+	trade_post_display_trigger = {
+		central_trade_route_post_trigger = yes
+	}
+
+	start = {				# Start provinces of trade route
+		585 # Port of Ibben
+		709 # Vaes Dothrak
+		663 # Qarth
+	}
+	
+	
+	##Northern Sea Route
+	path = {	# Port of Ibben - New Ibbish
+		585 590 985
+	}
+	path = {	# New Ibbish coast
+		985 576
+	}
+	path = {	# New Ibbish - Morosh
+		576 984 983 981 979 545
+	}
+	path = {	# Saath - Braavos Coast
+		544 978 977 976 471 974 975 971
+	}
+	path = {	#Braavos Coast - Braavos
+		971 470
+	}
+	
+	##Roads to Pentos
+	path = {	# Vaes Dothrak - Sathar
+		709 708 706 703 565
+	}
+	path = {	# Sathar - Morosh
+		565 564 562 561 556 557 551 550 546 545
+	}
+	path = {	# Morosh - Saath
+		545 544
+	}
+
+	path = {	# Sathar - Essaria
+		565 555 553 696 694 542
+	}
+	path = {	# Saath - Essaria
+		544 548 549 542
+	}
+	path = {	# Essaria - Pentos
+		542 540 478 476 438 436 435 433 442 455 450 452 409 406
+	}
+	
+	##Roads to Mereen
+	path = {	# Qarth - Meereen
+		663 655 654 650 641 640 639 638
+	}
+	path = {	# Hesh - Mereen
+		638 607 606
+	}
+	path = {	# Sathar -  Meereen
+		565 700 699 606
+	}
+	path = {	# Meereen - Volantis
+		606 605 604 600 599 598 484 483 419 417
+	}
+	path = {	# Mereen - Astapor
+		606 608 610 611 612 613
+	}
+}
+
+southern_trade_route = {
+	wealth = 100			# Total base wealth of silk route
+
+	modifier = {			# How the trade route modifies the provinces it passes
+		castle_tax_modifier = 0.05
+		city_tax_modifier = 0.05
+		temple_tax_modifier = 0.05
+		trade_route_value = 1
+		icon = 4
+	}
+	
+	trade_post_display_trigger = {
+		southern_trade_route_post_trigger = yes
+	}
+
+	start = {				# Start provinces of trade route
+		663 #Qarth
+		729 #Vahar
+		526 #Red Flower Bay
+	#	597	#Valyria
+	}
+	
+	##Qarth to Ghis
+	path = {	# Qarth - Jade Gates
+		663 1019
+	}
+	path = {	# Qarth - Ghiscari Strait
+		1019 1018 1017 1016
+	}
+	path = {	# Ghiscari Strait - Old Ghis
+		1016 619
+	}
+	path = {	# Ghiscari Strait - New Ghis
+		1016 625
+	}
+	
+	#Link to Far Eastern routes (Vahar)
+	path = {	# Vahar - Cst of Ghiscar
+		729 1028 1047 1017
+	}
+	
+	#Summer Islands
+	path = {	#Aquos Dhaen - Naath
+		1011 1048 626
+	}
+	path = {	#Naath -  Summer Islands
+		626 1042 1050 1064
+	}
+	path = {	#Red Flower Vale
+		1064 1062 526
+	}
+	path = {	#Tall trees Town
+		1064 1059 501 1055 502 496 1054 493
+	}
+	
+	#Naath to Gogossos
+	path = {
+		626 1040 1037 751 747
+	}
+	
+	#Final routes
+	path = {	#W. Gulf of Grief - Sthrn Valyrian Sea
+		1012 1011
+	}
+	# path = {	#Aquos Dhaen - Sthrn Valyrian Sea
+	# 	757 1011
+	# }
+	path = {	#Old Volantis - Coast
+		419 1005
+	}
+	path = {	#Volantis - Lys
+		1005 1004 368
+	}
+	
+	##Roads to Valyria
+	path = {	#Aquos Dhaen - Volantis
+	#	1011 1184 1007 1005
+		1011 1007 1005
+	}
+	path = {	#Old Ghis - W. Gulf of Grief
+		619 1013 1012 
+	}
+	#path = {	#W. Gulf of Grief - Valyria
+	#	1012 758 1009 1165 597
+	#}
+	path = {	#W. Gulf of Grief - Elos
+		1012 623
+	}
+	path = {	#Elos - Tolos - Demon Pass
+		623 1014 601 600
+	}
+	# path = {	# Valyria - Oros
+	#	597 1160 756 759
+	# }
+	# path = {	# Valyria - Aquos Dhaen
+	#	597 1162 757
+	# }
+	# path = {	# Oros - Mantarys
+	#	759 1174 1178 1180 599
+	# }
+	# path = {	# Oros - L. Valyria
+	#	759 1175 760 761 484
+	# }
+}
+
+rhoyne_trade_route = {
+	wealth = 50			# Total base wealth of silk route
+
+	modifier = {			# How the trade route modifies the provinces it passes
+		castle_tax_modifier = 0.025
+		city_tax_modifier = 0.025
+		temple_tax_modifier = 0.025
+		trade_route_value = 0.5
+		icon = 4
+	}
+	
+	trade_post_display_trigger = {
+		rhoyne_trade_route_post_trigger = yes
+	}
+
+	start = {				# Start provinces of trade route
+		450 #Ghoyan Drohe
+		433 #Norvos
+		476 #Qohor
+	}
+	
+	path = {	# Ghoyan Drohe - Ny Sar
+		450 414
+	}
+	path = {	# Norvos - Ny Sar
+		433 414
+	}
+	path = {	# Ny Sar - Dagger Lake
+		414 428
+	}
+	path = {	#Qohor - Dagger Lake
+		476 429 428
+	}
+	path = {	#Dagger Lake - Sarhoy
+		428 413 423 422 420 417 762
+	}
+}
+
+
+valyria_trade_route = {
+	wealth = 75			# Total base wealth of silk route
+
+	modifier = {			# How the trade route modifies the provinces it passes
+		castle_tax_modifier = 0.025
+		city_tax_modifier = 0.025
+		temple_tax_modifier = 0.025
+		trade_route_value = 0.5
+		icon = 4
+	}
+	
+	trade_post_display_trigger = {
+		valyria_trade_route_post_trigger = yes
+	}
+
+	start = {				# Start provinces of trade route
+		758 #Mhysa Faer
+		757 #Aquos Dhaen
+		755 #Gelios
+	}
+	
+	path = {	# Gelios to Valyria
+		755 1154 1008 1156 597
+	}
+	path = {	# Aquos Dhaen to Valyria
+		757 1162 597
+	}
+	path = {	# Mysha faer to Valyria
+		758 1009 1169 1165 597
+	}
+	path = {	# Aquos Dhaen to sea
+		757 1011
+	}
+	path = {	# Mhysa Faer to sea
+		758 1012
+	}
+	
+	path = {	# Valyria to Oros
+		597 1160 756 1010 759
+	}
+	
+	path = {	# Oros to Mantarys branch
+		759 1174 1178 1180 599 598 484
+	}
+	
+	path = {	# Oros to Volantis
+		759 1175 760 761 484 483 419
+	}
+}
