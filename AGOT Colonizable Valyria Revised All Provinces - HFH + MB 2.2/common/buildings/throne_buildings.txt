@@ -1,0 +1,438 @@
+ # Triggers are in Province scope. The From Scope contains the settlement holder (character)
+ # start trigger is in title scope.
+ 
+ #<tag> = {
+ #	desc = description used in the tooltip of the building
+ #	trigger = used for tech requirement of the building, set to 0 if no requirement so it can be build automatically on new games
+ #	gold_cost = cost to build the building
+ #	piety_cost = piety cost to build the building
+ #	prestige_cost = prestige cost to build the building
+ #	Be aware that you can only use one of gold, piety, and prestige cost
+ #	build_time = time to build, in days
+ #	
+ #	ai_creation_factor = weight that the AI uses to determine what building to build
+ #	extra_tech_building_start = when starting a new game this building will be pre-built if the province has higher tech than the requirement + this + random 0-1
+ #}
+ 
+ 
+ # Castle
+castle = {
+	ca_iron_throne = {
+		desc = ca_iron_throne_desc
+		potential = {
+			province_id = 226 #kingslanding
+			has_province_flag = kings_landing_established
+			FROMFROM = {
+				title = b_red_keep
+			}			
+		}
+		trigger = { always = no }
+		gold_cost = 200
+		build_time = 100
+		monthly_character_prestige = 0.50
+		knights = 7
+		vassal_opinion = 5
+		ai_creation_factor = 110
+	}
+	ca_winterfell_throne = {
+		desc = ca_winterfell_throne_desc
+		potential = {
+			FROMFROM = {
+				title = b_winterfell
+			}
+		}
+		trigger = { always = no }
+		gold_cost = 200
+		build_time = 100
+		monthly_character_prestige = 0.25
+		vassal_opinion = 5
+		build_time_modifier = -0.025
+		ai_creation_factor = 110
+	}
+	ca_valyria_throne = {
+		desc = ca_valyria_throne_desc
+		potential = {
+			FROMFROM = {
+				title = b_valyria2
+			}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 10.0 # Never get at start of game
+		gold_cost = 300
+		build_time = 100
+		monthly_character_prestige = 0.25
+		vassal_opinion = 5
+		ai_creation_factor = 110
+	}
+	ca_driftwood_throne = {
+		desc = ca_driftwood_throne_desc
+		potential = {
+			FROMFROM = {
+				OR = {
+					AND = {
+						title = b_driftmark
+						NOT = { start_date = 8085.1.1 }
+					}
+					AND = {
+						title = b_high_tide
+						year = 8085
+					}
+				}
+			}
+		}
+		trigger = { always = no }
+		gold_cost = 200
+		build_time = 100
+		monthly_character_prestige = 0.15
+		vassal_opinion = 5
+		ai_creation_factor = 110
+	}
+	ca_oaken_throne_1 = {
+		desc = ca_oaken_throne_1_desc
+		potential = {
+			FROMFROM = {
+				title = b_highgarden
+			}
+		}
+		trigger = { always = no }
+		gold_cost = 200
+		build_time = 100
+		monthly_character_prestige = 0.15
+		vassal_opinion = 2
+		ai_creation_factor = 100
+	}
+	ca_oaken_throne_2 = {
+		desc = ca_oaken_throne_2_desc
+		potential = {
+			FROMFROM = {
+				title = b_highgarden
+			}
+		}
+		trigger = { always = no }
+		upgrades_from = ca_oaken_throne_1
+		gold_cost = 200
+		build_time = 100
+		monthly_character_prestige = 0.25
+		vassal_opinion = 5
+		ai_creation_factor = 100
+	}
+	ca_seastone_throne = {
+		desc = ca_seastone_throne_desc
+		potential = {
+			FROMFROM = {
+				title = b_pyke
+			}
+		}
+		trigger = { always = no }
+		gold_cost = 200
+		build_time = 100
+		monthly_character_prestige = 0.25
+		vassal_opinion = 5
+		ai_creation_factor = 110
+	}
+	ca_eyrie_throne = {
+		desc = ca_eyrie_throne_desc
+		potential = {
+			FROMFROM = {
+				title = b_the_eyrie
+			}
+		}
+		trigger = { always = no }
+		gold_cost = 200
+		build_time = 100
+		monthly_character_prestige = 0.25
+		vassal_opinion = 5
+		ai_creation_factor = 110
+	}	
+	ca_golden_gallery = {
+		desc = ca_golden_gallery_desc
+		potential = {
+			FROMFROM = {
+				title = b_casterly_rock
+			}
+		}
+		trigger = { always = no }
+		gold_cost = 200
+		build_time = 100
+		monthly_character_prestige = 0.25
+		vassal_opinion = 5
+		ai_creation_factor = 110
+	}
+	ca_sunspear_throne = {
+		desc = ca_sunspear_throne_desc
+		potential = {
+			FROMFROM = {
+				title = b_speartower
+			}
+		}
+		trigger = { always = no }
+		gold_cost = 200
+		build_time = 100
+		monthly_character_prestige = 0.25
+		vassal_opinion = 5
+		ai_creation_factor = 110
+	}	
+	ca_riverrun_throne = {
+		desc = ca_riverrun_throne_desc
+		potential = {
+			FROMFROM = {
+				title = b_riverrun
+			}
+		}
+		trigger = { always = no }
+		gold_cost = 200
+		build_time = 100
+		monthly_character_prestige = 0.20
+		vassal_opinion = 5
+		ai_creation_factor = 110
+	}	
+	ca_storm_throne = {
+		desc = ca_storm_throne_desc
+		potential = {
+			FROMFROM = {
+				title = b_storms_end
+			}
+		}
+		#trigger = { always = no }
+		gold_cost = 200
+		build_time = 100
+		monthly_character_prestige = 0.25
+		vassal_opinion = 5
+		ai_creation_factor = 110
+	}	
+	ca_mermans_court = {
+		desc = ca_mermans_court_desc
+		potential = {
+			FROMFROM = {
+				title = b_newcastle
+			}
+		}
+		trigger = { always = no }
+		gold_cost = 200
+		build_time = 100
+		galleys = 10
+		monthly_character_prestige = 0.10
+		vassal_opinion = 5
+		ai_creation_factor = 110
+	}
+	ca_harlaw_throne = {
+		desc = ca_harlaw_throne_desc
+		potential = {
+			FROMFROM = {
+				title = b_ten_towers
+			}
+		}
+		trigger = { always = no }
+		gold_cost = 200
+		build_time = 100
+		monthly_character_prestige = 0.10
+		vassal_opinion = 5
+		ai_creation_factor = 110
+	}
+	ca_frey_throne = {
+		desc = ca_frey_throne_desc
+		potential = {
+			FROMFROM = {
+				title = b_thetwins
+			}
+		}
+		trigger = { always = no }
+		gold_cost = 200
+		build_time = 100
+		monthly_character_prestige = 0.10
+		vassal_opinion = 5
+		ai_creation_factor = 110
+	}
+	ca_griffin_throne = {
+		desc = ca_griffin_throne_desc
+		potential = {
+			FROMFROM = {
+				title = b_griffins_roost
+			}
+		}
+		trigger = { always = no }
+		gold_cost = 200
+		build_time = 100
+		monthly_character_prestige = 0.10
+		vassal_opinion = 5
+		ai_creation_factor = 110
+	}
+	ca_bolton_throne = {
+		desc = ca_bolton_throne_desc
+		potential = {
+			FROMFROM = {
+				title = b_dreadfort
+			}
+		}
+		trigger = { always = no }
+		gold_cost = 200
+		build_time = 100
+		monthly_character_prestige = 0.10
+		vassal_opinion = 5
+		ai_creation_factor = 110
+	}
+	ca_bolton_room = {
+		desc = ca_bolton_room_desc
+		potential = {
+			FROMFROM = {
+				title = b_dreadfort
+			}
+		}
+		trigger = { always = no }
+		gold_cost = 200
+		build_time = 100
+		ai_creation_factor = 110
+	}
+	ca_raventree_weirwood_1 = {
+		desc = ca_raventree_weirwood_1_desc
+		potential = {
+			FROMFROM = {
+				title = b_raventreehall
+			}
+		}
+		trigger = { always = no }
+		gold_cost = 200
+		build_time = 100
+		ai_creation_factor = 110
+	}
+	ca_raventree_weirwood_2 = {
+		desc = ca_raventree_weirwood_2_desc
+		potential = {
+			FROMFROM = {
+				title = b_raventreehall
+			}
+		}
+		trigger = { always = no }
+		upgrades_from = ca_raventree_weirwood_1
+		vassal_opinion = 5
+		gold_cost = 0
+		build_time = 120
+		ai_creation_factor = 100
+	}
+	ca_blackberry_patch = {
+		desc = ca_blackberry_patch_desc
+		potential = {
+			FROMFROM = {
+				title = b_standfast
+			}
+		}
+		trigger = { always = no }
+		gold_cost = 200
+		build_time = 100
+		ai_creation_factor = 110
+	}
+	ca_qarth_throne = {
+		desc = ca_qarth_throne_desc
+		potential = {
+			FROMFROM = {
+				title = b_hall_thrones
+			}
+		}
+		trigger = { always = no }
+		gold_cost = 200
+		build_time = 100
+		monthly_character_prestige = 0.35
+		vassal_opinion = 5
+		ai_creation_factor = 110
+	}
+	ca_meereen_throne_1 = {
+		desc = ca_meereen_throne_1_desc
+		potential = {
+			FROMFROM = {
+				title = b_greatpyramidmeereen 
+			}
+		}
+		trigger = { always = no }
+		gold_cost = 200
+		build_time = 100
+		monthly_character_prestige = 0.35
+		vassal_opinion = 5
+		ai_creation_factor = 110
+	}
+	ca_meereen_throne_2 = {
+		desc = ca_meereen_throne_2_desc
+		potential = {
+			FROMFROM = {
+				title = b_greatpyramidmeereen 
+			}
+		}
+		trigger = { always = no }
+		upgrades_from = ca_meereen_throne_1
+		gold_cost = 200
+		build_time = 100
+		monthly_character_prestige = 0.50
+		vassal_opinion = 3
+		ai_creation_factor = 110
+	}
+	ca_shieldhall_cb = {
+		desc = ca_shieldhall_cb_desc
+		potential = {
+			province_id = 17 #Castle Black
+			FROMFROM = {
+				title = b_castle_black
+			}			
+		}
+		trigger = { always = no }
+		gold_cost = 200
+		build_time = 100
+		monthly_character_prestige = 0.50
+		heavy_infantry = 30
+		vassal_opinion = 5
+		ai_creation_factor = 110
+	}
+	ca_high_seat = {
+		desc = ca_high_seat_desc
+		potential = {
+			FROM = { 
+				government = feudal_government
+				NOT = { trait = nightswatch }
+				NOT = { trait = kingsguard }					
+			}
+			OR = {
+				FROM = { 
+					culture_group = iron_isles_culture
+					culture_group = valyrian
+					culture_group = andal
+					culture_group = dornish
+					culture_group = first_men
+					culture_group = sarnor_group
+					religion_group = westerosi_religion
+					religion_group = drowned_god_group
+					religion_group = sarnor_rel
+				}
+				FROMFROM = {
+					region = world_westeros
+				}				
+			}
+			FROMFROM = {
+				base_value_4_trigger = yes
+				NOR = {
+					title = b_red_keep
+					title = b_winterfell
+					title = b_driftmark
+					title = b_highgarden
+					title = b_pyke
+					title = b_the_eyrie
+					title = b_casterly_rock
+					title = b_speartower
+					title = b_riverrun
+					title = b_storms_end
+					title = b_newcastle
+					title = b_ten_towers
+					title = b_thetwins
+					title = b_griffins_roost
+					title = b_dreadfort
+					title = b_hall_thrones
+					title = b_greatpyramidmeereen 
+				}
+			}
+		}
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		extra_tech_building_start = 10.0 # Never get at start of game
+		gold_cost = 100
+		build_time = 100
+		monthly_character_prestige = 0.05
+		vassal_opinion = 5
+		ai_creation_factor = 110
+	}
+}

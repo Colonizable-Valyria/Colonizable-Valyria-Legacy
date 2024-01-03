@@ -1,0 +1,27 @@
+
+# County Title
+title = c_fire_road
+
+# Settlements
+max_settlements = 3
+
+b_fire_road = castle
+b_fire_roadcastle = castle
+b_fire_roadtemple = temple
+
+# Misc
+culture = eastern_valyrian
+religion = valyrian_rel
+
+# History
+1.1.1 = {
+	b_fire_road = ca_asoiaf_valyria_basevalue_1
+	b_fire_road = ca_asoiaf_valyria_basevalue_2
+	b_fire_road = ca_asoiaf_valyria_basevalue_3
+	b_fire_road = ca_asoiaf_valyria_basevalue_4
+	b_fire_road = ca_valyrian_architecture
+		
+	b_fire_roadcastle = ca_asoiaf_valyria_basevalue_1
+	b_fire_roadcastle = ca_asoiaf_valyria_basevalue_2
+	b_fire_roadcastle = ca_asoiaf_valyria_basevalue_3
+}

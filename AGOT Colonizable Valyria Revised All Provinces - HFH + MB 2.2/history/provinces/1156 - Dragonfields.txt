@@ -1,0 +1,25 @@
+
+# County Title
+title = c_dragonfields
+
+# Settlements
+max_settlements = 4
+
+b_dragonfields = castle
+b_dragonfields2 = city
+b_dragonfields3 = temple
+
+# Misc
+culture = eastern_valyrian
+religion = valyrian_rel
+
+# History
+1.1.1 = {
+	b_dragonfields = ca_asoiaf_valyria_basevalue_1
+	b_dragonfields = ca_asoiaf_valyria_basevalue_2
+	b_dragonfields = ca_asoiaf_valyria_basevalue_3
+	
+	b_dragonfields2 = ct_asoiaf_valyria_basevalue_1
+	b_dragonfields2 = ct_asoiaf_valyria_basevalue_2
+}
+

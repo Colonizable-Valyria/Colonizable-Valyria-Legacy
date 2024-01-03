@@ -1,0 +1,203 @@
+namespace = valy_colony
+
+
+###Firewyrm Attack!###
+character_event = {
+	id = valy_colony.15
+	picture = GFX_wyvern
+	
+	is_triggered_only = yes
+	capable_only = yes
+	prisoner = no
+	in_command = yes
+	
+	desc = {
+		text = EVTDESCvaly_colony.15A #Old Firewyrm
+	}
+	desc = {
+		text = EVTDESCvaly_colony.15B #Firewyrm Pack
+	}
+	desc = {
+		text = EVTDESCvaly_colony.15C #Shadow-wing Firewyrm
+	}
+	
+	trigger = {
+		location = {
+			region = world_valyria
+		}	
+		NOT = { culture_group = unoccupied_group }
+		NOT = { in_battle = yes }
+		NOT = { is_inaccessible_trigger = yes }
+	}
+	
+	weight_multiplier = {
+		factor = 1
+	}	
+	
+	option = {
+		name = OPTAvaly_colony.15
+		random_list = {
+			1 = {
+				modifier = {
+					factor = 2.3
+					trait = poor_warrior
+				}
+				modifier = {
+					factor = 6
+					trait = trained_warrior
+				}
+				modifier = {
+					factor = 18
+					trait = skilled_warrior
+				}
+				modifier = {
+					factor = 50
+					trait = master_warrior
+				}
+				character_event = { id = valy_colony.16 tooltip = TOOLTIPvaly_colony.16 }
+			}
+			9 = {
+				character_event = { id = valy_colony.17 tooltip = TOOLTIPvaly_colony.17 }
+			}
+		}
+	}
+}
+#Firewyrm Slayed
+character_event = {
+	id = valy_colony.16
+	desc = "EVTDESCvaly_colony.16"
+	picture = GFX_wyvern
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTAvaly_colony.16"
+		prestige = 200
+		if = {
+			limit = { has_nickname = no }
+			give_nickname = nick_firewyrmsbane
+		}
+	}
+}
+#Firewyrm mauls you
+character_event = {
+	id = valy_colony.17
+	desc = "EVTDESCvaly_colony.17"
+	picture = GFX_wyvern
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTAvaly_colony.17"
+		random_list = {
+			50 = {
+				if = {
+					limit = { 
+						NOT = { is_maimed_trigger = yes } 
+						NOT = { trait = wounded } 
+					}
+					add_trait_silently_wounded_effect = yes
+					hidden_tooltip = { character_event = { id = 38280 } }
+				}
+			}
+			30 = {
+				if = {
+					limit = { NOT = { is_maimed_trigger = yes } }
+					add_maimed_trait_effect = yes
+				}
+			}
+			20 = {
+				red_god_resurrect_effect = yes #check for rhllor resurrection
+				death = { death_reason = death_accident_wyvern }
+			}
+		}
+	}
+}
+###Find valuable Items###
+character_event = {
+	id = valy_colony.20
+	picture = GFX_valy_colony
+	
+	only_playable = yes
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	
+	desc = {
+		text = EVTDESCvaly_colony.20A #Gold
+	}
+	desc = {
+		text = EVTDESCvaly_colony.20B #Pearls
+	}
+	desc = {
+		text = EVTDESCvaly_colony.20C #Spices
+	}
+	
+	trigger = {
+		location = {
+			region = world_valyria
+		}	
+		NOT = { culture_group = unoccupied_group }
+		NOT = { in_battle = yes }
+		NOT = { is_inaccessible_trigger = yes }
+	}
+	
+	mean_time_to_happen = {
+		years = 50
+	}	
+	
+	option = {
+		name = OPTAvaly_colony.20
+		random_list = {
+			90 = {
+				wealth = 250
+			}
+			5 = {
+				prestige = 250
+				wealth = 500
+				chronicle = {
+					entry = CHRONICLE_SMOKING_SEA_TREASURES
+				}
+			}
+			3 = {
+				trigger = {
+					NOT = { has_game_rule = { name = dragon_hatching_taming value = off } }
+				}
+				modifier = {
+					factor = 0
+					has_artifact = dragon_egg
+				}
+				prestige = 250
+				add_artifact = dragon_egg
+				new_artifact = { set_artifact_flag = heirloom_@PREV }
+				chronicle = {
+					entry = CHRONICLE_SMOKING_SEA_DRAGON_EGG
+				}
+			}
+			1 = {
+				modifier = {
+					factor = 0
+					has_artifact = valyrian_steel
+				}			
+				prestige = 250
+				add_artifact = valyrian_steel
+				new_artifact = { set_artifact_flag = heirloom_@PREV }
+				chronicle = {
+					entry = CHRONICLE_SMOKING_SEA_SWORD
+				}
+			}
+			1 = {
+				modifier = {
+					factor = 0
+					has_artifact = valyrian_armour
+				}
+				prestige = 250
+				add_artifact = valyrian_armour
+				new_artifact = { set_artifact_flag = heirloom_@PREV }
+				# chronicle = {
+					# entry = CHRONICLE_SMOKING_SEA_SWORD
+				# }
+			}
+		}
+	}
+}

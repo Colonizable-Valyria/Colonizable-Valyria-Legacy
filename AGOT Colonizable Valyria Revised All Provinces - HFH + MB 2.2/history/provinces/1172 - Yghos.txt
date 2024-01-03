@@ -1,0 +1,27 @@
+
+# County Title
+title = c_yghos
+
+# Settlements
+max_settlements = 3
+
+b_yghos = castle
+b_yghos2 = city
+b_yghos3 = temple
+
+# Misc
+culture = eastern_valyrian
+religion = valyrian_rel
+
+# History
+1.1.1 = {
+	b_yghos = ca_asoiaf_valyria_basevalue_1
+	b_yghos = ca_asoiaf_valyria_basevalue_2
+	b_yghos = ca_asoiaf_valyria_basevalue_3
+	
+	b_yghos2 = ct_asoiaf_valyria_basevalue_1
+	b_yghos2 = ct_asoiaf_valyria_basevalue_2
+	b_yghos2 = ct_asoiaf_valyria_basevalue_3
+	b_yghos2 = ct_asoiaf_valyria_basevalue_4
+}
+

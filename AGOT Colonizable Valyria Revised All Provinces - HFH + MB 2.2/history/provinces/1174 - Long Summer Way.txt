@@ -1,0 +1,24 @@
+
+# County Title
+title = c_long_summer_way
+
+# Settlements
+max_settlements = 3
+
+b_long_summer_way = castle
+b_long_summer_waycity = city
+b_long_summer_waytemple = temple
+
+# Misc
+culture = eastern_valyrian
+religion = valyrian_rel
+
+# History
+1.1.1 = {
+	b_long_summer_way = ca_asoiaf_valyria_basevalue_1
+	b_long_summer_way = ca_asoiaf_valyria_basevalue_2
+		
+	b_long_summer_waycity = ct_asoiaf_valyria_basevalue_1
+	b_long_summer_waycity = ct_asoiaf_valyria_basevalue_2
+	b_long_summer_waycity = ct_asoiaf_valyria_basevalue_3
+}

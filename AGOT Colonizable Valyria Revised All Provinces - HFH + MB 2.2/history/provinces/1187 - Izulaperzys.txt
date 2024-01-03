@@ -1,0 +1,25 @@
+
+# County Title
+title = c_izulaperzys
+
+# Settlements
+max_settlements = 3
+
+b_izulaperzys = castle
+b_izulaperzyscity = city
+b_izulaperzystemple = temple
+
+# Misc
+culture = eastern_valyrian
+religion = valyrian_rel
+
+# History
+1.1.1 = {
+	b_izulaperzys = ca_asoiaf_valyria_basevalue_1
+	b_izulaperzys = ca_asoiaf_valyria_basevalue_2
+	b_izulaperzys = ca_asoiaf_valyria_basevalue_3
+	
+	b_izulaperzyscity = ct_asoiaf_valyria_basevalue_1
+	b_izulaperzyscity = ct_asoiaf_valyria_basevalue_2
+	b_izulaperzyscity = ct_asoiaf_valyria_basevalue_3	
+}

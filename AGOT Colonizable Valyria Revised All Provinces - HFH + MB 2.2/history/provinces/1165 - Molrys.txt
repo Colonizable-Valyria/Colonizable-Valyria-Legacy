@@ -1,0 +1,24 @@
+
+# County Title
+title = c_molrys
+
+# Settlements
+max_settlements = 3
+
+b_molrys = castle
+b_molryscity = city
+b_molrystemple = temple
+
+# Misc
+culture = eastern_valyrian
+religion = valyrian_rel
+
+# History
+1.1.1 = {
+	b_molrys = ca_asoiaf_valyria_basevalue_1
+	b_molrys = ca_asoiaf_valyria_basevalue_2
+	b_molrys = ca_asoiaf_valyria_basevalue_3
+		
+	b_molryscity = ct_asoiaf_valyria_basevalue_1
+	b_molryscity = ct_asoiaf_valyria_basevalue_2
+}

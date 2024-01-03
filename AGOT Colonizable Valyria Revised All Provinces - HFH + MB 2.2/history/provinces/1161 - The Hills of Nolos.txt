@@ -1,0 +1,24 @@
+
+# County Title
+title = c_the_hills_of_nolos
+
+# Settlements
+max_settlements = 3
+
+b_the_hills_of_nolos = castle
+b_the_hills_of_noloscity = city
+b_the_hills_of_nolostemple = temple
+
+# Misc
+culture = eastern_valyrian
+religion = valyrian_rel
+
+# History
+1.1.1 = {
+	b_the_hills_of_nolos = ca_asoiaf_valyria_basevalue_1
+	b_the_hills_of_nolos = ca_asoiaf_valyria_basevalue_2
+	b_the_hills_of_nolos = ca_asoiaf_valyria_basevalue_3
+	
+	b_the_hills_of_noloscity = ct_asoiaf_valyria_basevalue_1	
+	b_the_hills_of_noloscity = ct_asoiaf_valyria_basevalue_2
+}

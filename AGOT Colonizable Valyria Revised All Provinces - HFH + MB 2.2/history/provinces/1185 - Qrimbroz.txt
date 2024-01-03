@@ -1,0 +1,25 @@
+
+# County Title
+title = c_qrimbroz
+
+# Settlements
+max_settlements = 3
+
+b_qrimbroz = castle
+b_qrimbroz2 = city
+b_qrimbroz3 = temple
+
+# Misc
+culture = eastern_valyrian
+religion = valyrian_rel
+
+# History
+1.1.1 = {
+	b_qrimbroz = ca_asoiaf_valyria_basevalue_1
+	b_qrimbroz = ca_asoiaf_valyria_basevalue_2
+	b_qrimbroz = ca_asoiaf_valyria_basevalue_3
+	
+	b_qrimbroz2 = ct_asoiaf_valyria_basevalue_1
+	b_qrimbroz2 = ct_asoiaf_valyria_basevalue_2
+}
+

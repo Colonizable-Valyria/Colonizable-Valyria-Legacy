@@ -1,0 +1,28 @@
+
+# County Title
+title = c_melior_march
+
+# Settlements
+max_settlements = 3
+
+b_melior_march = castle
+b_melior_march2 = city
+b_melior_march3 = temple
+
+# Misc
+culture = eastern_valyrian
+religion = valyrian_rel
+
+# History
+1.1.1 = {
+	b_melior_march = ca_asoiaf_essos_basevalue_1
+	b_melior_march = ca_asoiaf_essos_basevalue_2
+	
+	b_melior_march2 = ct_asoiaf_essos_basevalue_1
+	b_melior_march2 = ct_asoiaf_essos_basevalue_2
+	b_melior_march2 = ct_asoiaf_essos_basevalue_3
+}
+
+7886.1.1 = {
+	culture = mantaryan
+}

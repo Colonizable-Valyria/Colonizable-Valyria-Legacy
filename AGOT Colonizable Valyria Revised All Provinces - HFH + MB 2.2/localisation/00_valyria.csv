@@ -1,0 +1,782 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+k_valyria;Valyria;;;;;;;;;;;;;x
+k_valyria_adj;Valyrian;;;;;;;;;;;;;x
+d_valyria;Valyria;;;;;;;;;;;;;x
+d_valyria_adj;Valyrian;;;;;;;;;;;;;x
+c_valyria;Valyria;;;;;;;;;;;;;x
+b_valyria;Valyria;;;;;;;;;;;;;x
+b_valyria2;Valyria;;;;;;;;;;;;;x
+b_valyria3;Valyria;;;;;;;;;;;;;x
+b_mandios;Mandios;;;;;;;;;;;;;x
+b_skoryia;Skoryia;;;;;;;;;;;;;x
+b_biarvys;Biarvys;;;;;;;;;;;;;x
+b_verdagos;Verdagos;;;;;;;;;;;;;x
+c_dragonfields;Dragonfields;;;;;;;;;;;;;x
+b_dragonfields;Dragonfields;;;;;;;;;;;;;x
+b_dragonfields2;Dragonfields;;;;;;;;;;;;;x
+b_dragonfields3;Dragonfields;;;;;;;;;;;;;x
+c_lyztarys;Lyztarys;;;;;;;;;;;;;x
+b_lyztarys;Lyztarys;;;;;;;;;;;;;x
+b_lyztarys2;Lyztarys;;;;;;;;;;;;;x
+b_lyztarys3;Lyztarys;;;;;;;;;;;;;x
+c_the_marble_pass;The Marble Pass;;;;;;;;;;;;;x
+b_the_marble_pass;The Marble Pass;;;;;;;;;;;;;x
+b_the_marble_pass2;The Marble Pass;;;;;;;;;;;;;x
+b_the_marble_pass3;The Marble Pass;;;;;;;;;;;;;x
+c_the_hills_of_nolos;The Hills of Nolos;;;;;;;;;;;;;x
+b_the_hills_of_nolos;The Hills of Nolos;;;;;;;;;;;;;x
+b_the_hills_of_nolos2;The Hills of Nolos;;;;;;;;;;;;;x
+b_the_hills_of_nolos3;The Hills of Nolos;;;;;;;;;;;;;x
+c_iedrarys;Iedrarys;;;;;;;;;;;;;x
+b_iedrarys;Iedrarys;;;;;;;;;;;;;x
+b_iedrarys2;Iedrarys;;;;;;;;;;;;;x
+b_iedrarys3;Iedrarys;;;;;;;;;;;;;x
+c_molrys;Molrys;;;;;;;;;;;;;x
+b_molrys;Molrys;;;;;;;;;;;;;x
+b_molrys2;Molrys;;;;;;;;;;;;;x
+b_molrys3;Molrys;;;;;;;;;;;;;x
+d_gelios;Gelios;;;;;;;;;;;;;x
+d_gelios_adj;Geliosi;;;;;;;;;;;;;x
+c_gelios;Gelios;;;;;;;;;;;;;x
+b_gelios;Gelios;;;;;;;;;;;;;x
+b_gelios2;Gelios;;;;;;;;;;;;;x
+b_gelios3;Gelios;;;;;;;;;;;;;x
+b_byria;Byria;;;;;;;;;;;;;x
+b_vilibos;Vilibos;;;;;;;;;;;;;x
+c_ilvonys;Ilvonys;;;;;;;;;;;;;x
+b_ilvonys;Ilvonys;;;;;;;;;;;;;x
+b_ilvonys2;Ilvonys;;;;;;;;;;;;;x
+b_ilvonys3;Ilvonys;;;;;;;;;;;;;x
+c_dromon_hill;Dromon Hill;;;;;;;;;;;;;x
+b_dromon_hill;Dromon Hill;;;;;;;;;;;;;x
+b_dromon_hill2;Dromon Hill;;;;;;;;;;;;;x
+b_dromon_hill3;Dromon Hill;;;;;;;;;;;;;x
+c_bane_road;Bane Road;;;;;;;;;;;;;x
+b_bane_road;Bane Road;;;;;;;;;;;;;x
+b_bane_road2;Bane Road;;;;;;;;;;;;;x
+b_bane_road3;Bane Road;;;;;;;;;;;;;x
+d_urnebyria;Urnebyria;;;;;;;;;;;;;x
+c_urnebyria;Urnebyria;;;;;;;;;;;;;x
+b_urnebyria;Urnebyria;;;;;;;;;;;;;x
+b_urnebyria2;Urnebyria;;;;;;;;;;;;;x
+b_urnebyria3;Urnebyria;;;;;;;;;;;;;x
+b_urlyria;Urlyria;;;;;;;;;;;;;x
+b_urlyria2;Urlyria;;;;;;;;;;;;;x
+d_tyria;Tyria;;;;;;;;;;;;;x
+d_tyria_adj;Tyrian;;;;;;;;;;;;;x
+c_tyria;Tyria;;;;;;;;;;;;;x
+b_tyria;Tyria;;;;;;;;;;;;;x
+b_tyria2;Tyria;;;;;;;;;;;;;x
+b_tyria3;Tyria;;;;;;;;;;;;;x
+b_guesin;Guesin;;;;;;;;;;;;;x
+b_havonys;Havonys;;;;;;;;;;;;;x
+c_blenon_way;Blenon Way;;;;;;;;;;;;;x
+b_blenon_way;Blenon Way;;;;;;;;;;;;;x
+b_blenon_way2;Blenon Way;;;;;;;;;;;;;x
+b_blenon_way3;Blenon Way;;;;;;;;;;;;;x
+c_tikunemio;Tikunemio;;;;;;;;;;;;;x
+b_tikunemio;Tikunemio;;;;;;;;;;;;;x
+b_tikunemio2;Tikunemio;;;;;;;;;;;;;x
+b_tikunemio3;Tikunemio;;;;;;;;;;;;;x
+c_fire_road;The Fire Road;;;;;;;;;;;;;x
+b_fire_road;The Fire Road;;;;;;;;;;;;;x
+b_fire_road2;The Fire Road;;;;;;;;;;;;;x
+b_fire_road3;The Fire Road;;;;;;;;;;;;;x
+c_fire_isle;Fire Isle;;;;;;;;;;;;;x
+b_fire_isle;Fire Isle;;;;;;;;;;;;;x
+b_fire_isle2;Fire Isle;;;;;;;;;;;;;x
+b_fire_isle3;Fire Isle;;;;;;;;;;;;;x
+d_east_flames;East Flames;;;;;;;;;;;;;x
+c_izulaperzys;Izulaperzys;;;;;;;;;;;;;x
+b_izulaperzys;Izulaperzys;;;;;;;;;;;;;x
+b_izulaperzys2;Izulaperzys;;;;;;;;;;;;;x
+b_izulaperzys3;Izulaperzys;;;;;;;;;;;;;x
+c_lentun;Lentun;;;;;;;;;;;;;x
+b_lentun;Lentun;;;;;;;;;;;;;x
+b_lentun2;Lentun;;;;;;;;;;;;;x
+b_lentun3;Lentun;;;;;;;;;;;;;x
+c_kastaryia;Kastaryia;;;;;;;;;;;;;x
+b_kastaryia;Kastaryia;;;;;;;;;;;;;x
+b_kastaryia2;Kastaryia;;;;;;;;;;;;;x
+b_kastaryia3;Kastaryia;;;;;;;;;;;;;x
+d_perzyria;Mhysa Faer;;;;;;;;;;;;;x
+d_perzyria_adj;Mhysa Faer;;;;;;;;;;;;;x
+c_perzyria;Mhysa Faer;;;;;;;;;;;;;x
+b_perzyria;Mhysa Faer;;;;;;;;;;;;;x
+b_perzyria2;Mhysa Faer;;;;;;;;;;;;;x
+b_perzyria3;Mhysa Faer;;;;;;;;;;;;;x
+c_kastaryia;Kastaryia;;;;;;;;;;;;;x
+b_kastaryia;Kastaryia;;;;;;;;;;;;;x
+b_kastaryia2;Kastaryia;;;;;;;;;;;;;x
+b_kastaryia3;Kastaryia;;;;;;;;;;;;;x
+b_mazoros;Mazoros;;;;;;;;;;;;;x
+b_prubryia;Prubryia;;;;;;;;;;;;;x
+c_port_vaedar;Port Vaedar;;;;;;;;;;;;;x
+b_port_vaedar;Port Vaedar;;;;;;;;;;;;;x
+b_port_vaedar2;Port Vaedar;;;;;;;;;;;;;x
+b_port_vaedar3;Port Vaedar;;;;;;;;;;;;;x
+c_raqiros;Raqiros;;;;;;;;;;;;;x
+b_raqiros;Raqiros;;;;;;;;;;;;;x
+b_raqiros2;Raqiros;;;;;;;;;;;;;x
+b_raqiros3;Raqiros;;;;;;;;;;;;;x
+d_drakaria;Aquos Dhaen;;;;;;;;;;;;;x
+d_drakaria_adj;Aquos Dhaen;;;;;;;;;;;;;x
+c_drakaria;Aquos Dhaen;;;;;;;;;;;;;x
+b_drakaria;Aquos Dhaen;;;;;;;;;;;;;x
+b_drakaria2;Aquos Dhaen;;;;;;;;;;;;;x
+b_drakaria3;Aquos Dhaen;;;;;;;;;;;;;x
+b_jevas;Jevas;;;;;;;;;;;;;x
+b_gerontys;Gerontys;;;;;;;;;;;;;x
+c_ruklonos;Ruklonos;;;;;;;;;;;;;x
+b_ruklonos;Ruklonos;;;;;;;;;;;;;x
+b_ruklonos2;Ruklonos;;;;;;;;;;;;;x
+b_ruklonos3;Ruklonos;;;;;;;;;;;;;x
+c_klios;Klios;;;;;;;;;;;;;x
+b_klios;Klios;;;;;;;;;;;;;x
+b_klios2;Klios;;;;;;;;;;;;;x
+b_klios3;Klios;;;;;;;;;;;;;x
+c_qrimbroz;Qrimbroz;;;;;;;;;;;;;x
+b_qrimbroz;Qrimbroz;;;;;;;;;;;;;x
+b_qrimbroz2;Qrimbroz;;;;;;;;;;;;;x
+b_qrimbroz3;Qrimbroz;;;;;;;;;;;;;x
+d_first_flames;First Flames;;;;;;;;;;;;;x
+d_elieperzys;Elieperzys;;;;;;;;;;;;;x
+c_elieperzys;Elieperzys;;;;;;;;;;;;;x
+b_elieperzys;Elieperzys;;;;;;;;;;;;;x
+b_elieperzys2;Elieperzys;;;;;;;;;;;;;x
+b_elieperzys3;Elieperzys;;;;;;;;;;;;;x
+b_elieyria;Elieyria;;;;;;;;;;;;;x
+b_elieyria2;Elieyria;;;;;;;;;;;;;x
+c_qeldperzys;Qeldperzys;;;;;;;;;;;;;x
+b_qeldperzys;Qeldperzys;;;;;;;;;;;;;x
+b_qeldperzys2;Qeldperzys;;;;;;;;;;;;;x
+b_qeldperzys3;Qeldperzys;;;;;;;;;;;;;x
+c_elinis;Elinis;;;;;;;;;;;;;x
+b_elinis;Elinis;;;;;;;;;;;;;x
+b_elinis2;Elinis;;;;;;;;;;;;;x
+b_elinis3;Elinis;;;;;;;;;;;;;x
+d_west_flames;West Flames;;;;;;;;;;;;;x
+c_vestperzys;Vestperzys;;;;;;;;;;;;;x
+b_vestperzys;Vestperzys;;;;;;;;;;;;;x
+b_vestperzys2;Vestperzys;;;;;;;;;;;;;x
+b_vestperzys3;Vestperzys;;;;;;;;;;;;;x
+c_urneb_shore;Urneb Shore;;;;;;;;;;;;;x
+b_urneb_shore;Urneb Shore;;;;;;;;;;;;;x
+b_urneb_shore2;Urneb Shore;;;;;;;;;;;;;x
+b_urneb_shore3;Urneb Shore;;;;;;;;;;;;;x
+c_buzadari_valley;Buzdari Valley;;;;;;;;;;;;;x
+b_buzadari_valley;Buzdari Valley;;;;;;;;;;;;;x
+b_buzadari_valley2;Buzdari Valley;;;;;;;;;;;;;x
+b_buzadari_valley3;Buzdari Valley;;;;;;;;;;;;;x
+d_egrys;Egrys;;;;;;;;;;;;;x
+d_egrys_adj;Egrysene;;;;;;;;;;;;;x
+c_egrys;Egrys;;;;;;;;;;;;;x
+b_egrys;Egrys;;;;;;;;;;;;;x
+b_egrys2;Egrys;;;;;;;;;;;;;x
+b_egrys3;Egrys;;;;;;;;;;;;;x
+c_pyrys;Pyrys;;;;;;;;;;;;;x
+b_pyrys;Pyrys;;;;;;;;;;;;;x
+b_pyrys2;Pyrys;;;;;;;;;;;;;x
+b_pyrys3;Pyrys;;;;;;;;;;;;;x
+c_elenar_coast;The Elenar Coast;;;;;;;;;;;;;x
+b_elenar_coast;The Elenar Coast;;;;;;;;;;;;;x
+b_elenar_coast2;The Elenar Coast;;;;;;;;;;;;;x
+b_elenar_coast3;The Elenar Coast;;;;;;;;;;;;;x
+d_nuqiria;Nuqiria;;;;;;;;;;;;;x
+d_nuqiria_adj;Nuqirian;;;;;;;;;;;;;x
+c_nuqiria;Nuqiria;;;;;;;;;;;;;x
+b_nuqiria;Nuqiria;;;;;;;;;;;;;x
+b_nuqiria2;Nuqiria;;;;;;;;;;;;;x
+b_nuqiria3;Nuqiria;;;;;;;;;;;;;x
+c_bianoros;Bianoros;;;;;;;;;;;;;x
+b_bianoros;Bianoros;;;;;;;;;;;;;x
+b_bianoros2;Bianoros;;;;;;;;;;;;;x
+b_bianoros3;Bianoros;;;;;;;;;;;;;x
+k_long_summer;The Lands of The Long Summer;;;;;;;;;;;;;x
+k_long_summer_adj;Long Summerlander;;;;;;;;;;;;;x
+d_oros;Oros;;;;;;;;;;;;;x
+d_oros_adj;Orosi;;;;;;;;;;;;;x
+c_oros;Oros;;;;;;;;;;;;;x
+b_oros;Oros;;;;;;;;;;;;;x
+b_oros2;Oros;;;;;;;;;;;;;x
+b_oros3;Oros;;;;;;;;;;;;;x
+b_syndor;Syndor;;;;;;;;;;;;;x
+b_bisyria;Bisyria;;;;;;;;;;;;;x
+c_mentis;Mentis;;;;;;;;;;;;;x
+b_mentis;Mentis;;;;;;;;;;;;;x
+b_mentis2;Mentis;;;;;;;;;;;;;x
+b_mentis3;Mentis;;;;;;;;;;;;;x
+c_daervos;Daervos;;;;;;;;;;;;;x
+b_daervos;Daervos;;;;;;;;;;;;;x
+b_daervos2;Daervos;;;;;;;;;;;;;x
+b_daervos3;Daervos;;;;;;;;;;;;;x
+d_aeksios;Rhyos;;;;;;;;;;;;;x
+d_aeksios_adj;Rhyoshi;;;;;;;;;;;;;x
+c_aeksios;Rhyos;;;;;;;;;;;;;x
+b_aeksios;Rhyos;;;;;;;;;;;;;x
+b_aeksios2;Rhyos;;;;;;;;;;;;;x
+b_aeksios3;Rhyos;;;;;;;;;;;;;x
+c_port_orbar;Port Orbar;;;;;;;;;;;;;x
+b_port_orbar;Port Orbar;;;;;;;;;;;;;x
+b_port_orbar2;Port Orbar;;;;;;;;;;;;;x
+b_port_orbar3;Port Orbar;;;;;;;;;;;;;x
+c_lopor_cove;Lopor Cove;;;;;;;;;;;;;x
+b_lopor_cove;Lopor Cove;;;;;;;;;;;;;x
+b_lopor_cove2;Lopor Cove;;;;;;;;;;;;;x
+b_lopor_cove3;Lopor Cove;;;;;;;;;;;;;x
+d_yghos;Yghos;;;;;;;;;;;;;x
+d_yghos_adj;Yghosi;;;;;;;;;;;;;x
+c_yghos;Yghos;;;;;;;;;;;;;x
+b_yghos;Yghos;;;;;;;;;;;;;x
+b_yghos2;Yghos;;;;;;;;;;;;;x
+b_yghos3;Yghos;;;;;;;;;;;;;x
+c_gelenka_valleys;Gelenka Mountains;;;;;;;;;;;;;x
+b_gelenka_valleys;Gelenka Mountains;;;;;;;;;;;;;x
+b_gelenka_valleys2;Gelenka Mountains;;;;;;;;;;;;;x
+b_gelenka_valleys3;Gelenka Mountains;;;;;;;;;;;;;x
+d_jaedos;Jaedos;;;;;;;;;;;;;x
+c_jaedos;Jaedos;;;;;;;;;;;;;x
+b_jaedos;Jaedos;;;;;;;;;;;;;x
+b_jaedos2;Jaedos;;;;;;;;;;;;;x
+b_jaedos3;Jaedos;;;;;;;;;;;;;x
+c_otor_lands;Otor Lands;;;;;;;;;;;;;x
+b_otor_lands;Otor Lands;;;;;;;;;;;;;x
+b_otor_lands2;Otor Lands;;;;;;;;;;;;;x
+b_otor_lands3;Otor Lands;;;;;;;;;;;;;x
+c_long_summer_way;Long Summer Way;;;;;;;;;;;;;x
+b_long_summer_way;Long Summer Way;;;;;;;;;;;;;x
+b_long_summer_way2;Long Summer Way;;;;;;;;;;;;;x
+b_long_summer_way3;Long Summer Way;;;;;;;;;;;;;x
+d_port_of_sighs;The Port of Sighs;;;;;;;;;;;;;x
+d_port_of_sighs_adj;Port of Sighs;;;;;;;;;;;;;x
+c_port_of_sighs;The Port of Sighs;;;;;;;;;;;;;x
+b_port_of_sighs;The Port of Sighs;;;;;;;;;;;;;x
+b_port_of_sighs2;The Port of Sighs;;;;;;;;;;;;;x
+b_port_of_sighs3;The Port of Sighs;;;;;;;;;;;;;x
+c_zoklos;Zoklos;;;;;;;;;;;;;x
+b_zoklos;Zoklos;;;;;;;;;;;;;x
+b_zoklos2;Zoklos;;;;;;;;;;;;;x
+b_zoklos3;Zoklos;;;;;;;;;;;;;x
+c_melior_march;Melior March;;;;;;;;;;;;;x
+b_melior_march;Melior March;;;;;;;;;;;;;x
+b_melior_march2;Melior March;;;;;;;;;;;;;x
+b_melior_march3;Melior March;;;;;;;;;;;;;x
+c_ublesia;Ublesia;;;;;;;;;;;;;x
+b_ublesia;Ublesia;;;;;;;;;;;;;x
+b_ublesia2;Ublesia;;;;;;;;;;;;;x
+b_ublesia3;Ublesia;;;;;;;;;;;;;x
+d_sarhoy;Sarhoy;;;;;;;;;;;;;x
+d_sarhoy_adj;Sarhoy;;;;;;;;;;;;;x
+city_empire_valyrian;Freehold;Possession;;;Feudo Franco;;;;;;;;;x
+city_empire_of_valyrian;Freehold of;Possession de;;;Feudo Franco de ;;;;;;;;;x
+city_emperor_valyrian;Archon;Archonte;;;Arconte;;;;;;;;;x
+city_emperor_female_valyrian;Lady;Lady;;;Señora;;;;;;;;;x
+city_emperor_foa_valyrian;My Lord;Messire;;;Mi Señor ;;;;;;;;;x
+city_kingdom_valyrian;Free City;Cité Libre;;;Ciudad Libre;;;;;;;;;x
+city_kingdom_of_valyrian;Free City of;Cité Libre de;;;Ciudad Libre de;;;;;;;;;x
+city_king_valyrian;Archon;Archonte;;;Arconte;;;;;;;;;x
+city_king_female_valyrian;Lady;Lady;;;Señora;;;;;;;;;x
+city_king_foa_valyrian;My Lord;Messire;;;Mi Señor ;;;;;;;;;x
+city_duke_high_valyrian;Lord Freeholder;;;;;;;;;;;;;x
+city_duke_female_high_valyrian;Lord Freeholder;;;;;;;;;;;;;x
+city_count_high_valyrian;Lord Freeholder;;;;;;;;;;;;;x
+city_count_female_high_valyrian;Lord Freeholder;;;;;;;;;;;;;x
+city_duke_eastern_valyrian;Lord Freeholder;;;;;;;;;;;;;x
+city_duke_female_eastern_valyrian;Lord Freeholder;;;;;;;;;;;;;x
+city_count_eastern_valyrian;Lord Freeholder;;;;;;;;;;;;;x
+city_count_female_eastern_valyrian;Lord Freeholder;;;;;;;;;;;;;x
+LP_empire_valyrian;Freehold;Possession;;;Dominio;;;;;;;;;x
+LP_empire_of_valyrian;Freehold of;Possession de;;;Dominio de ;;;;;;;;;x
+LP_emperor_valyrian;Archon;Archonte;;;Arconte;;;;;;;;;x
+LP_emperor_female_valyrian;Archon;Archonte;;;Arconte;;;;;;;;;x
+LP_emperor_high_valyrian;Lord Protector;Lord Suzerain;Lord Paramount;Lord Paramount;Señor Supremo;;;;;;;;;x
+LP_emperor_female_high_valyrian;Lady Protector;Lady Suzeraine;Lady Paramount;Lady Paramount;Señora Suprema;;;;;;;;;x
+LP_emperor_western_valyrian;Lord Protector;Lord Suzerain;Lord Paramount;Lord Paramount;Señor Supremo;;;;;;;;;x
+LP_emperor_female_western_valyrian;Lady Protector;Lady Suzeraine;Lady Paramount;Lady Paramount;Señora Suprema;;;;;;;;;x
+LP_emperor_foa_valyrian;My Lord;Messire;;;Mi Señor ;;;;;;;;;x
+LP_king_valyrian;Archon;Archonte;;;Arconte;;;;;;;;;x
+LP_king_female_valyrian;Lady;Lady;Lady;Lady;Señora;;;;;;;;;x
+LP_king_high_valyrian;Lord Paramount;Lord Suzerain;Lord Paramount;Lord Paramount;Señor Supremo;;;;;;;;;x
+LP_king_female_high_valyrian;Lady Paramount;Lady Suzeraine;Lady Paramount;Lady Paramount;Señora Suprema;;;;;;;;;x
+LP_king_western_valyrian;Lord Paramount;Lord Suzerain;Lord Paramount;Lord Paramount;Señor Supremo;;;;;;;;;x
+LP_king_female_western_valyrian;Lady Paramount;Lady Suzeraine;Lady Paramount;Lady Paramount;Señora Suprema;;;;;;;;;x
+oligarchy_empire_valyrian;Freehold;Possession;;;Feudo Franco;;;;;;;;;x
+oligarchy_empire_of_valyrian;Freehold of;Possession de;;;Feudo Franco de ;;;;;;;;;x
+oligarchy_emperor_valyrian;Archon;Archonte;;;Arconte;;;;;;;;;x
+oligarchy_emperor_female_valyrian;Lady;Lady;;;Señora;;;;;;;;;x
+oligarchy_emperor_foa_valyrian;My Lord;Messire;;;Mi Señor ;;;;;;;;;x
+oligarchy_kingdom_valyrian;Free City;Cité Libre;;;Ciudad Libre;;;;;;;;;x
+oligarchy_kingdom_of_valyrian;Free City of;Cité Libre de;;;Ciudad Libre de;;;;;;;;;x
+oligarchy_king_valyrian;Archon;Archonte;;;Arconte;;;;;;;;;x
+oligarchy_king_female_valyrian;Lady;Lady;;;Señora;;;;;;;;;x
+oligarchy_king_foa_valyrian;My Lord;Messire;;;Mi Señor ;;;;;;;;;x
+family_palace_baron_valyrian;Freeholder;Des Possessions;;;Señor Feudal;;;;;;;;;x
+family_palace_baron_female_valyrian;Lady;Lady;;;Señora;;;;;;;;;x
+family_palace_baron_foa_valyrian;My Lord;Messire;;;Mi Señor;;;;;;;;;x
+family_palace_baron_western_valyrian;Lord Freeholder;Seigneur des Possessions;;;Gran Señor Feudal;;;;;;;;;x
+family_palace_baron_female_western_valyrian;Lady;Lady;;;Señora;;;;;;;;;x
+family_palace_baron_foa_western_valyrian;My Lord;Messire;;;Mi Señor;;;;;;;;;x
+family_palace_baron_high_valyrian;Lord Freeholder;Seigneur des Possessions;;;Gran Señor Feudal;;;;;;;;;x
+family_palace_baron_female_high_valyrian;Lady;Lady;;;Señora ;;;;;;;;;x
+family_palace_baron_foa_high_valyrian;My Lord;Messire;;;Mi Señor;;;;;;;;;x
+;;;;;;;;;;;;;;x
+job_treasurer_high_valyrian;Treasurer;Trésorier;;;Tesorero;;;;;;;;;x
+job_marshal_high_valyrian;Master-at-Arms;Maître d'Armes;Master-at-Arms;;Maestro de armas;;;;;;;;;x
+job_castellan_high_valyrian;Castellan;Châtelain;Castellan;Castellan;Castellano;;;;;;;;;x
+emperor_job_castellan_valyrian;Archon;Archonte;;;Arconte;;;;;;;;;x
+emperor_job_treasurer_valyrian;Lord Treasurer;Lord Trésorier;Master of Coin;;Señor Tesorero;;;;;;;;;x
+emperor_job_treasurer_high_valyrian;Lord Treasurer;Lord Trésorier;Master of Coin;;Señor Tesorero;;;;;;;;;x
+emperor_job_treasurer_western_valyrian;Master of Coin;Grand Argentier;Master of Coin;;Consejero de la Moneda ;;;;;;;;;x
+emperor_job_spymaster_valyrian;Master of Whisperers;Maître des Chuchoteurs;Master of Whisperers;;Consejero de los Rumores ;;;;;;;;;x
+emperor_job_spymaster_high_valyrian;Master of Whisperers;Maître des Chuchoteurs;Master of Whisperers;;Consejero de los Rumores ;;;;;;;;;x
+emperor_job_spymaster_western_valyrian;Master of Whisperers;Maître des Chuchoteurs;Master of Whisperers;;Consejero de los Rumores ;;;;;;;;;x
+emperor_job_marshal_high_valyrian;Chief General;Général en chef;Master-at-Arms;;General en Jefe;;;;;;;;;x
+king_job_treasurer_high_valyrian;Master of Coin;Grand Argentier;Master of Coin;;Consejero de la Moneda ;;;;;;;;;x
+king_job_treasurer_western_valyrian;Master of Coin;Grand Argentier;Master of Coin;;Consejero de la Moneda ;;;;;;;;;x
+king_job_chancellor_high_valyrian;Master of Laws;Maître des Lois;Master of Laws ;;Consejero de Edictos;;;;;;;;;x
+king_job_chancellor_western_valyrian;Master of Laws;Maître des Lois;Master of Laws ;;Consejero de Edictos;;;;;;;;;x
+king_job_spymaster_high_valyrian;Master of Whisperers;Maître des Chuchoteurs;Master of Whisperers;;Consejero de los Rumores ;;;;;;;;;x
+king_job_spymaster_western_valyrian;Master of Whisperers;Maître des Chuchoteurs;Master of Whisperers;;Consejero de los Rumores ;;;;;;;;;x
+king_job_castellan_high_valyrian;Hand of the King;Main du Roi;Hand of the King;Hand of the King;Mano del Rey;;;;;;;;;x
+king_job_castellan_western_valyrian;Hand of the King;Main du Roi;Hand of the King;Hand of the King;Mano del Rey;;;;;;;;;x
+king_job_castellan_eastern_valyrian;Archon;Archonte;;;Arconte;;;;;;;;;x
+;;;;;;;;;;;;;;x
+city_job_treasurer_high_valyrian;Treasurer;Trésorier;;;Tesorero;;;;;;;;;x
+city_job_marshal_high_valyrian;Chief General;Maître d'Armes;Master-at-Arms;;General en jefe;;;;;;;;;x
+city_job_castellan_high_valyrian;Seneschal;Châtelain;Castellan;Castellan;Senescal ;;;;;;;;;x
+city_emperor_job_castellan_valyrian;Archon;Archonte;;;Arconte;;;;;;;;;x
+city_emperor_job_treasurer_valyrian;Lord Treasurer;Lord Trésorier;Master of Coin;;Señor Tesorero;;;;;;;;;x
+city_emperor_job_treasurer_high_valyrian;Lord Treasurer;Lord Trésorier;Master of Coin;;Señor Tesorero;;;;;;;;;x
+city_emperor_job_treasurer_western_valyrian;Lord Treasurer;Lord Trésorier;Master of Coin;;Señor Tesorero;;;;;;;;;x
+city_emperor_job_marshal_valyrian;Chief General;Général en chef;Master-at-Arms;;General en Jefe;;;;;;;;;x
+city_king_job_treasurer_high_valyrian;Master of Coin;Grand Argentier;Master of Coin;;Consejero de la Moneda ;;;;;;;;;x
+city_king_job_treasurer_western_valyrian;Master of Coin;Grand Argentier;Master of Coin;;Consejero de la Moneda ;;;;;;;;;x
+city_king_job_chancellor_high_valyrian;Master of Laws;Maître des Lois;Master of Laws ;;Consejero de Edictos;;;;;;;;;x
+city_king_job_chancellor_western_valyrian;Master of Laws;Maître des Lois;Master of Laws ;;Consejero de Edictos;;;;;;;;;x
+city_king_job_spymaster_high_valyrian;Master of Whisperers;Maître des Chuchoteurs;Master of Whisperers;;Consejero de los Rumores ;;;;;;;;;x
+city_king_job_spymaster_western_valyrian;Master of Whisperers;Maître des Chuchoteurs;Master of Whisperers;;Consejero de los Rumores ;;;;;;;;;x
+city_king_job_castellan_valyrian;Archon;Archonte;;;Arconte;;;;;;;;;x
+city_king_job_marshal_valyrian;Chief General;Général en chef;Master-at-Arms;;General en Jefe;;;;;;;;;x
+;;;;;;;;;;;;;;x
+LP_job_castellan_eastern_valyrian;Archon;Archonte;;;Arconte;;;;;;;;;x
+LP_job_marshal_high_valyrian;Master-at-Arms;Maître d'Armes;Master-at-Arms;;Maestro de armas;;;;;;;;;x
+LP_job_marshal_western_valyrian;Master-at-Arms;Maître d'Armes;Master-at-Arms;;Maestro de armas;;;;;;;;;x
+LP_job_castellan_high_valyrian;Castellan;Châtelain;Castellan;Castellan;Castellano;;;;;;;;;x
+LP_job_castellan_western_valyrian;Castellan;Châtelain;Castellan;Castellan;Castellano;;;;;;;;;x
+LP_emperor_job_castellan_valyrian;Archon;Archonte;;;Arconte;;;;;;;;;x
+LP_emperor_job_treasurer_valyrian;Lord Treasurer;Lord Trésorier;Master of Coin;;Señor Tesorero;;;;;;;;;x
+LP_emperor_job_treasurer_high_valyrian;Lord Treasurer;Lord Trésorier;Master of Coin;;Señor Tesorero;;;;;;;;;x
+LP_emperor_job_treasurer_western_valyrian;Master of Coin;Grand Argentier;Master of Coin;;Consejero de la Moneda ;;;;;;;;;x
+LP_emperor_job_spymaster_valyrian;Master of Whisperers;Maître des Chuchoteurs;Master of Whisperers;;Jefe de los Rumores ;;;;;;;;;x
+LP_emperor_job_spymaster_high_valyrian;Master of Whisperers;Maître des Chuchoteurs;Master of Whisperers;;Jefe de los Rumores ;;;;;;;;;x
+LP_emperor_job_spymaster_western_valyrian;Master of Whisperers;Maître des Chuchoteurs;Master of Whisperers;;Jefe de los Rumores ;;;;;;;;;x
+LP_emperor_job_marshal_high_valyrian;Chief General;Général en chef;Master-at-Arms;;General en Jefe;;;;;;;;;x
+LP_king_job_castellan_high_valyrian;Castellan;Châtelain;Castellan;Castellan;Castellano;;;;;;;;;x
+LP_king_job_castellan_western_valyrian;Castellan;Châtelain;Castellan;Castellan;Castellano;;;;;;;;;x
+LP_king_job_marshal_high_valyrian;Master-at-Arms;Maître d'Armes;Master-at-Arms;;Maestro de armas;;;;;;;;;x
+LP_king_job_marshal_western_valyrian;Master-at-Arms;Maître d'Armes;Master-at-Arms;;Maestro de armas;;;;;;;;;x
+;;;;;;;;;;;;;;x
+oligarchy_job_marshal_high_valyrian;Master-at-Arms;Maître d'Armes;Master-at-Arms;;Maestro de armas;;;;;;;;;x
+oligarchy_job_marshal_western_valyrian;Master-at-Arms;Maître d'Armes;Master-at-Arms;;Maestro de armas;;;;;;;;;x
+oligarchy_job_castellan_high_valyrian;Castellan;Châtelain;Castellan;Castellan;Castellano;;;;;;;;;x
+oligarchy_job_castellan_western_valyrian;Castellan;Châtelain;Castellan;Castellan;Castellano;;;;;;;;;x
+oligarchy_job_castellan_eastern_valyrian;Archon;Archonte;;;Arconte;;;;;;;;;x
+oligarchy_emperor_job_castellan_valyrian;Archon;Archonte;;;Arconte;;;;;;;;;x
+oligarchy_emperor_job_treasurer_valyrian;Lord Treasurer;Lord Trésorier;Master of Coin;;Señor Tesorero;;;;;;;;;x
+oligarchy_emperor_job_treasurer_high_valyrian;Lord Treasurer;Lord Trésorier;Master of Coin;;Señor Tesorero;;;;;;;;;x
+oligarchy_emperor_job_treasurer_western_valyrian;Master of Coin;Grand Argentier;Master of Coin;;Consejero de la Moneda ;;;;;;;;;x
+oligarchy_emperor_job_spymaster_valyrian;Master of Whisperers;Maître des Chuchoteurs;Master of Whisperers;;Jefe de los Rumores ;;;;;;;;;x
+oligarchy_emperor_job_spymaster_high_valyrian;Master of Whisperers;Maître des Chuchoteurs;Master of Whisperers;;Jefe de los Rumores ;;;;;;;;;x
+oligarchy_emperor_job_spymaster_western_valyrian;Master of Whisperers;Maître des Chuchoteurs;Master of Whisperers;;Jefe de los Rumores ;;;;;;;;;x
+oligarchy_emperor_job_marshal_high_valyrian;Chief General;Général en chef;Master-at-Arms;;General en Jefe;;;;;;;;;x
+oligarchy_king_job_castellan_high_valyrian;Castellan;Châtelain;Castellan;Castellan;Castellano;;;;;;;;;x
+oligarchy_king_job_castellan_western_valyrian;Castellan;Châtelain;Castellan;Castellan;Castellano;;;;;;;;;x
+oligarchy_king_job_marshal_high_valyrian;Master-at-Arms;Maître d'Armes;Master-at-Arms;;Maestro de armas;;;;;;;;;x
+oligarchy_king_job_marshal_western_valyrian;Master-at-Arms;Maître d'Armes;Master-at-Arms;;Maestro de armas;;;;;;;;;x
+;;;;;;;;;;;;;;x
+emperor_title_high_admiral_high_valyrian;High Admiral;Grand amiral;Großadmiral;;Gran Almirante;;;;;;;;;x
+king_title_high_admiral_high_valyrian;Master of Ships;Maître des Navires;;;Consejero Naval;;;;;;;;;x
+duke_title_high_admiral_high_valyrian;High Admiral;Grand amiral;Großadmiral;;Gran Almirante;;;;;;;;;x
+count_title_high_admiral_high_valyrian;Admiral;Amiral;Admiral;;Almirante;;;;;;;;;x
+LP_king_title_high_admiral_high_valyrian;Lord Admiral;Amiral;Admiral;;Almirante;;;;;;;;;x
+emperor_title_high_admiral_B_high_valyrian;High Admiral;Grand amiral;Großadmiral;;Gran Almirante;;;;;;;;;x
+king_title_high_admiral_B_high_valyrian;Master of Ships;Maître des Navires;;;Consejero Naval;;;;;;;;;x
+duke_title_high_admiral_B_high_valyrian;High Admiral;Grand amiral;Großadmiral;;Gran Almirante;;;;;;;;;x
+count_title_high_admiral_B_high_valyrian;Admiral;Amiral;Admiral;;Almirante;;;;;;;;;x
+LP_king_title_high_admiral_B_high_valyrian;Lord Admiral;Amiral;Admiral;;Almirante;;;;;;;;;x
+city_emperor_title_councilmember_king_high_valyrian;Aeksion;;;;;;;;;;;;;x
+city_emperor_title_councilmember_emperor_high_valyrian;Aeksion;;;;;;;;;;;;;x
+LP_emperor_title_councilmember_king_high_valyrian;Aeksion;;;;;;;;;;;;;x
+LP_emperor_title_councilmember_emperor_high_valyrian;Aeksion;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+job_treasurer_female_high_valyrian;Treasurer;Trésorier;;;Tesorero;;;;;;;;;x
+job_marshal_female_high_valyrian;Master-at-Arms;Maître d'Armes;Master-at-Arms;;Maestro de armas;;;;;;;;;x
+job_castellan_female_high_valyrian;Castellan;Châtelain;Castellan;Castellan;Castellano;;;;;;;;;x
+emperor_job_castellan_female_valyrian;Archon;Archonte;;;Arconte;;;;;;;;;x
+emperor_job_treasurer_female_valyrian;Lord Treasurer;Lord Trésorier;Master of Coin;;Señor Tesorero;;;;;;;;;x
+emperor_job_treasurer_female_high_valyrian;Lord Treasurer;Lord Trésorier;Master of Coin;;Señor Tesorero;;;;;;;;;x
+emperor_job_treasurer_female_western_valyrian;Master of Coin;Grand Argentier;Master of Coin;;Consejero de la Moneda ;;;;;;;;;x
+emperor_job_spymaster_female_valyrian;Master of Whisperers;Maître des Chuchoteurs;Master of Whisperers;;Consejero de los Rumores ;;;;;;;;;x
+emperor_job_spymaster_female_high_valyrian;Master of Whisperers;Maître des Chuchoteurs;Master of Whisperers;;Consejero de los Rumores ;;;;;;;;;x
+emperor_job_spymaster_female_western_valyrian;Master of Whisperers;Maître des Chuchoteurs;Master of Whisperers;;Consejero de los Rumores ;;;;;;;;;x
+emperor_job_marshal_female_high_valyrian;Chief General;Général en chef;Master-at-Arms;;General en Jefe;;;;;;;;;x
+king_job_treasurer_female_high_valyrian;Master of Coin;Grand Argentier;Master of Coin;;Consejero de la Moneda ;;;;;;;;;x
+king_job_treasurer_female_western_valyrian;Master of Coin;Grand Argentier;Master of Coin;;Consejero de la Moneda ;;;;;;;;;x
+king_job_chancellor_female_high_valyrian;Master of Laws;Maître des Lois;Master of Laws ;;Consejero de Edictos;;;;;;;;;x
+king_job_chancellor_female_western_valyrian;Master of Laws;Maître des Lois;Master of Laws ;;Consejero de Edictos;;;;;;;;;x
+king_job_spymaster_female_high_valyrian;Master of Whisperers;Maître des Chuchoteurs;Master of Whisperers;;Consejero de los Rumores ;;;;;;;;;x
+king_job_spymaster_female_western_valyrian;Master of Whisperers;Maître des Chuchoteurs;Master of Whisperers;;Consejero de los Rumores ;;;;;;;;;x
+king_job_castellan_female_high_valyrian;Hand of the King;Main du Roi;Hand of the King;Hand of the King;Mano del Rey;;;;;;;;;x
+king_job_castellan_female_western_valyrian;Hand of the King;Main du Roi;Hand of the King;Hand of the King;Mano del Rey;;;;;;;;;x
+king_job_castellan_female_eastern_valyrian;Archon;Archonte;;;Arconte;;;;;;;;;x
+;;;;;;;;;;;;;;x
+city_job_treasurer_female_high_valyrian;Treasurer;Trésorier;;;Tesorero;;;;;;;;;x
+city_job_marshal_female_high_valyrian;Chief General;Maître d'Armes;Master-at-Arms;;General en jefe;;;;;;;;;x
+city_job_castellan_female_high_valyrian;Seneschal;Châtelain;Castellan;Castellan;Senescal ;;;;;;;;;x
+city_emperor_job_castellan_female_valyrian;Archon;Archonte;;;Arconte;;;;;;;;;x
+city_emperor_job_treasurer_female_valyrian;Lord Treasurer;Lord Trésorier;Master of Coin;;Señor Tesorero;;;;;;;;;x
+city_emperor_job_treasurer_female_high_valyrian;Lord Treasurer;Lord Trésorier;Master of Coin;;Señor Tesorero;;;;;;;;;x
+city_emperor_job_treasurer_female_western_valyrian;Lord Treasurer;Lord Trésorier;Master of Coin;;Señor Tesorero;;;;;;;;;x
+city_emperor_job_marshal_female_valyrian;Chief General;Général en chef;Master-at-Arms;;General en Jefe;;;;;;;;;x
+city_king_job_treasurer_female_high_valyrian;Master of Coin;Grand Argentier;Master of Coin;;Consejero de la Moneda ;;;;;;;;;x
+city_king_job_treasurer_female_western_valyrian;Master of Coin;Grand Argentier;Master of Coin;;Consejero de la Moneda ;;;;;;;;;x
+city_king_job_chancellor_female_high_valyrian;Master of Laws;Maître des Lois;Master of Laws ;;Consejero de Edictos;;;;;;;;;x
+city_king_job_chancellor_female_western_valyrian;Master of Laws;Maître des Lois;Master of Laws ;;Consejero de Edictos;;;;;;;;;x
+city_king_job_spymaster_female_high_valyrian;Master of Whisperers;Maître des Chuchoteurs;Master of Whisperers;;Consejero de los Rumores ;;;;;;;;;x
+city_king_job_spymaster_female_western_valyrian;Master of Whisperers;Maître des Chuchoteurs;Master of Whisperers;;Consejero de los Rumores ;;;;;;;;;x
+city_king_job_castellan_female_valyrian;Archon;Archonte;;;Arconte;;;;;;;;;x
+city_king_job_marshal_female_valyrian;Chief General;Général en chef;Master-at-Arms;;General en Jefe;;;;;;;;;x
+;;;;;;;;;;;;;;x
+LP_job_castellan_female_eastern_valyrian;Archon;Archonte;;;Arconte;;;;;;;;;x
+LP_job_marshal_female_high_valyrian;Master-at-Arms;Maître d'Armes;Master-at-Arms;;Maestro de armas;;;;;;;;;x
+LP_job_marshal_female_western_valyrian;Master-at-Arms;Maître d'Armes;Master-at-Arms;;Maestro de armas;;;;;;;;;x
+LP_job_castellan_female_high_valyrian;Castellan;Châtelain;Castellan;Castellan;Castellano;;;;;;;;;x
+LP_job_castellan_female_western_valyrian;Castellan;Châtelain;Castellan;Castellan;Castellano;;;;;;;;;x
+LP_emperor_job_castellan_female_valyrian;Archon;Archonte;;;Arconte;;;;;;;;;x
+LP_emperor_job_treasurer_female_valyrian;Lord Treasurer;Lord Trésorier;Master of Coin;;Señor Tesorero;;;;;;;;;x
+LP_emperor_job_treasurer_female_high_valyrian;Lord Treasurer;Lord Trésorier;Master of Coin;;Señor Tesorero;;;;;;;;;x
+LP_emperor_job_treasurer_female_western_valyrian;Master of Coin;Grand Argentier;Master of Coin;;Consejero de la Moneda ;;;;;;;;;x
+LP_emperor_job_spymaster_female_valyrian;Master of Whisperers;Maître des Chuchoteurs;Master of Whisperers;;Jefe de los Rumores ;;;;;;;;;x
+LP_emperor_job_spymaster_female_high_valyrian;Master of Whisperers;Maître des Chuchoteurs;Master of Whisperers;;Jefe de los Rumores ;;;;;;;;;x
+LP_emperor_job_spymaster_female_western_valyrian;Master of Whisperers;Maître des Chuchoteurs;Master of Whisperers;;Jefe de los Rumores ;;;;;;;;;x
+LP_emperor_job_marshal_female_high_valyrian;Chief General;Général en chef;Master-at-Arms;;General en Jefe;;;;;;;;;x
+LP_king_job_castellan_female_high_valyrian;Castellan;Châtelain;Castellan;Castellan;Castellano;;;;;;;;;x
+LP_king_job_castellan_female_western_valyrian;Castellan;Châtelain;Castellan;Castellan;Castellano;;;;;;;;;x
+LP_king_job_marshal_female_high_valyrian;Master-at-Arms;Maître d'Armes;Master-at-Arms;;Maestro de armas;;;;;;;;;x
+LP_king_job_marshal_female_western_valyrian;Master-at-Arms;Maître d'Armes;Master-at-Arms;;Maestro de armas;;;;;;;;;x
+;;;;;;;;;;;;;;x
+oligarchy_job_marshal_female_high_valyrian;Master-at-Arms;Maître d'Armes;Master-at-Arms;;Maestro de armas;;;;;;;;;x
+oligarchy_job_marshal_female_western_valyrian;Master-at-Arms;Maître d'Armes;Master-at-Arms;;Maestro de armas;;;;;;;;;x
+oligarchy_job_castellan_female_high_valyrian;Castellan;Châtelain;Castellan;Castellan;Castellano;;;;;;;;;x
+oligarchy_job_castellan_female_western_valyrian;Castellan;Châtelain;Castellan;Castellan;Castellano;;;;;;;;;x
+oligarchy_job_castellan_female_eastern_valyrian;Archon;Archonte;;;Arconte;;;;;;;;;x
+oligarchy_emperor_job_castellan_female_valyrian;Archon;Archonte;;;Arconte;;;;;;;;;x
+oligarchy_emperor_job_treasurer_female_valyrian;Lord Treasurer;Lord Trésorier;Master of Coin;;Señor Tesorero;;;;;;;;;x
+oligarchy_emperor_job_treasurer_female_high_valyrian;Lord Treasurer;Lord Trésorier;Master of Coin;;Señor Tesorero;;;;;;;;;x
+oligarchy_emperor_job_treasurer_female_western_valyrian;Master of Coin;Grand Argentier;Master of Coin;;Consejero de la Moneda ;;;;;;;;;x
+oligarchy_emperor_job_spymaster_female_valyrian;Master of Whisperers;Maître des Chuchoteurs;Master of Whisperers;;Jefe de los Rumores ;;;;;;;;;x
+oligarchy_emperor_job_spymaster_female_high_valyrian;Master of Whisperers;Maître des Chuchoteurs;Master of Whisperers;;Jefe de los Rumores ;;;;;;;;;x
+oligarchy_emperor_job_spymaster_female_western_valyrian;Master of Whisperers;Maître des Chuchoteurs;Master of Whisperers;;Jefe de los Rumores ;;;;;;;;;x
+oligarchy_emperor_job_marshal_female_high_valyrian;Chief General;Général en chef;Master-at-Arms;;General en Jefe;;;;;;;;;x
+oligarchy_king_job_castellan_female_high_valyrian;Castellan;Châtelain;Castellan;Castellan;Castellano;;;;;;;;;x
+oligarchy_king_job_castellan_female_western_valyrian;Castellan;Châtelain;Castellan;Castellan;Castellano;;;;;;;;;x
+oligarchy_king_job_marshal_female_high_valyrian;Master-at-Arms;Maître d'Armes;Master-at-Arms;;Maestro de armas;;;;;;;;;x
+oligarchy_king_job_marshal_female_western_valyrian;Master-at-Arms;Maître d'Armes;Master-at-Arms;;Maestro de armas;;;;;;;;;x
+;;;;;;;;;;;;;;x
+emperor_title_high_admiral_female_high_valyrian;High Admiral;Grand amiral;Großadmiral;;Gran Almirante;;;;;;;;;x
+king_title_high_admiral_female_high_valyrian;Master of Ships;Maître des Navires;;;Consejero Naval;;;;;;;;;x
+duke_title_high_admiral_female_high_valyrian;High Admiral;Grand amiral;Großadmiral;;Gran Almirante;;;;;;;;;x
+count_title_high_admiral_female_high_valyrian;Admiral;Amiral;Admiral;;Almirante;;;;;;;;;x
+LP_king_title_high_admiral_female_high_valyrian;Lord Admiral;Amiral;Admiral;;Almirante;;;;;;;;;x
+emperor_title_high_admiral_female_B_high_valyrian;High Admiral;Grand amiral;Großadmiral;;Gran Almirante;;;;;;;;;x
+king_title_high_admiral_female_B_high_valyrian;Master of Ships;Maître des Navires;;;Consejero Naval;;;;;;;;;x
+duke_title_high_admiral_female_B_high_valyrian;High Admiral;Grand amiral;Großadmiral;;Gran Almirante;;;;;;;;;x
+count_title_high_admiral_female_B_high_valyrian;Admiral;Amiral;Admiral;;Almirante;;;;;;;;;x
+LP_king_title_high_admiral_female_B_high_valyrian;Lord Admiral;Amiral;Admiral;;Almirante;;;;;;;;;x
+city_emperor_title_councilmember_king_female_high_valyrian;Aeksion;;;;;;;;;;;;;x
+city_emperor_title_councilmember_emperor_female_high_valyrian;Aeksion;;;;;;;;;;;;;x
+LP_emperor_title_councilmember_king_female_high_valyrian;Aeksion;;;;;;;;;;;;;x
+LP_emperor_title_councilmember_emperor_female_high_valyrian;Aeksion;;;;;;;;;;;;;x
+;;;;;;;;;;;;;;x
+emperor_title_commander_valyrian;Imperial General;Général impérial;;;General Imperial;;;;;;;;;x
+LP_emperor_title_commander_valyrian;Imperial General;Général impérial;;;General Imperial;;;;;;;;;x
+oligarchy_emperor_title_commander_valyrian;Imperial General;Général impérial;;;General Imperial;;;;;;;;;x
+title_commander_eastern_valyrian;General;Général;;;General;;;;;;;;;x
+city_title_commander_eastern_valyrian;General;Général;;;General;;;;;;;;;x
+LP_title_commander_eastern_valyrian;General;Général;;;General;;;;;;;;;x
+oligarchy_title_commander_eastern_valyrian;General;Général;;;General;;;;;;;;;x
+EVTDESCvalyria.1;The Freehold of Valyria is neither a kingdom nor an empire. Instead, all freeholders, or freeborn landowners, have a say in its governance. In practice, however, the Freehold is ruled by the lords freeholder, powerful dragon-riding noble families who provisionally elect Archons to rule on the council every five years.;;;;El Feudo de Valyria no es un reino ni un imperio. En cambio, todos los propietarios de inmuebles libres o propietarios de tierras libres tienen voz y voto en su gobierno. En la práctica, sin embargo, el Feudo es un gobierno de los Grandes Señores, poderosas familias nobles que montan dragones y que eligen provisionalmente a Arcontes para gobernar el cada cinco años.;;;;;;;;;x
+EVTOPTAvalyria.1;My term as [Root.GetTitle] has ended;;;;Mi elección como [Root.GetTitle] ha terminado;;;;;;;;;x
+TOOLTIPvalyria.3C;An election to select the new council is held. You will be granted a command or city govern upon the handover of power;;;;Se lleva a cabo una elección para seleccionar el nuevo consejo. Se te otorgará el mando o gobierno de la ciudad al entregar el poder;;;;;;;;;x
+EVTOPTBvalyria.1;I am entitled to keep my seat on the council;;;;Tengo derecho a mantener mi asiento en el consejo;;;;;;;;;x
+TOOLTIPvalyria.3D;An election to select the new council is held. You are not required to be elected to your seat.;;;;xSe lleva a cabo una elección para seleccionar el nuevo consejo. No es necesario que sea elegido para su asiento.;;;;;;;;;x
+TOOLTIPVALYRIAFREEHOLD;The Valyrian Freehold operates under a system of governance where the head Archon and his council is elected by the Lords Freeholder.\n\n§Y*§!Councillors are elected in elections held every 5 years, except when the freehold is under attack when elections are suspended.§Y*§!If the Freehold is a merchant republic, the head of one of the 5 leading Freeholder (patrician) families must be senior Archon\n§Y*§!Only freeborn landholders/freeholders of valyrian blood may stand for election.\n§Y*§!Upon the senior Archon's death one of the elected councillors assumes power. If this is not possible an immediate election is held\n§Y*§!If the senior Triarch is need of a regent, an elected councillor must always be that regent if possible\n§Y*§!At the conclusion of an election and the transfer of power, outgoing councillors may be granted the option to govern a province or assume a command.;;;;El Feudo de Valyria opera bajo un sistema de gobierno donde el Jefe Arconte y su consejo son elegidos por los Grandes señores.\n\n§Y*§!Los consejeros son elegidos en elecciones cada 5 años, excepto cuando el Feudo está siendo atacado las elecciones se suspenden.§Y*§!Si el Feudo es una república mercantil, el jefe de una de las 5 principales familias del Feudo (patricio) debe ser el Gran Arconte§Y*§!Sólo los titulares nacidos libres/propietarios de sangre valyrian pueden presentarse a elecciónes§Y*§!Tras la muerte del Gran Arconte, uno de los consejeros electos asume el poder.Si esto no es posible, se lleva a cabo una elección inmediata\n§Y*§!Si el Triarca superior necesita un regente un consejero elegido debe ser ese regente, si es posible\n§Y*§!Al concluir una elección y la transferencia de poder, los consejeros elegidos pueden tener la opción de gobernar una provincia o asumir el mando.;;;;;;;;;x
+EVTDESCvalyria.2;The Freehold of Valyria is neither a kingdom nor an empire. Instead, all freeholders, or freeborn landowners, have a say in its governance. In practice, however, the Freehold is ruled by the lords freeholder, powerful dragon-riding noble families who provisionally elect Archons to rule on the council every five years. The council of [From.GetTitledFirstNameWithDynasty] has finished its term.;;;;El Feudo de Valyria no es un reino ni un imperio. En cambio, todos los propietarios de inmuebles libres o propietarios de tierras libres tienen voz y voto en su gobierno. En la práctica, sin embargo, el Feudo es gobernado por los Grandes señores, poderosas familias nobles que montan dragones y que eligen provisionalmente a Arcontes para gobernar el consejo cada cinco años..El consejo de [From.GetTitledFirstNameWithDynasty] ha terminado su Mandato.;;;;;;;;;x
+EVTOPTAvalyria.2;I am not eligible for election;;;;No soy elegible para las elecciones;;;;;;;;;x
+EVTOPTBvalyria.2;I will stand for election!;;;;¡Me presentaré a las elecciones!;;;;;;;;;x
+TOOLTIPEVTOPTBvalyria.2;An election to select the new council is held. You put yourself forward as a candidate.;;;;Se lleva a cabo una elección para seleccionar el nuevo consejo. Te presentas como un candidato.;;;;;;;;;x
+EVTOPTCvalyria.2;I do not wish a seat on the council;;;;No deseo un asiento en el consejo;;;;;;;;;x
+TOOLTIPvalyria.3;An election to select the new council is held. You decline to stand for election.;;;;Se lleva a cabo una elección para seleccionar el nuevo consejo. Usted rechaza presentarse a las elecciones.;;;;;;;;;x
+EVTDESCvalyria.3;You have been elected by the lords freeholder to the council of the Valyrian Freehold as head [From.PrimaryTitle.GetRulerTitle]! The lords freeholder have also convened and elected the council for the next five years. The outgoing councillors will now be offered their appointment to a colony or command, and the new council under your leadership shall assume power.;;;;!Has sido elegido por los Grandes señores propietarios del consejo del Feudo libre de Valyria como jefe de [From.PrimaryTitle.GetRulerTitle]!;;;;;;;;;x
+EVTDESCvalyria.3B;As entitled by law, you retain your position on the council of the Valyrian Freehold as head [From.PrimaryTitle.GetRulerTitle]. The lords freeholder have also convened and elected the council for the next five years. The outgoing councillors will now be offered their appointment to a colony or command, and the new council under your leadership shall assume power.;;;;Como lo autoriza la ley, mantienes tu posición en el consejo del Feudo Valyrio como cabeza de [De.PrimaryTitle.GetRulerTitle].;;;;;;;;;x
+EVTDESCvalyria.3C;No suitable candidates have been found to fulfil the position of head [From.PrimaryTitle.GetRulerTitle] on the council, and so you retain your position for the coming 5 years. The lords freeholder have also convened and elected the council for the next five years. The outgoing councillors will now be offered their appointment to a colony or command, and the new council under your leadership shall assume power.;;;;No se han encontrado candidatos adecuados para cumplir el puesto de [De.PrimaryTitle.GetRulerTitle] en el consejo, por lo que mantendrás tu puesto durante los próximos 5 años.;;;;;;;;;x
+EVTOPTAvalyria.3;I will lead the council to the best of my ability;;;;Dirigiré el consejo lo mejor que pueda;;;;;;;;;x
+EVTDESCvalyria.4;You have been elected by the lords freeholder to the council of the Valyrian Freehold as [From.GetMyCastellanName]! This position ranks only second to the head [From.PrimaryTitle.GetRulerTitle].;;;;¡Usted ha sido elegido por los Grandes señores propietarios del consejo del Feudo de Valyria como [From.GetMyCastellanName]! Esta posición ocupa el segundo lugar detrás del encabezado [From.PrimaryTitle.GetRulerTitle].;;;;;;;;;x
+EVTOPTAvalyria.4;A great honour;;;;Es un gran honor;;;;;;;;;x
+EVTDESCvalyria.5;You have been elected by the lords freeholder to the council of the Valyrian Freehold as [From.GetMyChancellorName]! ;;;;¡Usted ha sido elegido por los Grandes señores propietarios del consejo del Feudo de Valyria como [From.GetMyChancellorName]!;;;;;;;;;x
+EVTOPTAvalyria.5;Justice will prevail under my rule;;;;La justicia prevalecerá bajo mi gobierno;;;;;;;;;x
+EVTDESCvalyria.6;You have been elected by the lords freeholder to the council of the Valyrian Freehold as [From.GetMyMarshalName]! ;;;;¡Usted ha sido elegido por los Grandes señores propietarios del consejo del Feudo de Valyria como [From.GetMyMarshalName]!;;;;;;;;;x
+EVTOPTAvalyria.6;The armies of the Freehold will benefit;;;;Los ejércitos de Feudo se beneficiarán;;;;;;;;;x
+EVTDESCvalyria.7;You have been elected by the lords freeholder to the council of the Valyrian Freehold as [From.GetMyTreasurerName]! ;;;;¡Usted ha sido elegido por los Grandes señores propietarios del consejo del Feudo de Valyria como [From.GetMyTreasurerName]!;;;;;;;;;x
+EVTOPTAvalyria.7;I wil administer the Freehold with diligence;;;;Administraré el Feudo con diligencia;;;;;;;;;x
+EVTDESCvalyria.8;You have been elected by the lords freeholder to the council of the Valyrian Freehold as [From.GetMySpymasterName]! ;;;;¡Usted ha sido elegido por los Grandes señores propietarios del consejo del Feudo de Valyria como [From.GetMySpymasterName]!;;;;;;;;;x
+EVTOPTAvalyria.8;I shall keep my colleagues well informed;;;;Mantendré ojos en todos sitios;;;;;;;;;x
+EVTDESCvalyria.891;You have been elected by the lords freeholder to the council of the Valyrian Freehold as [From.GetMyAdmiralName]! ;;;;¡Usted ha sido elegido por los Grandes señores propietarios del consejo del Feudo de Valyria como [From.GetMyAdmiralName]!;;;;;;;;;x
+EVTOPTAvalyria.891;I will strengthen the fleets of the Freehold;;;;Fortaleceré las flotas del Feudo;;;;;;;;;x
+EVTDESCvalyria.893;You have been elected by the lords freeholder to the council of the Valyrian Freehold as an Aeksion! This is an advisory position with no specific responsibility.;;;;¡Usted ha sido elegido por los Grandes señores propietarios del consejo del Feudo de Valyria como un Aeksion! Este es un puesto de asesoramiento sin responsabilidad específica.;;;;;;;;;x
+EVTOPTAvalyria.893;I am proud to gain this position;;;;Me enorgullece ganar esta posición;;;;;;;;;x
+EVTDESCvalyria.9;The lords freeholder have convened and elected the council for the next five years. The outgoing councillors will now be offered their appointment to a colony or command, and the newly elected council shall assume power.;;;;El propietario de los Grandes señores ha convocado y elegido el consejo para los próximos cinco años. A los consejeros salientes se les ofrecerá ahora su nombramiento de una colonia o mando de un ejército, y el consejo recién elegido asumirá el poder.;;;;;;;;;x
+TOOLTIPvalyria.10;[This.GetTitledFirstNameWithDynasty] has been elected as §Yhead [Root.PrimaryTitle.GetRulerTitle]§!;;;;[This.GetTitledFirstNameWithDynasty] ha sido elegido como §Ycabeza [Root.PrimaryTitle.GetRulerTitle]§!;;;;;;;;;x
+TOOLTIPjob_castellan_elect;[This.GetTitledFirstNameWithDynasty] has been elected as §Y[Root.GetMyCastellanName]§!;;;;[This.GetTitledFirstNameWithDynasty] ha sido elegido como §Y[Root.GetMyCastellanName]§!;;;;;;;;;x
+TOOLTIPjob_chancellor_elect;[This.GetTitledFirstNameWithDynasty] has been elected as §Y[Root.GetMyChancellorName]§!;;;;[This.GetTitledFirstNameWithDynasty] ha sido elegido como §Y[Root.GetMyChancellorName]§!;;;;;;;;;x
+TOOLTIPjob_marshal_elect;[This.GetTitledFirstNameWithDynasty] has been elected as §Y[Root.GetMyMarshalName]§!;;;;[This.GetTitledFirstNameWithDynasty] ha sido elegido como §Y[Root.GetMyMarshalName]§!;;;;;;;;;x
+TOOLTIPjob_treasurer_elect;[This.GetTitledFirstNameWithDynasty] has been elected as §Y[Root.GetMyTreasurerName]§!;;;;[This.GetTitledFirstNameWithDynasty] ha sido elegido como §Y[Root.GetMyTreasurerName]§!;;;;;;;;;x
+TOOLTIPjob_spymaster_elect;[This.GetTitledFirstNameWithDynasty] has been elected as §Y[Root.GetMySpymasterName]§!;;;;[This.GetTitledFirstNameWithDynasty] ha sido elegido como §Y[Root.GetMySpymasterName]§!;;;;;;;;;x
+TOOLTIPjob_admiral_elect;[This.GetTitledFirstNameWithDynasty] has been elected as §Y[Root.GetMyAdmiralName]§!;;;;[This.GetTitledFirstNameWithDynasty] ha sido elegido como §Y[Root.GetMyAdmiralName]§!;;;;;;;;;x
+TOOLTIPjob_advisor_elect;[This.GetTitledFirstNameWithDynasty] has been elected as §YAeksion§!;;;;[This.GetTitledFirstNameWithDynasty] ha sido elegido como §YAeksion§!;;;;;;;;;x
+EVTDESCvalyria.10;The lords freeholder have convened and elected the council for the next five years. The outgoing councillors will now be offered their appointment to a colony or command, and the new council under your leadership shall assume power.;;;;El propietario de los Grandes señores ha convocado y elegido el consejo para los próximos cinco años. A los consejeros salientes se les ofrecerá ahora su nombramiento a una colonia o mando de un ejército, y el nuevo consejo bajo su liderazgo asumirá el poder.;;;;;;;;;x
+EVTDESCvalyria.11;The lords freeholder have convened and elected the council for the next five years. [FromFrom.GetTitledFirstNameWithDynasty] and the outgoing councillors will now be offered their appointment to a colony or command, and the newly elected council under [From.GetTitledFirstNameWithDynasty]'s leadership shall assume power.;;;;El propietario de los Grandes señores ha convocado y elegido el consejo para los próximos cinco años. [FromFrom.GetTitledFirstNameWithDynasty] y los consejeros elegidos se les ofrecerá su nombramiento a una colonia o mando de un ejército, y el consejo recién elegido bajo el liderazgo [From.GetTitledFirstNameWithDynasty] asumirá el poder.;;;;;;;;;x
+EVTDESCvalyria.20;As an outgoing member of the council of the Freehold, you have the right to be nominated to the governorship of a colony or the command of an army.;;;;Como miembro elegido del consejo del Feudo, usted tiene derecho a ser nominado a la gobernación de una colonia o al mando de un ejército.;;;;;;;;;x
+EVTOPTAvalyria.20;I will govern as an Archon in a colony;;;;Yo gobernaré como un Arconte en una colonia;;;;;;;;;x
+TOOLTIPvalyria.21;You will be presented with a choice of colony;;;;Se te presentará una opción de colonia;;;;;;;;;x
+EVTOPTBvalyria.20;I will command Valyria's armies on a conquest;;;;Dirigiré los ejércitos de Valyria en una conquista;;;;;;;;;x
+TOOLTIPvalyria.25;You will be presented with any available conquest options;;;;Se te presentarán las opciones de conquista disponibles;;;;;;;;;x
+EVTOPTCvalyria.20;I will stay in Valyria;;;;Me quedaré en Valyria;;;;;;;;;x
+EVTDESCvalyria.21;The council has decided on which colonies it would agree to appoint you to. You may make your choice.;;;;El consejo ha decidido a qué colonias aceptaría nombrarte. Puedes hacer tu elección.;;;;;;;;;x
+EVTOPTAvalyria.21;[valyria_colony_1.GetName];;;;;;;;;;;;;x
+EVTOPTBvalyria.21;[valyria_colony_2.GetName];;;;;;;;;;;;;x
+EVTOPTCvalyria.21;[valyria_colony_3.GetName];;;;;;;;;;;;;x
+EVTOPTDvalyria.21;None of these are suitable;;;;Ninguna de estas son adecuadas;;;;;;;;;x
+EVTOPTEvalyria.21;No colonies are presently available;;;;No hay colonias disponibles actualmente;;;;;;;;;x
+EVTDESCvalyria.23;The council of the Valyrian Freehold has decided to nominate the outgoing councillor [From.GetFirstNameWithDynasty] as Archon of the colony of [valyria_colony.GetName]. This in turn means you must return home.;;;;El consejo del Feudo de Valyria ha decidido nominar al consejero elegido [From.GetFirstNameWithDynasty] como Arconte de la colonia de [valyria_colony.GetName]. Esto a su vez significa que debes regresar a casa.;;;;;;;;;x
+EVTDESCvalyria.24;The council of the Valyrian Freehold has decided to nominate the outgoing councillor [From.GetFirstNameWithDynasty] as Archon of the colony of [valyria_colony.GetName].;;;;El consejo del Feudo de Valyria ha decidido nominar al concsejero elegido [From.GetFirstNameWithDynasty] como Arconte de la colonia de [valyria_colony.GetName].;;;;;;;;;x
+EVTDESCvalyria.25;The council has debated on suitable potential new conquests for the Freehold, and has presented you with the final choice.;;;;El consejo ha debatido sobre nuevas conquistas potenciales para el Feudo libre, y le ha presentado la elección final.;;;;;;;;;x
+EVTOPTAvalyria.25;I change my mind;;;;Cambie de opinión;;;;;;;;;x
+EVTOPTBvalyria.25;Subdue the tribes of the Long Summer;;;;Someter las tribus de las Tierras del Largo Verano;;;;;;;;;x
+TOOLTIPvalyria.26;A conquest of [Prev.GetFullName] under your command and using your own forces is launched;;;;Se lanza una conquista de [Prev.GetFullName] bajo su comando y usando sus propias fuerzas;;;;;;;;;x
+EVTOPTCvalyria.25;Colonise [valyria_generic_colony.GetName];;;;Colonizar [valyria_generic_colony.GetName];;;;;;;;;x
+TOOLTIPvalyria.28;A new colony in [Prev.GetName] is established under your rule;;;;Nueva colonia en [Prev.GetName] se establece bajo su control;;;;;;;;;x
+EVTOPTDvalyria.25;Colonise Mantarys;;;;Colonizar Mantarys;;;;;;;;;x
+EVTOPTEvalyria.25;Colonise Volantis;;;;Colonizar Volantis;;;;;;;;;x
+EVTOPTFvalyria.25;Colonise Volon Therys;;;;Colonizar Volon Therys;;;;;;;;;x
+EVTOPTGvalyria.25;Colonise Valysar;;;;Colonizar Elyria;;;;;;;;;x
+EVTOPTHvalyria.25;Colonise Selhorys;;;;Colonizar Selhorys;;;;;;;;;x
+EVTOPTJvalyria.25;Colonise Lys;;;;Colonizar Lys;;;;;;;;;x
+EVTOPTKvalyria.25;Colonise Tyrosh;;;;Colonizar Tyrosh;;;;;;;;;x
+EVTOPTLvalyria.25;Colonise Myr;;;;Colonizar Myr;;;;;;;;;x
+EVTOPTMvalyria.25;Colonise Pentos;;;;Colonizar Pentos;;;;;;;;;x
+EVTOPTNvalyria.25;Colonise Dragonstone;;;;Colonizar Rocadragón;;;;;;;;;x
+EVTOPTOvalyria.25;Conquer [valyria_generic_conquest.GetFullName];;;;Conquistar [valyria_generic_conquest.GetFullName];;;;;;;;;x
+EVTOPTOvalyria.25;Colonise Essaria;;;;;;;;;;;;;x
+EVTDESCvalyria.26;The council has voted to grant official permission for your expedition in [valyrian_conquest_target.GetFullName], granting you sole authority to mobilise valyrian forces against the area.;;;;El consejo ha votado para otorgar permiso oficial para su expedición en [valyrian_conquest_target.GetFullName], lo que le otorga la autoridad exclusiva para movilizar a las fuerzas valyrias en el área.;;;;;;;;;x
+EVTOPTAvalyria.26;The frontier of the Freehold shall expand;;;;La frontera del Feudo libre se expandirá;;;;;;;;;x
+EVTDESCvalyria.27;The council of the Valyrian Freehold has decided to grant the outgoing councillor [From.GetFirstNameWithDynasty] military authority in a campaign against [valyrian_conquest_target.GetFullName].;;;;El consejo del Feudo de Valyria ha decidido otorgar al consejero elegido [From.GetFirstNameWithDynasty] autoridad militar en una campaña contra [valyrian_conquest_target.GetFullName];;;;;;;;;x
+EVTOPTAvalyria.27;OK;;;;;;;;;;;;;x
+EVTDESCvalyria.28;The council has voted to grant official permission for your expedition to [valyrian_colony_target.GetName], granting you sole authority to claim the area in the name of The Freehold.;;;;El consejo ha votado para otorgar permiso oficial para su expedición a [valyrian_colony_target.GetName], lo que le otorga la autoridad exclusiva para reclamar el área en nombre del Feudo.;;;;;;;;;x
+EVTOPTAvalyria.28;The peoples of Valyria shall spread;;;;La gente de Valyria se extenderán;;;;;;;;;x
+EVTDESCvalyria.29;The council of the Valyrian Freehold has decided to grant the outgoing councillor [From.GetFirstNameWithDynasty] authority to settle valyrian peoples in the unclaimed territory of [valyrian_colony_target.GetName].;;;;El consejo del Feudo de Valyria ha decidido conceder al consejero elegido [From.GetFirstNameWithDynasty] la autoridad para establecer a la gente de valyria en el territorio no reclamado de [valyrian_colony_target.GetName].;;;;;;;;;x
+EVTDESCvalyria.35;[From.GetTitledFirstNameWithDynasty] has not fulfilled the full term at the head of the council, and so you have been chosen to take [From.GetHerHis] place until the next election.;;;;[From.GetTitledFirstNameWithDynasty] no ha cumplido el cometido del consejo, por lo que as sido elegido para tomar el lugar hasta las próximas elecciones.;;;;;;;;;x
+EVTDESCvalyria.36;[FromFrom.GetTitledFirstNameWithDynasty] has not fulfilled the full term at the head of the council, and so [From.GetTitledFirstNameWithDynasty] has been chosen to take [FromFrom.GetHerHis] place until the next election.;;;;[FromFrom.GetTitledFirstNameWithDynasty] no ha cumplido el cometido del consejo, por lo que se ha elegido [From.GetTitledFirstNameWithDynasty] para tomar el lugar [FromFrom.GetHerHis] hasta las próximas elecciones.;;;;;;;;;x
+EVTDESCvalyria.40;Great wealth is generated by the dragonlords of The Freehold, much of which is taxed by the council. Therefore it is seen as only right that this wealth be invested in the city of [Root.Capital.GetName], and the council is urging you to order the funding of building projects.;;;;Los señores de dragones del Feudo  generan gran riqueza, gran parte de la cual es gravada por el consejo. Por lo tanto, se considera justo que esta riqueza se invierta en la ciudad de [Root.Capital.GetName], y el consejo le insta a que ordene la financiación de proyectos de construcción.;;;;;;;;;x
+EVTOPTAvalyria.40;Yes, [Root.Capital.GetName] shall be glorious;;;;Sí, [Root.Capital.GetName] será gloriosa;;;;;;;;;x
+EVTOPTBvalyria.40;It would not be prudent at this time;;;;No sería prudente en este momento;;;;;;;;;x
+valyria_colony;Valyrian Colony;;;;Colonia Valyria;;;;;;;;;x
+valyria_colony_option;Colony;;;;Colonia;;;;;;;;;x
+valyria_colony_desc;This title is considered the 'de jure' property of The Valyrian Freehold, its current holder merely a custodian or 'Archon'. If the holder is 'de facto' sworn to The Freehold, this title will revert to the Top Liege upon death or abdication.;;;;Este título se considera de la propiedad 'de jure' de el Feudo de Valyria, su titular actual es simplemente un custodio o 'Arconte'. Si el titular es 'de facto' juramentado a el Feudo de Valyria, este título se revertirá al Soberano al morir o al momento de la abdicación.;;;;;;;;;x
+EVTDESCvalyria.46;[From.GetTitledFirstNameWithDynasty] has not fulfilled the full term as Archon of [valyrian_colony.GetName], and so these lands now revert to central control under your authority.;;;;[From.GetTitledFirstNameWithDynasty] no ha cumplido el cometido como Arconte de [valyrian_colony.GetName], por lo que ahora estas tierras vuelven al control central bajo su autoridad.;;;;;;;;;x
+TRIBUTARY_VALYRIAN_NAME;Free City;;;;Ciudad libre;;;;;;;;;x
+TRIBUTARY_VALYRIAN_PLURAL;Free Cities;;;;Ciudades libres;;;;;;;;;x
+SUZERAIN_VALYRIAN_NAME;Suzerain;;;;Soberano;;;;;;;;;x
+EVTDESCvalyria.48;The 'Daughters of Valyria', that is valyrian colonies speaking some sort of dialect of the Valyrian language, have traditionally been granted self-governing tributary status as Free Cities. As a vassal of Valyria, perhaps we should seek Free City status for [Root.PrimaryTitle.GetName]?;;;;"A las ""Hijas de Valyria"", es decir colonias valyrias que hablan una especie de dialecto del idioma valeriano, se les ha concedido tradicionalmente el estado tributario de autogobierno como Ciudades Libres. Como vasallo de Valyria, tal vez deberíamos buscar el estado Ciudad libre para [Root.PrimaryTitle.GetName]?";;;;;;;;;x
+EVTOPTAvalyria.48;Yes, we shall seek this status;;;;Sí, buscaremos este estatus;;;;;;;;;x
+EVTOPTCvalyria.48;I will use my powers as regent to force this through;;;;Usaré mis poderes como regente para forzar esto;;;;;;;;;x
+EVTTOOLTIPvalyria.49;[This.GetTitledFirstNameWithDynasty] is presented with your request;;;;[This.GetTitledFirstNameWithDynasty] se presenta con su solicitud;;;;;;;;;x
+EVTOPTBvalyria.48;No, we need protection as a vassal;;;;No, necesitamos protección como vasallo;;;;;;;;;x
+EVTDESCvalyria.50;[Root.PrimaryTitle.GetFOA], as a colony and daughter of Valyria, [FromFrom.PrimaryTitle.GetName] would by tradition usually be granted self-governing Free City status as a tributary. I petition that you make this grant, and in return we promise to aid and defend our motherland.\n\nYours Humbly,\n[FromFrom.GetTitledFirstNameWithDynasty];[Root.PrimaryTitle.GetFOA], le(s) [From.PrimaryTitle.Kingdom.GetFullName] n'est(sont) actuellement pas séparé(s) de la Couronne. En tant que votre banneret le plus capable et le plus loyal, je requiers l'honneur de devenir le seigneur de cette région. \n\n Votre Humble Serviteur,\n[From.GetFirstNameWithDynasty];;;[Root.PrimaryTitle.GetFOA], el [From.PrimaryTitle.Kingdom.GetFullName] no está actualmente separado de la Corona. Como vuestro vasallo más capaz y más leal, solicito el honor de convertirme en el Señor de esta región. \n\n Vuesro Humilde Servidor,\n[From.GetFirstNameWithDynasty];;;;;;;;;x
+EVTDESCvalyria.50B;[Root.PrimaryTitle.GetFOA], as a colony and daughter of Valyria, [FromFrom.PrimaryTitle.GetName] would by tradition usually be granted self-governing Free City status as a tributary. I petition that you use or powers as regent to make this grant, and in return we promise to aid and defend our motherland.\n\nYours Humbly,\n[FromFrom.GetTitledFirstNameWithDynasty];[Root.PrimaryTitle.GetFOA], le(s) [From.PrimaryTitle.Kingdom.GetFullName] n'est(sont) actuellement pas séparé(s) de la Couronne. En tant que votre banneret le plus capable et le plus loyal, je requiers l'honneur de devenir le seigneur de cette région. \n\n Votre Humble Serviteur,\n[From.GetFirstNameWithDynasty];;;[Root.PrimaryTitle.GetFOA], el [From.PrimaryTitle.Kingdom.GetFullName] no está actualmente separado de la Corona. Como vuestro vasallo más capaz y más leal, solicito el honor de convertirme en el Señor de esta región. \n\n Vuesro Humilde Servidor,\n[From.GetFirstNameWithDynasty];;;;;;;;;x
+EVTDESCvalyria.50C;I shall use my powers as regent to enact a decree making [FromFrom.PrimaryTitle.GetName] a self-governing Free City!;[Root.PrimaryTitle.GetFOA], le(s) [From.PrimaryTitle.Kingdom.GetFullName] n'est(sont) actuellement pas séparé(s) de la Couronne. En tant que votre banneret le plus capable et le plus loyal, je requiers l'honneur de devenir le seigneur de cette région. \n\n Votre Humble Serviteur,\n[From.GetFirstNameWithDynasty];;;[Root.PrimaryTitle.GetFOA], el [From.PrimaryTitle.Kingdom.GetFullName] no está actualmente separado de la Corona. Como vuestro vasallo más capaz y más leal, solicito el honor de convertirme en el Señor de esta región. \n\n Vuesro Humilde Servidor,\n[From.GetFirstNameWithDynasty];;;;;;;;;x
+EVTOPTDvalyria.50;I agree to this in exchange for a favor;;;Estoy de acuerdo con esto a cambio de un favor;;;;;;;;;;x
+EVTOPTAvalyria.50;I accept this request;Très bien;;;Muy bien;;;;;;;;;x
+EVTOPTEvalyria.50;Excellent;;;;Excelente;;;;;;;;;x
+EVTOPTBvalyria.50;No, [FromFrom.PrimaryTitle.GetName] needs direct protection;;;;No, [FromFrom.PrimaryTitle.GetName] necesita protección directa;;;;;;;;;x
+EVTOPTCvalyria.50;I have a perfect explantion for denial;;;;No, debe permanecer en el seno de la casa [Root.GetOnlyDynastyName];;;;;;;;;x
+EVTTOOLTIPvalyria.53;[This.GetTitle] [This.GetFirstName] will be denied, but appeased;[This.GetTitle] [This.GetFirstName] va être apaisé;;;[This.GetTitle] [This.GetFirstName] estará satisfecho;;;;;;;;;x
+EVTDESCvalyria.51;[Root.GetTitledFirstNameWithDynasty], I accept your request and hereby grant [Root.PrimaryTitle.GetName] self-governing Free City status. [Root.PrimaryTitle.GetName] will make due deference to Valyria, and in return the motherland will answer calls for aid in times of crisis.\n\n Regards,\n[From.GetTitledFirstNameoftheHouseNoRegnal];[Root.GetFirstNameWithDynasty], j'accepte votre requête et vous nomme par la présente [Root.GetTitle] de [Root.PrimaryTitle.GetName]. Vous, vos fils et vos petit-fils jouirez de cet honneur jusqu'à la fin des temps et tous les Seigneurs [Root.PrimaryTitle.GetName] vous devront hommage comme leur suzerain légitime.\n\n Cordialement,\n[From.GetTitle] [From.GetFirstName] de la Maison [From.GetOnlyDynastyName], [From.GetRegnalOrdinal] de son nom.;;;;;;;;;;;;x
+EVTDESCvalyria.51B;[Root.GetTitledFirstNameWithDynasty], I accept your request and hereby grant [Root.PrimaryTitle.GetName] self-governing Free City status. [Root.PrimaryTitle.GetName] will make due deference to Valyria, and in return the motherland will answer calls for aid in times of crisis.\n\n Signed in the name of [FromFrom.GetTitledFirstName],\n[From.GetTitledFirstNameWithDynastyNoRegnal], [From.GetLordLady] Regent of [FromFrom.PrimaryTitle.GetName];[Root.GetFirstNameWithDynasty], j'accepte votre requête et vous nomme par la présente [Root.GetTitle] de [Root.PrimaryTitle.GetName]. Vous, vos fils et vos petit-fils jouirez de cet honneur jusqu'à la fin des temps et tous les Seigneurs [Root.PrimaryTitle.GetName] vous devront hommage comme leur suzerain légitime.\n\n Cordialement,\n[From.GetTitle] [From.GetFirstName] de la Maison [From.GetOnlyDynastyName], [From.GetRegnalOrdinal] de son nom.;;;[Root.GetTitledFirstNameWithDynasty], acepto su solicitud y otorgo [Root.PrimaryTitle.GetName] estado autónomo de ciudad libre. [Root.PrimaryTitle.GetName]  hará las debidas deferencias con Valyria y, a cambio, la madre patria responderá las solicitudes de ayuda en tiempos de crisis.\n\n Firmado en el nombre de [FromFrom.GetTitledFirstName],\n[From.GetTitledFirstNameWithDynastyNoRegnal], [From.GetLordLady] Regente de [FromFrom.PrimaryTitle.GetName].;;;;;;;;;x
+EVTDESCvalyria.52;[Root.GetTitledFirstNameWithDynasty], I am afraid [Root.PrimaryTitle.GetName] cannot be granted self-governing Free City status. The council, myself included, believe [Root.PrimaryTitle.GetName] must remain a direct vassal of the [FromFrom.PrimaryTitle.GetFullName]\n\nSigned,\n[From.GetTitledFirstNameWithDynasty];Le(a) [From.GetTitle] s'est pratiquement gaussé de votre requête lorsqu'elle lui a été présentée. Votre requête pour devenir seigneur de(u/s) [Root.PrimaryTitle.Kingdom.GetName] a été balayée d'un revers de manche sans même avoir été présentée devant le Conseil.;;;El [From.GetTitle] prácticamente se mofó de tu petición cuando le fue presentada. La petición para convertirte en Señor de [Root.PrimaryTitle.Kingdom.GetName] fue barrida de un plumazo sin ni siquiera haber sido presentada ante el Consejo.;;;;;;;;;x
+EVTOPTAvalyria.52;This against valyrian custom!;Bien, il y a d'autres méthodes pour y parvenir;;;Bueno, hay otras formas...;;;;;;;;;x
+EVTDESCvalyria.53;To the [GetFromRootCompliment] [Root.GetTitledFirstName], whilst it is true that loyal and noble colonies such as [Root.PrimaryTitle.GetName] are traditionally granted self-governing Free City status, me and the council have determined this cannot be presently achieved. Trust us that in time that patience and loyalty shall be rewarded.\n\n Yours Truly,\n[From.GetTitledFirstNameWithDynasty];Mon cher ami et vassal ! Vous êtes un roc de fidélité, la pierre angulaire du royaume ! Il y a un véritable soutien pour votre revendication en [From.Religion.GetScriptureName]. Je sais que [From.Religion.GetRandomGodName] vous en récompensera en temps et en heure !\n\n Sincérement,\n[From.GetTitle] [From.GetFirstName] de la Maison [From.GetOnlyDynastyName], [From.GetRegnalOrdinal] de son nom.;;;Para el [GetFromRootCompliment] [Root.GetTitledFirstName], si bien es cierto que las colonias leales y nobles como [Root.PrimaryTitle.GetName] tradicionalmente se les concede el estado autónomo de Ciudad libre, yo y el consejo hemos determinado que esto no se puede lograr actualmente...Confíe en nosotros que con el tiempo esa paciencia y lealtad serán recompensadas.\n\n Atentamente,\n[From.GetTitledFirstNameWithDynasty].;;;;;;;;;x
+EVTOPTAvalyria.53;That is reasonable explanation;Je suis humilié;;;Estoy humillado.;;;;;;;;;x
+EVTDESCvalyria.54;Your regent, [From.GetTitledFirstNameWithDynasty], has accepted a request from [FromFromFrom.PrimaryTitle.GetName] for self-governing Free City status.;;;;Su regente, [From.GetTitledFirstNameWithDynasty], aceptó una solicitud de [FromFromFrom.PrimaryTitle.GetName] para el estado autónomo de Ciudad libre.;;;;;;;;;x
+EVTDESCvalyria.55;Your regent, [From.GetTitledFirstNameWithDynasty], has rejected a request from [FromFromFrom.PrimaryTitle.GetName] for self-governing Free City status.;;;;Su regente, [From.GetTitledFirstNameWithDynasty], ha rechazado una solicitud de [FromFromFrom.PrimaryTitle.GetName] para el estado autónomo de Ciudad libre.;;;;;;;;;x
+TOOLTIPVALYRIANCOUNCILLOR;[This.GetTitledFirstNameWithDynasty] is NOT an elected councillor of the Valyrian Freehold;;;;[This.GetTitledFirstNameWithDynasty] NO es un consejero electo del Feudo Valyrio;;;;;;;;;x
+opinion_archon_for_life;Proclaimed Archon for Life;;;;;;;;;;;;;x
+TOOLTIPis_valyrian_freehold_trigger;Is the §YValyrian Freehold§!;;;;;;;;;;;;;x
+title_archon_for_life;Archon For Life;Triarque à vie;;;Triarca de por vida;;;;;;;;;x
+opinion_named_me_co_archon_for_life;Named me Co-Archon For Life;M'a nommé co-triarque à vie;;;Me nombró Co-Triarca de por vida;;;;;;;;;x
+TOOLTIPname_co_archon_for_lifeREALM;The valyrian voters of the realm will be upset\n;Les membres du parti du royaume vont être mécontents\n;;;Los miembros del partido del Reino estarán descontentos\n;;;;;;;;;x
+opinion_co_archon_for_life;Named Co-Archon For Life;Nommé co-triarque à vie;;;Nombrado Co-Triarca de por vida;;;;;;;;;x
+TOOLTIPtitle_patrician_heirNOTARCHONFORLIFE;Has NOT been named Archon for Life;;;;;;;;;;;;;x
+make_valyrian_colony;Designate as Valyrian Colony;;;;;;;;;;;;;x
+make_valyrian_colony_desc;The [Root.GetFullName] can be designated as a colony of the Freehold, which means it will no longer be an inheritable personal domain, rather it will be assigned Archons who rule for a limited period only. Archons are selected after an election of the freehold from amongst the outgoing councillors.;;;;;;;;;;;;;x
+TOOLTIPmake_valyrian_colonyA;Is NOT in the Valyrian capital region;;;;;;;;;;;;;x
+TOOLTIPmake_valyrian_colonyB;A dejure liege title is NOT already owned;;;;;;;;;;;;;x
+TOOLTIPvalyria_mines_A;[This.GetTitledFirstNameWithDynasty] owns a Tiny Slave Camp (Level 1);;;;;;;;;;;;;x
+TOOLTIPvalyria_mines_B;[This.GetTitledFirstNameWithDynasty] owns a Large Slave Camp (Level 4);;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_valyrian_purity;Is not of pure §YHigh Valyrian§! blood;;;;;;;;;;;;;x
+tooltip_elector_vote_DRAGON_RIDER;Is a §YDragon Rider§!;;;;;;;;;;;;;x
+valyria_trade_route;Valyria Trade Route;;;;;;;;;;;;;x
+EVTDESCvalyria.58;According to the laws of The Freehold, the [new_valyrian_colony.GetFullName] should be designated as a colony of the Freehold. This means it will no longer be an inheritable personal domain, rather it will be assigned Archons who rule for a limited period only. The Freeholders and councillors of the Freehold will expect you to make this dedication.;;;;;;;;;;;;;x
+EVTOPTAvalyria.58;Yes, it is the law;;;;;;;;;;;;;x
+EVTOPTBvalyria.58;No, this is my personal property!;;;;;;;;;;;;;x
+refusing_valyria_colony;Withheld Freehold Colony Land;;;;;;;;;;;;;x
+EVTDESCvalyria.59;As per the laws of The Freehold, [From.GetTitledFirstNameWithDynasty] has designated the [new_valyrian_colony.GetFullName] as a colony of the Freehold. This means it will no longer be an inheritable personal domain, rather it will be assigned Archons who rule for a limited period only. ;;;;;;;;;;;;;x
+EVTDESCvalyria.60;In contravention of the laws of The Freehold, [From.GetTitledFirstNameWithDynasty] has refused to designate the [new_valyrian_colony.GetFullName] as a colony of the Freehold. [From.GetSheHeCap] wishes to keep it as an inheritable personal domain.;;;;;;;;;;;;;x
+EVTOPTAvalyria.60;This is an outrage!;;;;;;;;;;;;;x
+TOOLTIPnew_valyria_colony;The [new_valyrian_colony.GetFullName] will become a colony of The Freehold, and will no longer be the legal personal property of House [Root.GetOnlyDynastyName];;;;;;;;;;;;;x
+tooltip_elector_vote_PREVIOUS_HOLDER;Has already held the office in the past;;;;;;;;;;;;;x
+tooltip_elector_vote_ROGUE_GOVERNOR_GOOD;Is a powerful governor with an extended term;;;;;;;;;;;;;x
+tooltip_elector_vote_ROGUE_GOVERNOR_BAD;Is a rogue governor;;;;;;;;;;;;;x
+EVTDESCvalyria.65;Over the years that [Root.GetName] has been settled, the blood of valyrian, [Root.Culture.GetName] and myriad other peoples have blended to form a new culture with it's own dialect of bastard valyrian.;;;;;;;;;;;;;x
+EVTOPTAvalyria.65;These peoples are the sons and daughters of Valyria;;;;;;;;;;;;;x
+TOOLTIPvalyria.65_DEJURE;The [ROOT_duchy.GetFullName] becomes dejure part of Valyria;;;;;;;;;;;;;x
+EVTDESCvalyria.69;[Root.PrimaryTitle.GetFOA], as a colony and daughter of Valyria, [target_colony_title.GetName] would by tradition usually be granted self-governing Free City status as a tributary. I petition that you make this grant, and in return we promise to aid and defend our motherland.\n\nYours Humbly,\n[FromFrom.GetTitledFirstNameWithDynasty];;;;;;;;;;;;;x
+EVTDESCvalyria.69B;[Root.PrimaryTitle.GetFOA], as a colony and daughter of Valyria, [target_colony_title.GetName] would by tradition usually be granted self-governing Free City status as a tributary. I petition that you use or powers as regent to make this grant, and in return we promise to aid and defend our motherland.\n\nYours Humbly,\n[FromFrom.GetTitledFirstNameWithDynasty];;;;;;;;;;;;;x
+EVTDESCvalyria.69C;I shall use my powers as regent to enact a decree making [target_colony_title.GetName] a self-governing Free City!;;;;;;;;;;;;;x
+EVTOPTDvalyria.69;I accept this fair request...but for a favour;;;;;;;;;;;;;x
+EVTOPTAvalyria.69;I agree, let it be done;;;;;;;;;;;;;x
+EVTOPTEvalyria.69;Home rule for [target_colony_title.GetName];;;;;;;;;;;;;x
+EVTOPTBvalyria.69;No, [target_colony_title.GetName] is not ready for self governance;;;;;;;;;;;;;x
+EVTOPTCvalyria.69;I'll explain why this is not possible at this time;;;;;;;;;;;;;x
+EVTOPTAvalyria.70;[target_colony_title.GetName] shall be a mercantile realm;;;;;;;;;;;;;x
+EVTOPTBvalyria.71;[target_colony_title.GetName] shall be ruled by a noble council;;;;;;;;;;;;;x
+EVTDESCvalyria.71;Your regent, [From.GetTitledFirstNameWithDynasty], has accepted a request from [target_colony_title.GetName] for self-governing Free City status.;;;;Su regente, [From.GetTitledFirstNameWithDynasty], aceptó una solicitud de [FromFromFrom.PrimaryTitle.GetName] para el estado autónomo de Ciudad libre.;;;;;;;;;x
+EVTDESCvalyria.72;Your regent, [From.GetTitledFirstNameWithDynasty], has rejected a request from [target_colony_title.GetName] for self-governing Free City status.;;;;Su regente, [From.GetTitledFirstNameWithDynasty], ha rechazado una solicitud de [FromFromFrom.PrimaryTitle.GetName] para el estado autónomo de Ciudad libre.;;;;;;;;;x
+EVTDESCvalyria.75;Under the overlordship of the Valyrian Freehold, [Root.GetName] is experiencing a period of peace and propserity that is seeing the city expand at a rapid rate.;;;;;;;;;;;;;x
+EVTOPTAvalyria.75;This is a golden age!;;;;;;;;;;;;;x
+EVTDESCvalyria.78;The power of the Valyrian Freehold is growing, with great welath entering the heartland of the valyrian peninsula. [Root.GetName] has been expanding rapdily as a result.;;;;;;;;;;;;;x
+EVTOPTAvalyria.78;We are the masters of the world;;;;;;;;;;;;;x
+freehold_colony_extend_term;Extend Term as [Root.GetTitle];;;;;;;;;;;;;x
+freehold_colony_extend_term_desc;If you accumulate enough power and prestige, you may unilaterally extend your term as [Root.GetTitle] of [Root.PrimaryTitle.GetName];;;;;;;;;;;;;x
+extended_valyria_colony_term;Extend Colonial Governorship;;;;;;;;;;;;;x
+TOOLTIPvalyria.82;You unilaterally extend the term of your governorship of [Root.PrimaryTitle.GetName] by 15 years. This is against the usual law and custom, and so [Root.TopLiege.GetTitledFirstNameWithDynasty] may respond accordingly;;;;;;;;;;;;;x
+EVTDESCvalyria.82;In a move that contravenes the laws and customs of the Freehold, [From.GetTitledFirstNameWithDynasty] has used [From.GetHerHis] power to unilaterally extend [From.GetHerHis] term as governor of [From.PrimaryTitle.GetName] by fifteen years. If I do not respond my power and authority over the Freehold will be diminished.;;;;;;;;;;;;;x
+EVTDESCvalyria.82B;[From.GetTitledFirstNameWithDynasty] has rejected my offer of compromise, and has officially proclaimed to the Freehold [From.GetHerHis] intetion to remain as [From.GetTitle] of [From.PrimaryTitle.GetName].;;;;;;;;;;;;;x
+EVTOPTAvalyria.82;I acquiesce, [From.GetSheHe] is too powerful;;;;;;;;;;;;;x
+TOOLTIPvalyria.82A;[From.GetTitledFirstNameWithDynasty]'s term as governor of [From.PrimaryTitle.GetName] is extended by 15 years;;;;;;;;;;;;;x
+extended_valyria_colony_term_agreed;Acquiesced to Rogue Governor;;;;;;;;;;;;;x
+opinion_extend_term_agreed;Agreed to Governor Term Extension;;;;;;;;;;;;;x
+EVTOPTBvalyria.82;I shall offer a compromise;;;;;;;;;;;;;x
+TOOLTIPvalyria.82B;[From.GetTitledFirstNameWithDynasty] is offered titles that grant diplomatic immunity for 10 years;;;;;;;;;;;;;x
+EVTOPTCvalyria.82;No, this is sedition against the Freehold!;;;;;;;;;;;;;x
+TOOLTIPvalyria.82C;You give an ultimatum to [From.GetTitledFirstNameWithDynasty] to stand down;;;;;;;;;;;;;x
+opinion_extend_term_rejected;Rejected Governor Term Extension;;;;;;;;;;;;;x
+EVTDESCvalyria.83;Despite your move officially contravening the laws and customs of the Freehold, [From.GetTitledFirstNameWithDynasty] has agreed to the extension of your term as [Root.GetTitle] of [Root.PrimaryTitle.GetName] by fifteen years.;;;;;;;;;;;;;x
+EVTOPTAvalyria.83 ;My powerbase is secure;;;;;;;;;;;;;x
+TOOLTIPvalyria.83;Your term as governor of [Root.PrimaryTitle.GetName] is extended by 15 years;;;;;;;;;;;;;x
+EVTDESCvalyria.84;[From.GetTitledFirstNameWithDynasty] has sent an envoy discouraging from your move to secure a powerbase in [Root.PrimaryTitle.GetName], and is instead offering titles that grant you diplomatic immunity from prosecution for ten years.;;;;;;;;;;;;;x
+EVTOPTAvalyria.84;I accept this offer;;;;;;;;;;;;;x
+TOOLTIPvalyria.84A;You gain diplomatic immunity for 10 years;;;;;;;;;;;;;x
+EVTOPTBvalyria.84;No, I will only be secure as [Root.GetTitle] in [Root.PrimaryTitle.GetName];;;;;;;;;;;;;x
+TOOLTIPvalyria.84B;You reject the compromise;;;;;;;;;;;;;x
+EVTDESCvalyria.85;[From.GetTitledFirstNameWithDynasty] has sent an envoy condemning your move to secure a powerbase in [Root.PrimaryTitle.GetName], and is commanding you to stand down or else be declared an enemy of the Freehold.;;;;;;;;;;;;;x
+EVTOPTAvalyria.85;This has gone too far;;;;;;;;;;;;;x
+EVTOPTBvalyria.85;I will stand my ground and protect my rights!;;;;;;;;;;;;;x
+EVTDESCvalyria.86;[From.GetTitledFirstNameWithDynasty] has seen sense in your offer, and has agreed to a compromise where [From.GetSheHe] is granted diplomatic immunity from prosecution for ten years.  [From.GetSheHeCap] will serve the normal term as [From.GetTitle] in exchange.;;;;;;;;;;;;;x
+EVTOPTAvalyria.86;Good;;;;;;;;;;;;;x
+TOOLTIPvalyria.86A;[From.GetTitledFirstNameWithDynasty] gains diplomatic immunity for 10 years;;;;;;;;;;;;;x
+EVTDESCvalyria.87;[From.GetTitledFirstNameWithDynasty] seems to have been cowed by your ultimatum, and has backed down. [From.GetSheHeCap] will serve the legal limit as [From.GetTitle] of [From.PrimaryTitle.GetName].;;;;;;;;;;;;;x
+EVTOPTAvalyria.87;I have asserted the council's authority;;;;;;;;;;;;;x
+extended_valyria_colony_term_rejected;Cowed Rogue Governor;;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_myself_freehold;I want a position on the Freehold Council;;;;;;;;;;;;;x
+EVTDESCvalyria.88;[From.GetTitledFirstNameWithDynasty] has ignored your ultimatum, and is continuing to assert authority over [From.PrimaryTitle.GetName] in a manner that contravenes the laws of the Freehold. ;;;;;;;;;;;;;x
+EVTOPTAvalyria.88;Do I now try to arrest [From.GetHerHim]?;;;;;;;;;;;;;x
+TOOLTIPvalyria.88;[From.GetTitledFirstNameWithDynasty]'s term as governor of [From.PrimaryTitle.GetName] is extended by 15 years\nYou now have just cause to arrest [From.GetHerHim];;;;;;;;;;;;;x
+EVTDESCvalyria.89;Despite officially contravening the laws and customs of the Freehold, [FromFrom.GetTitledFirstNameWithDynasty] has agreed to the extension of [From.GetFirstNameWithDynasty]'s term as [From.GetTitle] of [From.PrimaryTitle.GetName] by fifteen years.;;;;;;;;;;;;;x
+EVTOPTAvalyria.89;This surely weakens the council's authority;;;;;;;;;;;;;x
+TOOLTIPvalyria.89;[From.GetTitledFirstNameWithDynasty]'s term as governor of [From.PrimaryTitle.GetName] is extended by 15 years;;;;;;;;;;;;;x
+EVTDESCvalyria.90;[From.GetFirstNameWithDynasty] had moved to secure a powerbase in [From.PrimaryTitle.GetName] by extending [From.GetHerHis] term as [From.GetTitle] of [From.PrimaryTitle.GetName]. Instead [From.GetSheHe] has reached a compromise with [FromFrom.GetTitledFirstNameWithDynasty] where [From.GetSheHe] gains titles that grant [From.GetHerHim] diplomatic immunity from prosecution for ten years.;;;;;;;;;;;;;x
+EVTOPTAvalyria.90;A peaceful resolution;;;;;;;;;;;;;x
+TOOLTIPvalyria.90;[From.GetTitledFirstNameWithDynasty] gains diplomatic immunity for 10 years;;;;;;;;;;;;;x
+EVTDESCvalyria.91;[From.GetFirstNameWithDynasty] had moved to secure a powerbase in [From.PrimaryTitle.GetName] by extending [From.GetHerHis] term as [From.GetTitle] of [From.PrimaryTitle.GetName]. [From.GetSheHeCap] was cowed by an ultimatum sent by [FromFrom.GetTitledFirstNameWithDynasty], however, and has backed down. [From.GetSheHeCap] will serve the legal limit as [From.GetTitle] of [From.PrimaryTitle.GetName].;;;;;;;;;;;;;x
+EVTOPTAvalyria.91;That is a humiliating climb down;;;;;;;;;;;;;x
+EVTDESCvalyria.92;[From.GetFirstNameWithDynasty] had moved to secure a powerbase in [From.PrimaryTitle.GetName] by extending [From.GetHerHis] term as [From.GetTitle] of [From.PrimaryTitle.GetName]. Despite receiving an ultimatum from [FromFrom.GetTitledFirstNameWithDynasty], [From.GetSheHe] has ignored threats of being outlawed, and is continuing to assert authority over [From.PrimaryTitle.GetName] in a manner that contravenes the laws of the Freehold. ;;;;;;;;;;;;;x
+EVTOPTAvalyria.92;We seem to be on the brink of civil war;;;;;;;;;;;;;x
+EVTDESCvalyria.100;The power of the Valyrian Freehold is expanding into the rest of Essos, perhaps the legions of Ghiscar should march to halt the rise of these jumped up shepherds?;;;;;;;;;;;;;x
+EVTOPTAvalyria.100;Yes, mobilise the legions!;;;;;;;;;;;;;x
+EVTOPTBvalyria.100;Now is not the time to strike;;;;;;;;;;;;;x
+EVTDESCvalyria.101;Our dragonlords have defeated the legions of the Ghiscar, now we can dictate terms...;;;;;;;;;;;;;x
+EVTOPTAvalyria.101;Demand war reparations;;;;;;;;;;;;;x
+EVTOPTBvalyria.101;Seize [ghiscari_colony.GetName];;;;;;;;;;;;;x
+EVTOPTCvalyria.101;Burn them to ashes!;;;;;;;;;;;;;x
+TOOLTIPvalyria.102;You burned [From.Capital.GetName] to ashes, and sow the fields with salt so that nothing will grow again\nThe territories of the Empire of Ghiscar are annexed by Valyria.;;;;;;;;;;;;;x
+EVTDESCvalyria.102;The last of the Ghiscari wars is over. At the end of the last and final war the Ghiscari Empire has been utterly defeated. The Valyrian dragonlords have burned the city to ashes, and sowed the fields with salt so that nothing will grow again.\n\nThe surviving Ghiscari cities have been reduced to colonies of Valyria, and the original Ghiscari made into slaves.;;;;;;;;;;;;;x
+EVTOPTAvalyria.102;A humiliating end!;;;;;;;;;;;;;x
+TOOLTIPvalyria.102B;[From.GetFirstNameWithDynasty] burns [Root.Capital.GetName] to ashes, and sows the fields with salt so that nothing will grow again\nThe territories of the Empire of Ghiscar are annexed by Valyria.;;;;;;;;;;;;;x
+EVTOPTBvalyria.102;The Ghiscari Empire is no more;;;;;;;;;;;;;x
+EVTTITLEvalyria.200;Norvos;;;;;;;;;;;;;x
+EVTDESCvalyria.200;A religious schism has taken place in the Valyrian Freehold. Dissidents are finding the religious tolerance of the Freehold intolerable, so a sect named the bearded priests have the left the valyrian homeland. The bearded priests are a sect so secretive that even the name of their god is revealed only to initiates. They wear hair shirts and untanned hides and practice ritual flagellation. Once initiated they are forbidden to shave or cut their hair. \n\nThey have travelled far up the Rhoyne, north of the principalities of Rhoynar, to the banks of the river Noyne where they have founded Norvos at a location surrounded by limestone hills, dark forests of oak, pine, and beech. Norovs will be a theocracy where the 'true faith' will be practiced.;;;;;;;;;;;;;x
+EVTOPTAvalyria.200;They are free to worship as they please;;;;;;;;;;;;;x
+EVTTITLEvalyria.205;Qohor;;;;;;;;;;;;;x
+EVTDESCvalyria.205;Religious dissidents have abandoned Valyria, rejecting the religious tolerance practiced by the Valyrian Freehold. They believe in a dark god, the Black Goat, who demands a daily blood sacrifice, such as calves, bullocks and horses on regular days or condemned criminals on holy days. The dark arts, such as divination, blood magic, and necromancy, are believed to be practiced by these people.\n\nThey have travelled far from their homeland to the banks of the river Qhoyne, a tributary of the Rhoyne, on the western edge of the Forest of Qohor. Here they have founded the city of Qohor as a nominal vassal of Valyria.;;;;;;;;;;;;;x
+EVTOPTAvalyria.205;As long as they pay Valyria due respect, this is fine;;;;;;;;;;;;;x
+EVTDESCvalyria.210;We have had reports of a mass escaping of slaves, fleeing the grasp of the Valyrian Freehold. The slaves rebelled on their way from Valyria to a new colony, took control of the ships, and turned in a direction unknown to valyrian fleets. The owners of the ships report that amongst the slaves were a group of slave women from the lands of Jogos Nhai, called the moonsingers.;;;;;;;;;;;;;x
+EVTOPTAvalyria.210;I'm sure they will never be seen again;;;;;;;;;;;;;x
+braavos_home;Mysterious Activity;;;;;;;;;;;;;x
+EVTTITLEvalyria.212;The Uncloaking;;;;;;;;;;;;;x
+EVTDESCvalyria.212;Emissaries have arrived in [Root.TopLiege.PrimaryTitle.GetName] proclaiming the existance of a new city- the [braavos_holder.PrimaryTitle.GetFullName]. This city was founded by escaped slaves, fleeing the grasp of the Freehold. The slaves rebelled on their way from Valyria to a new colony, took control of the ships, and turned in a new direction, travelling as far as they could. According to the reports, it was a group of slave women from the lands of Jogos Nhai, the moonsingers, who predicted where shelter could be found. Thus, the slaves travelled to the distant place, hidden away from sight of the dragonlords. The founders swore a vow that no one in their city would ever be a slave, a vow ehich became the First Law of [braavos_holder.PrimaryTitle.GetName].\nNow Sealord [braavos_holder.GetFirstNameWithDynasty] had sent forth his ships to proclaim the existence and location of [braavos_holder.PrimaryTitle.GetName] during the Uncloaking. Settlements have been paid to the descendants of the former masters of the escaped slaves to compensate for the ships that had been stolen, though the Braavosi refuse to pay for the value of the slaves.;;;;;;;;;;;;;x
+EVTOPTAvalyria.212;Will there be conflict between Valyria and [braavos_holder.PrimaryTitle.GetName]?;;;;;;;;;;;;;x
+EVTOPTBvalyria.212;We will let this stand- for now;;;;;;;;;;;;;x
+EVTTITLEvalyria.220;The Red God;;;;;;;;;;;;;x
+EVTDESCvalyria.220;A group of religious fanatics have emerged in Volantis, claiming to have found a prophecy in ancient books of Asshai that claim that after a long summer an evil cold darkness shall fall on the world. They say Azor Ahai, wielding the sword Lightbringer, shall be reborn to combat this darkness. In Volantis they have founded the first red temple in which a new High Priest shall reside. [rhllor_holder.GetSheHeCap] will hold the titles Flame of Truth, Light of Wisdom, First Servant of the Lord of Light, and Slave of R'hllor. Already this sect has gathered a huge following amongst the slaves and freedmen of the city.;;;;;;;;;;;;;x
+EVTOPTAvalyria.220;This could cause conflict;;;;;;;;;;;;;x
+EVTDESCvalyria.230;The new valyrian road in [Root.GetName] is complete. The broad stone highway, also known as a dragon road, is straight and will allow the swift transport of goods and armies.;;;;;;;;;;;;;x
+build_valyrian_road;Build Valyrian Road;;;;;;;;;;;;;x
+build_valyrian_road_desc;Valyrian roads, also called dragon roads, are broad stone highways built by the Valyrian Freehold. They are straight and usually run from one economic center to another, allowing swift transport of goods;;;;;;;;;;;;;x
+TOOLTIPbuild_valyrian_road;The Valyrian Road in [Root.GetName] will take 3 years to build. It will allow faster movement of troops and give a higher supply limit;;;;;;;;;;;;;x
+EVTTITLEvalyria.102;Fall of the Empire;;;;;;;;;;;;;x
+EVTtitlecolonise_val.6;The Beauty of Valyria;;;;;;;;;;;;;x
+EVTDESCcolonise_val.6;In the vast and ancient world, few places inspire as much awe and wonder as the legendary city of Valyria. Once the jewel of the Freehold, Valyria was a place of unparalleled beauty and power, home to a civilization that had mastered magic and forged weapons of unmatched quality. But for all its grandeur, Valyria could not escape the prophecies of its own doom. Whispered in hushed tones, these ancient forewarnings foretold a cataclysm that would consume the city and its inhabitants. And so it was, in a single day of ash and fire, that the Doom came to pass, reducing it to a smoldering ruin and leaving its people scattered and broken. Valyria lay abandoned, a testament to the hubris and folly of its former inhabitants. But the memory of its greatness never faded, and whispers of its lost treasures and secrets continued to captivate adventurers and scholars alike.;;;;;;;;;;;;x
+EVTOPTAcolonise_val.6;We will rebuild anew!;;;;;;;;;;;;;x
+EVTDESCcolonise_val.7;For centuries, the shattered remnants of Valyria lay shrouded in a pall of darkness, its secrets and treasures seemingly lost to the annals of time. But in recent years, a bold new vision has emerged: the restoration of Valyria, and the return of its former glory. Led by the wealthy and ambitious [Root.GetTitledNameWithNick], a new city has been constructed on the ruins of the old, built with the latest technology and designed to rival the original in both beauty and power. Some scoff at the idea of a new Valyria, dismissing it as a fool's errand doomed to failure. But others see it as a beacon of hope, a symbol of the resilience and determination of humanity in the face of adversity. Only time will tell whether this bold venture will succeed, but for now, the mere existence of the new Valyria is a testament to the enduring legacy of a city that was once the greatest in the world.;;;;;;;;;;;;x
+EVTOPTAcolonise_val.7;We shall match the Valyrians of old;;;;;;;;;;;;;x
+EVTtitlecolonise_val.8;The Treasure of Valyria;;;;;;;;;;;;;x
+EVTDESCcolonise_val.8;As I stood amidst the newly restored city of Valyria, my heart swelled with pride and wonder. The once-fallen empire had risen from the ashes, its streets pulsing with life and the spirit of a people reborn. The sun danced upon the towering spires, casting a warm glow over the sprawling metropolis that stretched out before me. Drawn by an inexplicable force, I found myself wandering towards the heart of the city. There, I beheld the sight of the topless towers, once home to the ancient rulers of Valyria. These mighty edifices seemed to pierce the very heavens, a testament to the unyielding ambition and artistry of our predecessors.;;;;;;;;;;;;;x
+EVTOPTAcolonise_val.8;Let's head to the center;;;;;;;;;;;;;x
+EVTDESCcolonise_val.9;I make my way to the central tower, the tallest and most imposing of the four, and begin my ascent up the winding staircase. The walls were covered in intricate mosaics that told the story of Valyria's rise and fall, and the resolute spirit of those who dared to rebuild it. The climb is long and arduous, but as I emerge onto the highest level, I'm rewarded with a breathtaking view of the city spread out below me. From this height, I can see the intricate patterns of the streets and the glittering canals that wind their way through the city like veins. But it's not just the view that captivates me. The tower itself is a thing of beauty, with intricate carvings and statues of sphinxes that seem to come to life in the flickering light of the torches. Each floor is more ornate than the last, and I find myself pausing at each level to admire the intricate details of the stonework and the breathtaking views.;;;;;;;;;;;;;x
+EVTOPTAcolonise_val.9;I wonder whats at the bottom.;;;;;;;;;;;;;x
+EVTDESCcolonise_val.10;Eventually, I found myself descending the tower's winding stairs to the lowest level, drawn by a strange magnetism. The air was thick with the scent of ancient knowledge, as if the very stones whispered the secrets of the past. As I reached the bottom, I stood before a massive door, seemingly untouched by time. It was adorned with symbols and runes, their meanings obscured by the passage of centuries. The door appeared to be sealed shut, as if guarding a hidden chamber that held the city's deepest secrets. I stood there, my breath held in anticipation, as the air seemed to crackle with energy. The tower, the city, and the legacy of Valyria beckoned me to uncover the mysteries that lay within.;;;;;;;;;;;;;x
+EVTOPTAcolonise_val.10;I can't open it!;;;;;;;;;;;;;x
+EVTOPTBcolonise_val.10;I know this;;;;;;;;;;;;;x
+EVTtitlecolonise_val.11;Dragon of Valyria;;;;;;;;;;;;;x
+EVTDESCcolonise_val.11;As I stood before the massive door, my fingers traced the ancient runes, my mind racing with the possibilities of what secrets lay hidden behind it. It was then that I recalled a passage from an old text I had studied, detailing the method to unseal the doors of Valyrians. With a mix of trepidation and excitement, I recited the words and performed the ritual described in the ancient tome. The door responded with a low rumble, and the runes began to glow with an ethereal light. Revealing a chamber that had remained hidden from the world for generations. My eyes widened in awe at the sight before me. The treasury of the ancient rulers of Valyria lay spread out in all its resplendent glory. Mountains of gold shimmered in the dim light, and priceless artifacts adorned every surface. But what captivated me most were the murals. They depicted the pantheon of Valyrian gods, beings of immense power who were said to have watched over the city in its days of glory.;;;;;;;;;;;;;x
+EVTOPTBcolonise_val.11;I need to get closer;;;;;;;;;;;;;x
+EVTDESCcolonise_val.12;In the dim light, I could make out the visage of Balerion, god of fire and destruction, his wings outstretched in a display of terrifying power. Opposite him stood Meraxes, the goddess of the sea, her form fluid and ever-changing. And between them, the enigmatic Vhagar, god of the skies, soared above the other deities, his watchful gaze observing all that transpired below. As I studied the murals, I was drawn to one depicting a figure astride a dragon, their forms melded together in perfect harmony. This was Aerion, the first dragon rider, whose mastery over the fearsome beasts had earned him a place among the gods. Legend had it that Aerion could speak the language of the dragons and that he could command them with a mere thought. It was then that my eyes were drawn to the center of the treasury, where an object lay half-buried beneath the golden hoard.;;;;;;;;;;;;;x
+EVTOPTBcolonise_val.12;What is that?;;;;;;;;;;;;;x
+EVTDESCcolonise_val.13;As I approached, I could see that it was a chest, its surface adorned with ornate carvings and encrusted with precious gems. I felt a shiver of anticipation run down my spine as I realized that within this chest lay a secret, perhaps the most precious treasure of all. With trembling hands, I reached out to the chest, knowing that whatever it contained would forever change my understanding of Valyria's past and forge a new path for its future. With a deep breath, I carefully opened the chest, my heart pounding in anticipation of the revelation that lay within. As the lid creaked open, a faint glow emanated from the depths of the chest, casting dancing shadows on the walls of the treasury. ;;;;;;;;;;;;;x
+EVTOPTBcolonise_val.13;It is beautiful;;;;;;;;;;;;;x
+EVTDESCcolonise_val.14;Nestled within the velvet-lined interior, I beheld an object of unparalleled beauty and power. A staff, unlike anything I had ever seen before. The Dragon Staff, as the murals had proclaimed it, was once wielded by Aerion, the first dragon rider. It was said to have been a gift from the god Arrax, an inscrutable deity associated with knowledge and the hidden workings of the world. With this staff, Aerion had been granted dominion over the dragons, the embodiment of Valyria's might and majesty. As my fingers closed around the cool metal, a surge of power coursed through me, as if the staff itself was alive and pulsing with untamed energy. With the Dragon Staff in my possession, the secrets of the ancient rulers, the wisdom of the gods, and the boundless potential of the dragons were now within my grasp.;;;;;;;;;;;;;x
+EVTOPTAcolonise_val.14;Unlimited Power!;;;;;;;;;;;;;x
+EVTtitlecolonise_val.15;Failure;;;;;;;;;;;;;x
+EVTDESCcolonise_val.15;For now, I can only imagine what lies beyond, but as I make my way back out into the bright sunshine of Valyria, I know that I'll be back, drawn once again by the allure of this ancient and mysterious city.;;;;;;;;;;;;;x
+EVTOPTAcolonise_val.15;I will not give up;;;;;;;;;;;;;x
+open_door_desc;Open the Door;;;;;;;;;;;;;x
+open_door_desc_desc;This door requires some intellect to open;;;;;;;;;;;;;x
+EVTtitlecolonise_val.17;The Beauty of Oros;;;;;;;;;;;;;x
+EVTDESCcolonise_val.17;In the days of Old Valyria, the city of Oros stood as a testament to the unparalleled beauty, power, and majesty of the Valyrian Freehold. Located in the southern region of Old Valyria, Oros was home to a magnificent volcano, Mount Oros, which provided the city with an abundance of valuable resources. The people of Oros were deeply religious, venerating the gods of Old Valyria. Temples and shrines were built in honor of Vermithor, the god of smiths, crafts, and artisans. Syrax, the god of wine, parties, festivals, and madness, and Tessarion, the goddess of arts, knowledge, plague, and prophecy. The city's devotion to the gods was said to be one of the reasons behind its prosperity and enduring legacy. However, this golden age was not meant to last.;;;;;;;;;;;;;x
+EVTDESCcolonise_val.18;The doom that befell Valyria spared no city, not even the great Oros, and brought about the end of Oros and its people. The skies filled with ash and fire, and the earth trembled beneath the wrath of the gods. The once-magnificent city was reduced to ashes and rubble, its streets rendered silent, and its vibrant culture erased in a single day of fire and destruction. For centuries, the ruins of Oros lay undisturbed, a haunting reminder of the transience of power and the inevitability of fate. Centuries have passed since the Doom, and the world has slowly begun to heal. In recent times, the courageous and resourceful [Root.GetTitledNameWithNick] has chosen to embark on an ambitious quest to restore the lost city of Oros to its former glory. [Root.GetTitledFirstName] has invested a vast amount of resources in this daring venture.;;;;;;;;;;;;;x
+EVTDESCcolonise_val.19;Braving the perils of the cursed land and unearthing long-lost knowledge, [Root.GetSheHe] has assembled a team of skilled architects, artisans, and engineers to rebuild the city from the ground up. Slowly but surely, the city begins to rise again, the ancient stones and foundations giving way to a modern metropolis, infused with the spirit of the past and the promise of the future. As the new Oros takes shape, whispers of its resurrection spread throughout the world, drawing adventurers, scholars, and treasure seekers to the city in search of the lost secrets and treasures of Old Valyria. Many believe that this endeavor is more than just an ambitious dream. It is a symbol of hope, a testament to the indomitable spirit of humanity in the face of adversity, and a reminder that even the greatest of tragedies can be overcome.;;;;;;;;;;;;;x
+EVTtitlecolonise_val.20;Treasure of Oros;;;;;;;;;;;;;x
+EVTDESCcolonise_val.20;As I stand atop the highest spire of the new Oros, overlooking the sprawling city below, I can't help but feel a sense of pride and accomplishment. The once-ruined city has been transformed into a marvel of modern architecture, where the past and present coexist in perfect harmony. The shimmering spires of the city are a sight to behold, each one adorned with intricate carvings and symbols that hark back to the golden age of Old Valyria. The gardens are lush and vibrant, with exotic flowers and plants that bloom in every color of the rainbow. The volcano, Mount Oros, that had once fueled the city's prosperity, now stood as a reminder of its past and a symbol of its resilience. But there is still work to be done, and I am not one to rest on my laurels. Even amidst the splendor of the restored city, whispers of the past still linger.;;;;;;;;;;;;;x
+EVTDESCcolonise_val.21;As I made my way through the bustling streets, a rumor reached my ears, of a magnificent tomb that had been uncovered in the outskirts of the city. The rumors suggest that it is the final resting place of Aurion, the first dragon rider, whose mastery over the fearsome beasts had earned him a place among the gods. The whispers speak of priceless treasures and ancient knowledge hidden within the tomb, awaiting discovery by those bold enough to seek them out. The very thought of such a discovery sent shivers down my spine. To uncover the secrets of Aurion, would be the culmination of a lifetime of research and exploration. I knew I had to see this tomb for myself. As I made my way towards the outskirts of the city, the streets grew quieter, and the air took on a heavier, more ominous feel.;;;;;;;;;;;;;x
+EVTDESCcolonise_val.22;The whispers grew louder, and the stories more fantastical, with tales of curses, traps, and guardians who protected the tomb from intruders. Yet, I was undaunted, driven by a deep-seated desire to uncover the secrets of the past. Finally, I reached the entrance of the tomb, massive stone doors adorned with intricate carvings and ancient runes. The air around it hummed with power, as if the very walls themselves were alive with a force beyond comprehension. I could feel the weight of history bearing down on me, as if the gods themselves were watching and waiting to see what would unfold. With a deep breath, I stepped forward, my hand outstretched towards the doors. As my fingers brushed against the rough surface, I could feel the energy coursing through it, as if the very stone was alive and pulsing with power.;;;;;;;;;;;;;x

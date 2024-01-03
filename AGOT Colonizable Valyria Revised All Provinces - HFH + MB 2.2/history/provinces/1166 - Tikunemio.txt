@@ -1,0 +1,24 @@
+
+# County Title
+title = c_tikunemio
+
+# Settlements
+max_settlements = 3
+
+b_tikunemio = castle
+b_tikunemiocity = city
+b_tikunemiotemple = temple
+
+# Misc
+culture = eastern_valyrian
+religion = valyrian_rel
+
+# History
+1.1.1 = {
+	b_tikunemio = ca_asoiaf_valyria_basevalue_1
+	b_tikunemio = ca_asoiaf_valyria_basevalue_2
+	b_tikunemio = ca_asoiaf_valyria_basevalue_3
+	
+	b_tikunemiocity = ct_asoiaf_valyria_basevalue_1
+	b_tikunemiocity = ct_asoiaf_valyria_basevalue_2
+}

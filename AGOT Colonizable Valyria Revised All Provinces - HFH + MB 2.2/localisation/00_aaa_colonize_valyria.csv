@@ -1,0 +1,38 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+PROV596;Port of Sighs;;;;;;;;;;;;;x
+PROV1154;Bane Coast;Valyria 9;;;;;;;;;;;;x
+c_bane_road;Bane Coast;Valyria 9;;;;;;;;;;;;x
+c_bane_road_adj;Bane Coast;Valyria 9;;;;;;;;;;;;x
+b_bane_road;Bane Coast;Valyria 9;;;;;;;;;;;;x
+b_bane_road2;Bane Coast;Valyria 9;;;;;;;;;;;;x
+b_bane_road3;Bane Coast;Valyria 9;;;;;;;;;;;;x
+PROV1158;The Marble Mountains;;;;;;;;;;;;;x
+c_the_marble_pass;The Marble Mountains;;;;;;;;;;;;;x
+c_the_marble_pass_adj;The Marble Mountains;;;;;;;;;;;;;x
+b_the_marble_pass;The Marble Mountains;;;;;;;;;;;;;x
+b_the_marble_pass2;The Marble Mountains;;;;;;;;;;;;;x
+b_the_marble_pass3;The Marble Mountains;;;;;;;;;;;;;x
+PROV1159;Elenar Isle;;;;;;;;;;;;;x
+c_elenar_coast;Elenar Isle;;;;;;;;;;;;;x
+c_elenar_coast_adj;Elenar Isle;;;;;;;;;;;;;x
+b_elenar_coast;Elenar Isle;;;;;;;;;;;;;x
+b_elenar_coast2;Elenar Isle;;;;;;;;;;;;;x
+b_elenar_coast3;Elenar Isle;;;;;;;;;;;;;x
+PROV1171;Gelenka Mountains;;;;;;;;;;;;;x
+c_gelenka_valleys;Gelenka Mountains;;;;;;;;;;;;;x
+c_gelenka_valleys_adj;Gelenka Mountains;;;;;;;;;;;;;x
+b_gelenka_valleys;Gelenka Mountains;;;;;;;;;;;;;x
+c_gelenka_valleys2;Gelenka Mountains;;;;;;;;;;;;;x
+c_gelenka_valleys3;Gelenka Mountains;;;;;;;;;;;;;x
+PROV1189;Fire Isle;;;;;;;;;;;;;x
+c_fire_road;Fire Isle;;;;;;;;;;;;;x
+c_fire_road_adj;Fire Isle;;;;;;;;;;;;;x
+b_fire_road;Fire Isle;;;;;;;;;;;;;x
+b_fire_road2;Fire Isle;;;;;;;;;;;;;x
+b_fire_road3;Fire Isle;;;;;;;;;;;;;x
+PROV886;Qoyne;;;;;;;;;;;;;x
+PROV890;Upper Rhoyne;;;;;;;;;;;;;x
+PROV1106;Rhoyne;;;;;;;;;;;;;x
+PROV1107;Myrwater;;;;;;;;;;;;;x
+PROV1122;Lake of Myrth;;;;;;;;;;;;;x
+region_valyrian_islands;Valyrian Islands;;;;;;;;;;;;;x

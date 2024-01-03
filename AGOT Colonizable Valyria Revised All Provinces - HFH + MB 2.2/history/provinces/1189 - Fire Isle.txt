@@ -1,0 +1,25 @@
+
+# County Title
+title = c_fire_isle
+
+# Settlements
+max_settlements = 3
+
+b_fire_isle = castle
+b_fire_islecity = city
+b_fire_isletemple= temple
+
+# Misc
+culture = eastern_valyrian
+religion = valyrian_rel
+
+# History
+1.1.1 = {
+	b_fire_isle = ca_asoiaf_valyria_basevalue_1
+	b_fire_isle = ca_asoiaf_valyria_basevalue_2
+	b_fire_isle = ca_asoiaf_valyria_basevalue_3
+		
+	b_fire_islecity = ct_asoiaf_valyria_basevalue_1
+	b_fire_islecity = ct_asoiaf_valyria_basevalue_2
+	
+}

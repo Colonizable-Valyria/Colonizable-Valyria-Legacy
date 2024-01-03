@@ -1,0 +1,25 @@
+#Aquos Dhaen
+# County Title
+title = c_ublesia
+
+# Settlements
+max_settlements = 3
+
+b_ublesia = castle
+b_ublesiacity = city
+b_ublesiatemple = temple
+
+# Misc
+culture = eastern_valyrian
+religion = valyrian_rel
+
+# History
+1.1.1 = {
+	b_ublesia = ca_asoiaf_valyria_basevalue_1
+	b_ublesia = ca_asoiaf_valyria_basevalue_2
+	b_ublesia = ca_asoiaf_valyria_basevalue_3
+	
+	b_ublesiacity = ct_asoiaf_valyria_basevalue_1
+	b_ublesiacity = ct_asoiaf_valyria_basevalue_2
+}
+

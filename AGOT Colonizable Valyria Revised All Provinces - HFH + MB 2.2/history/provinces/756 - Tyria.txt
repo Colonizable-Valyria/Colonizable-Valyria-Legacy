@@ -1,0 +1,32 @@
+
+# County Title
+title = c_tyria
+
+# Settlements
+max_settlements = 6
+
+b_tyria = castle
+b_tyria2 = city
+b_tyria3 = temple
+#b_guesin = castle
+#b_havonys = city
+
+# Misc
+culture = eastern_valyrian
+religion = valyrian_rel
+
+# History
+1.1.1 = {
+	b_tyria = ca_asoiaf_valyria_basevalue_1
+	b_tyria = ca_asoiaf_valyria_basevalue_2
+	b_tyria = ca_asoiaf_valyria_basevalue_3
+	b_tyria = ca_asoiaf_valyria_basevalue_4
+	b_tyria = ca_valyrian_architecture
+	
+	b_tyria2 = ct_asoiaf_valyria_basevalue_1
+	b_tyria2 = ct_asoiaf_valyria_basevalue_2
+	b_tyria2 = ct_asoiaf_valyria_basevalue_3
+	b_tyria2 = ct_asoiaf_valyria_basevalue_4	
+	b_tyria2 = ca_valyrian_architecture
+}
+

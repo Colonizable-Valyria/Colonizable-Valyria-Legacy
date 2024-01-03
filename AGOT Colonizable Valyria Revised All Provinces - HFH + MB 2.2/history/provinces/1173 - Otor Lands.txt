@@ -1,0 +1,24 @@
+
+# County Title
+title = c_otor_lands
+
+# Settlements
+max_settlements = 3
+
+b_otor_lands = castle
+b_otor_landscity = city
+b_otor_landstemple = temple
+
+# Misc
+culture = eastern_valyrian
+religion = valyrian_rel
+
+# History
+1.1.1 = {
+	b_otor_lands = ca_asoiaf_valyria_basevalue_1
+	b_otor_lands = ca_asoiaf_valyria_basevalue_2
+		
+	b_otor_landscity = ct_asoiaf_valyria_basevalue_1
+	b_otor_landscity = ct_asoiaf_valyria_basevalue_2	
+	b_otor_landscity = ct_asoiaf_valyria_basevalue_3
+}
