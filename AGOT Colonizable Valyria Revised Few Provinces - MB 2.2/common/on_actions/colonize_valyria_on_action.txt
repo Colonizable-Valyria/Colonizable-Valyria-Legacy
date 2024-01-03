@@ -1,0 +1,5 @@
+on_startup = {
+	events = {
+		colonise_val.1
+	}
+}

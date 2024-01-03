@@ -1,0 +1,135 @@
+From;To;Type;Through;Comment;;;;
+30;32;sea;955;-1;-1;-1;-1;Deepdown-Driftwood Hall
+1221;16;sea;1222;-1;-1;-1;-1;Westwatch-Shadow Tower
+31;1200;sea;954;-1;-1;-1;-1;Kingshouse-Skane
+31;26;sea;953;-1;-1;-1;-1;Kingshouse-Seal Shore
+98;1236;sea;936;-1;-1;-1;-1;Saltpans-Quiet Isle
+149;1235;sea;935;-1;-1;-1;-1;Gulltown-Motherhouse of Maris													  
+33;35;sea;960;-1;-1;-1;-1;Bear Island-Deepwood
+118;119;sea;941;-1;-1;-1;-1;Longsister-Sweetsister
+119;120;sea;941;-1;-1;-1;-1;Sweetsister-Littlesister
+#120;124;sea;941;-1;-1;-1;-1;Littlesister-Scorched Vale
+121;127;sea;940;-1;-1;-1;-1;Pebble-Wycliffe
+122;132;sea;939;-1;-1;-1;-1;The Paps-Sunset Keep
+152;154;sea;907;-1;-1;-1;-1;Hammerhorn-Old Wyk
+153;156;sea;907;-1;-1;-1;-1;Pebbleton-Orkmont
+155;156;sea;908;-1;-1;-1;-1;Blacktyde-Orkmont
+1209;157;sea;908;-1;-1;-1;-1;Nettlebank-Volmark
+153;162;sea;907;-1;-1;-1;-1;Pebbleton-Pyke
+157;162;sea;908;-1;-1;-1;-1;Volmark-Pyke
+152;160;sea;907;-1;-1;-1;-1;Hammerhorn-Saltcliffe
+160;161;sea;907;-1;-1;-1;-1;Saltcliffe-Lordsport
+167;170;sea;900;-1;-1;-1;-1;Fair Isle-Maunhill
+219;217;sea;932;-1;-1;-1;-1;Claw Isle-Sweetport Sound
+220;221;sea;933;-1;-1;-1;-1;Driftmark-Dragonstone
+261;263;sea;893;-1;-1;-1;-1;Greenshield-Oakenshield
+261;264;sea;893;-1;-1;-1;-1;Greenshield-Southshield
+262;263;sea;893;-1;-1;-1;-1;Greyshield-Oakenshield
+262;264;sea;893;-1;-1;-1;-1;Greyshield-Southshield
+261;271;sea;893;-1;-1;-1;-1;Greenshield-Manderford
+305;300;sea;925;-1;-1;-1;-1;Tarth-Harvest Hall
+305;1217;sea;1214;-1;-1;-1;-1;Tarth-Morne
+325;324;sea;921;-1;-1;-1;-1;Wrathrock-Weeping Tower
+326;322;sea;920;-1;-1;-1;-1;Estermont-Mistwood
+1219;317;sea;1082;-1;-1;-1;-1;Slaynemouth-Lockport
+342;343;sea;1082;-1;-1;-1;-1;Ghaston Grey-The Tor
+256;269;major_river;1084;-1;-1;-1;-1;Dunstonbury-Darkdell
+222;224;major_river;1085;-1;-1;-1;-1;Rollingford-Bramsfort
+203;224;major_river;1087;-1;-1;-1;-1;Rollingford-Great Fork
+203;202;major_river;1086;-1;-1;-1;-1;Byford-Great Fork
+203;204;major_river;1087;-1;-1;-1;-1;Rayonet-Great Fork
+114;115;major_river;1087;-1;-1;-1;-1;Atranta-Shoreham
+98;94;major_river;1088;-1;-1;-1;-1;Saltpans-Darry
+93;97;major_river;1088;-1;-1;-1;-1;Redfork-Lord Harroways Town
+92;93;major_river;1089;-1;-1;-1;-1;Blue Fork- Red Fork
+108;93;major_river;1089;-1;-1;-1;-1;Willow Wood- Red Fork
+89;92;major_river;1089;-1;-1;-1;-1;Blue Fork-Fairmarket
+82;89;major_river;1090;-1;-1;-1;-1;Fairmarket-Stilfen
+82;85;major_river;1090;-1;-1;-1;-1;Stilfen-Martlet Bay
+90;91;sea;1094;-1;-1;-1;-1;Blackwood-Southstone
+884;1088;portage;107;-1;-1;-1;-1;Gods Eye-Trident
+1144;1090;portage;81;-1;-1;-1;-1;Seagard Bay-Blue Fork
+342;343;sea;1082;-1;-1;-1;-1;Ghaston Grey-The Tor
+419;417;sea;1006;-1;-1;-1;-1;Old Volantis-Volantis
+417;418;sea;1006;-1;-1;-1;-1;Volantis-Temple of The Lord of Light
+469;470;sea;971;-1;-1;-1;-1;The Marshes-Braavos
+511;512;sea;1068;-1;-1;-1;-1;Golden Exile-Little Exile
+512;513;sea;1068;-1;-1;-1;-1;Little Exile-Orange Exile
+621;623;sea;1014;-1;-1;-1;-1;Ghozai-Elos
+622;623;sea;1012;-1;-1;-1;-1;Velos-Elos
+624;625;sea;1005;-1;-1;-1;-1;Ghaen-New Ghis
+615;610;sea;1015;-1;-1;-1;-1;Yaros-Yunkai
+733;734;sea;1029;-1;-1;-1;-1;Nameless Islands
+353;358;sea;923;-1;-1;-1;-1;Sunstone-Bloodstone
+358;360;sea;923;-1;-1;-1;-1;Bloodstone-Dark Den
+358;365;sea;923;-1;-1;-1;-1;Bloodstone-Wreckstone
+365;362;sea;963;-1;-1;-1;-1;Wreckstone-Torturer's Deep
+362;359;sea;963;-1;-1;-1;-1;Torturer's Deep-Grey Gallows
+359;363;sea;963;-1;-1;-1;-1;Grey Gallows-Last Refuge
+360;361;sea;963;-1;-1;-1;-1;Dark Den-The Skulls
+359;364;sea;922;-1;-1;-1;-1;Grey Gallows-Shame Isle
+485;484;sea;1005;-1;-1;-1;-1;Vasyugys-Little Valyria
+619;636;sea;1013;-1;-1;-1;-1;Old Ghis-Sumbyar
+749;750;sea;1037;-1;-1;-1;-1;Death Isle-Isle of Flies
+749;751;sea;1037;-1;-1;-1;-1;Death Isle-Isle of Serpents
+750;751;sea;1037;-1;-1;-1;-1;Isle of Flies-Isle of Serpents
+751;752;sea;1037;-1;-1;-1;-1;Isle of Serpents-Howling Mountain
+752;753;sea;1038;-1;-1;-1;-1;Howling Mountain-Talon
+753;744;sea;1038;-1;-1;-1;-1;Talon-Isle of Toads
+753;754;sea;1038;-1;-1;-1;-1;Talon-Isle of Vines
+754;744;sea;1038;-1;-1;-1;-1;Isle of Toads-Isle of Vines
+754;743;sea;1035;-1;-1;-1;-1;Isle of Vines-Skull island
+743;742;sea;1035;-1;-1;-1;-1;Skull island-Ax Isle
+471;1133;sea;974;-1;-1;-1;-1;Lorath-Lorassyon
+545;546;major_river;1136;-1;-1;-1;-1;Morosh-Sarys
+545;547;major_river;1134;-1;-1;-1;-1;Morosh-Protosh
+546;547;major_river;1137;-1;-1;-1;-1;Sarys-Protosh
+550;547;major_river;1137;-1;-1;-1;-1;Kyth-Protosh
+550;549;major_river;1137;-1;-1;-1;-1;Kyth-Rathylar
+550;548;major_river;1137;-1;-1;-1;-1;Kyth-High Atosh
+551;549;major_river;1137;-1;-1;-1;-1;Mardosh-Rathylar
+552;549;major_river;1138;-1;-1;-1;-1;Hornoth-Rathylar
+552;542;major_river;1138;-1;-1;-1;-1;Hornoth-Essaria
+552;694;major_river;1138;-1;-1;-1;-1;Hornoth-Kalyos
+553;696;major_river;1138;-1;-1;-1;-1;Sarnath-Porbath
+553;697;major_river;1149;-1;-1;-1;-1;Sarnath-Kesher
+555;697;major_river;1149;-1;-1;-1;-1;Kasath-Kesher
+555;565;major_river;1150;-1;-1;-1;-1;Kasath-Sathar
+350;351;major_river;1141;-1;-1;-1;-1;Plankytown-Lemonwood
+1145;233;sea;930;-1;-1;-1;-1;Sweetport Sound-Stonedance
+793;150;sea;937;-1;-1;-1;-1;Witch Isle-Runestone
+588;590;sea;985;-1;-1;-1;-1;Herse-Ibben Thrak
+588;593;sea;985;-1;-1;-1;-1;Herse-Ibben Hran
+590;591;sea;985;-1;-1;-1;-1;Ibben Thrak-Ibben Dol
+593;592;sea;985;-1;-1;-1;-1;Ibben Hran-Ibben Zok
+592;591;sea;985;-1;-1;-1;-1;Ibben Zok-Ibben Dol
+591;579;sea;985;-1;-1;-1;-1;Ibben Dol-Thrak
+534;536;sea;1061;-1;-1;-1;-1;Xon-Doquu
+536;535;sea;1061;-1;-1;-1;-1;Doquu-Bones
+535;534;sea;1061;-1;-1;-1;-1;Bones-Xon
+516;515;sea;1058;-1;-1;-1;-1;Moluu-Fragrant Isle
+514;515;sea;1058;-1;-1;-1;-1;Moluu-Isle of love
+511;510;sea;1068;-1;-1;-1;-1;Singing Stones-Golden Exile
+492;498;sea;1053;-1;-1;-1;-1;Isle of Women-Jalabuxhon
+491;493;sea;1052;-1;-1;-1;-1;last Lament-Stonehead
+1153;1158;sea;1008;-1;-1;-1;-1;Pyrys-Marble
+1184;1153;sea;1007;-1;-1;-1;-1;Egrys-Pyrys
+1185;1163;sea;1011;-1;-1;-1;-1;Qrimbroz-Ruklonos
+755;1192;sea;1007;-1;-1;-1;-1;Gelios-Nuqiria
+755;1156;sea;1008;-1;-1;-1;-1;Gelios-Bane
+1166;1160;sea;1183;-1;-1;-1;-1;Tikunemio-Blenon
+1169;1165;sea;1009;-1;-1;-1;-1;Raqiros-Molrys
+758;1169;sea;1009;-1;-1;-1;-1;Mhysa Faer-Raqiros
+1170;1168;sea;1009;-1;-1;-1;-1;Kastaryia-Lentun
+1189;1195;sea;1008;-1;-1;-1;-1;Fire Isle-Ilvonys
+1188;1156;sea;1008;-1;-1;-1;-1;Elieperzys-Dragonfields
+1186;756;sea;1010;-1;-1;-1;-1;Fire Road-Tyria
+1187;759;sea;1010;-1;-1;-1;-1;Izulaperzys-Oros
+1187;1186;sea;1010;-1;-1;-1;-1;Izulaperzys-Fire Road
+1186;1188;sea;1010;-1;-1;-1;-1;Fire Road-Elieperzys
+1189;1188;sea;1008;-1;-1;-1;-1;Fire Isle-Elieperzys
+#1195;1189;sea;1008;-1;-1;-1;-1;Ilvonys-Qeldperzys
+#1195;1189;sea;1008;-1;-1;-1;-1;Dragonfields-Elieperzys
+#759;1186;sea;1010;-1;-1;-1;-1;Oros-Fire
+#759;1186;sea;1010;-1;-1;-1;-1;Oros-Izulaperzys
+-1;-1;;-1;-1;-1;-1;-1;-1

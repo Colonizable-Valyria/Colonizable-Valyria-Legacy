@@ -1,0 +1,25 @@
+
+# County Title
+title = c_elenar_coast
+
+# Settlements
+max_settlements = 4
+
+b_elenar_coast = castle
+b_elenar_coast2 = city
+b_elenar_coast3 = temple
+
+# Misc
+culture = eastern_valyrian
+religion = valyrian_rel
+
+# History
+1.1.1 = {
+	b_elenar_coast = ca_asoiaf_valyria_basevalue_1
+	b_elenar_coast = ca_asoiaf_valyria_basevalue_2
+	b_elenar_coast = ca_asoiaf_valyria_basevalue_3
+	
+	b_elenar_coast2 = ct_asoiaf_valyria_basevalue_1
+	b_elenar_coast2 = ct_asoiaf_valyria_basevalue_2
+}
+

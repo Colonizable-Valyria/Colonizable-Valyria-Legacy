@@ -1,0 +1,27 @@
+
+# County Title
+title = c_aeksios #Rhyos
+
+# Settlements
+max_settlements = 4
+
+b_aeksios = castle
+b_aeksios2 = city
+b_aeksios3 = temple
+
+# Misc
+culture = eastern_valyrian
+religion = valyrian_rel
+
+# History
+1.1.1 = {
+	b_aeksios = ca_asoiaf_valyria_basevalue_1
+	b_aeksios = ca_asoiaf_valyria_basevalue_2
+	b_aeksios = ca_asoiaf_valyria_basevalue_3
+	
+	b_aeksios2 = ct_asoiaf_valyria_basevalue_1
+	b_aeksios2 = ct_asoiaf_valyria_basevalue_2
+	b_aeksios2 = ct_asoiaf_valyria_basevalue_3
+	b_aeksios2 = ct_asoiaf_valyria_basevalue_4
+}
+

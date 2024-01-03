@@ -1,0 +1,25 @@
+# 761 - Howling Bogs
+
+# County Title
+title = c_telyria
+
+# Settlements
+max_settlements = 3
+
+b_telyria = city
+b_telyriacastle = castle
+b_telyriatemple = temple
+
+# Misc
+culture = eastern_valyrian
+religion = valyrian_rel
+
+# History
+1.1.1 = {
+	b_telyria  = ct_asoiaf_essos_basevalue_1
+	b_telyria  = ct_asoiaf_essos_basevalue_2
+	b_telyria  = ct_asoiaf_essos_basevalue_3
+
+	b_telyriacastle = ca_asoiaf_essos_basevalue_1
+	b_telyriacastle = ca_asoiaf_essos_basevalue_2
+}

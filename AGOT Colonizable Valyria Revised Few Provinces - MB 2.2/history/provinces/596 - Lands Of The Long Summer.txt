@@ -1,0 +1,36 @@
+# 596 - Port of Sighs
+
+# County Title
+title = c_port_of_sighs
+
+# Settlements
+max_settlements = 3
+
+b_port_of_sighs = castle
+b_port_of_sighs2 = city
+b_port_of_sighs3 = temple
+
+# Misc
+culture = eastern_valyrian
+religion = valyrian_rel
+
+# History
+1.1.1 = {
+	b_port_of_sighs = ca_asoiaf_valyria_basevalue_1
+	b_port_of_sighs = ca_asoiaf_valyria_basevalue_2
+	
+	
+	b_port_of_sighs2 = ct_asoiaf_valyria_basevalue_1
+	
+}
+4000.1.1 = {
+	b_port_of_sighs = ca_asoiaf_valyria_basevalue_3
+	
+	b_port_of_sighs2 = ct_asoiaf_valyria_basevalue_2
+}
+
+7880.1.1 = { #Doom
+#	culture = eastern_valyrian
+#	remove_settlement = b_port_of_sighs2
+#	remove_settlement = b_port_of_sighs3
+}

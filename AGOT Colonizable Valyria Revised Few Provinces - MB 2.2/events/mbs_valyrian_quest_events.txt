@@ -1,0 +1,466 @@
+namespace = mbs_valyrian_quest		
+###################################
+
+###
+#mbs_valyrian_quest.1-4 - Gogossos Basilisk Sword
+
+province_event = {
+	id = mbs_valyrian_quest.1
+
+	hide_window = yes
+	has_flag = colony_province
+	
+	trigger = {
+		province_id = 747
+		has_province_flag = ruined_province
+		NOT = { has_province_flag = mbs_basilisk_found }
+		NOT = { any_character = { has_artifact = basilisk is_alive = yes } }
+		owner = { 
+			NOT = { culture = ruin } 
+			NOT = { has_character_flag = no_mbs_basilisk }
+		}
+	}
+	
+	mean_time_to_happen = {
+		years = 5
+	}
+	
+	immediate = { owner = { narrative_event = { id = mbs_valyrian_quest.2 } } }
+
+	option = {
+		name = OK
+	}
+}
+#Basilisk Found
+narrative_event = {
+	id = mbs_valyrian_quest.2
+	title = "EVTtitlembs_valyrian_quest.2"
+	desc = "EVTDESCmbs_valyrian_quest.2"
+	picture = GFX_basilisk_attack
+
+	is_triggered_only = yes
+	
+	option = {
+		name = {
+			text = "EVTOPTAmbs_valyrian_quest.2" #I shall be King!
+		}		
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 5
+				trait = ambitious		
+			}
+			modifier = {
+				factor = 0
+				trait = content		
+			}
+			modifier = {
+				factor = 3
+				trait = ruthless	
+			}
+			modifier = {
+				factor = 0
+				trait = honorable
+			}
+			modifier = {
+				factor = 3
+				trait = cruel	
+			}
+			modifier = {
+				factor = 0
+				trait = kind
+			}
+		}
+		FROM = { set_province_flag = mbs_basilisk_found }
+		add_artifact = basilisk
+		new_artifact = { set_artifact_flag = heirloom_@ROOT }
+		wealth = 250		
+		prestige = 100
+		create_bloodline = {
+			type = basilisk_bl
+		}
+		character_event = { id = mbs_valyrian_quest.3 } 
+		if = {
+			limit = {
+				NOT = { has_landed_title = k_basilisk_isles }
+			}
+			k_basilisk_isles = { add_pressed_claim = ROOT }
+			if = {
+				limit = { 
+					NOT = { trait = ambitious }
+					NOT = { trait = content }
+					NOT = { personality_traits = 6 }
+				}
+				add_trait = ambitious
+				add_trait = cruel
+			}
+		}	
+	}
+	option = {
+		name = {
+			text = "EVTOPTBmbs_valyrian_quest.2" #I shall be King!
+		}		
+		trigger = {
+			trait = mystic
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 5
+				FROM = {  is_smart_trigger = yes }
+			}
+			modifier = {
+				factor = 3
+				trait = mystic	
+			}
+			modifier = {
+				factor = 0
+				trait = honorable
+			}
+			modifier = {
+				factor = 3
+				trait = brave	
+			}
+			modifier = {
+				factor = 3
+				trait = kind
+			}
+			modifier = {
+				factor = 3
+				trait = scholar
+			}
+		}
+		FROM = { set_province_flag = mbs_basilisk_found }
+		add_artifact = basilisk
+		new_artifact = { set_artifact_flag = heirloom_@ROOT }
+		wealth = 250		
+		prestige = 100
+		create_bloodline = {
+			type = basilisk_bl
+		}
+		character_event = { id = mbs_valyrian_quest.4 } 
+		if = {
+			limit = {
+				NOT = { has_landed_title = k_basilisk_isles }
+			}
+			k_basilisk_isles = { add_pressed_claim = ROOT }
+			if = {
+				limit = { 
+					NOT = { trait = ambitious }
+					NOT = { trait = content }
+					NOT = { personality_traits = 6 }
+				}
+				add_trait = ambitious
+			}
+		}	
+	}
+	option = {
+		name = "EVTOPTCmbs_valyrian_quest.2" #Leave it be
+		ai_chance = { factor = 10 }
+		piety = 150
+		set_character_flag = no_mbs_basilisk
+		if = {
+			limit = { 
+				NOT = { trait = honorable }
+				NOT = { trait = ruthless }
+				NOT = { trait = deceitful }
+				NOT = { personality_traits = 6 }
+			}
+			random = {
+				chance = 50
+				add_trait = honorable
+				hidden_tooltip = { character_event = { id = 38314 } }
+			}
+		}
+	}
+}
+character_event = {
+	id = mbs_valyrian_quest.3
+	title = "EVTtitlembs_valyrian_quest.3"
+	desc = "EVTDESCmbs_valyrian_quest.3"
+	picture = GFX_basilisk_attack
+
+	is_triggered_only = yes
+	
+	option = {
+		name = OK
+	}
+}
+character_event = {
+	id = mbs_valyrian_quest.4
+	title = "EVTtitlembs_valyrian_quest.4"
+	desc = "EVTDESCmbs_valyrian_quest.4"
+	picture = GFX_basilisk_attack
+
+	is_triggered_only = yes
+	
+	option = {
+		name = OK
+	}
+}
+##########
+narrative_event = {
+	id = mbs_valyrian_quest.5
+	title = "EVTtitlembs_valyrian_quest.5"
+	desc = "EVTDESCmbs_valyrian_quest.5"
+	picture = GFX_evt_valyria
+
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { any_character = { has_artifact = chimera is_alive = yes } }
+		has_landed_title = k_valyria
+		OR = { 		
+			culture_group = valyrian
+			religion_group = valyrian_rel_group
+			trait = dragon_rider
+			any_owned_bloodline = {
+				has_bloodline_flag = blood_of_the_dragon
+			}
+		}
+	}
+
+	option = {
+		name = {
+			text = "EVTOPTAmbs_valyrian_quest.5" #I shall be King!
+		}		
+		ai_chance = {
+			factor = 10
+		}
+		add_artifact = chimera
+		new_artifact = { set_artifact_flag = heirloom_@ROOT }
+		wealth = 250		
+		prestige = 100
+		add_trait = mystic
+		create_bloodline = {
+			type = chimera_bl
+		}
+		if = {
+			limit = {
+				NOT = { has_landed_title = c_valyria }
+			}
+			c_valyria = { add_pressed_claim = ROOT }
+			if = {
+				limit = { 
+					NOT = { trait = ambitious }
+					NOT = { trait = content }
+					NOT = { personality_traits = 6 }
+				}
+				add_trait = ambitious
+			}
+		}	
+	}
+}
+##########
+narrative_event = {
+	id = mbs_valyrian_quest.6
+	title = "EVTtitlembs_valyrian_quest.6"
+	desc = "EVTDESCmbs_valyrian_quest.6"
+	picture = GFX_evt_cotf
+
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { any_character = { has_artifact = sphinx is_alive = yes } }
+		has_landed_title = k_ifeqevron
+		is_nomadic = no
+	}
+
+	option = {
+		name = {
+			text = "EVTOPTAmbs_valyrian_quest.6" #I shall be King!
+		}		
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 5
+				FROM = {  is_smart_trigger = yes }
+			}
+			modifier = {
+				factor = 3
+				trait = mystic	
+			}
+			modifier = {
+				factor = 0
+				trait = honorable
+			}
+			modifier = {
+				factor = 3
+				trait = brave	
+			}
+			modifier = {
+				factor = 3
+				trait = kind
+			}
+			modifier = {
+				factor = 3
+				is_old_gods_religion_trigger = yes
+				trait = zealous
+			}
+			modifier = {
+				factor = 3
+				trait = scholar
+			}
+		}
+		add_artifact = sphinx
+		new_artifact = { set_artifact_flag = heirloom_@ROOT }
+		wealth = 250		
+		prestige = 100
+		add_trait = mystic
+		add_trait = zealous
+		add_trait = scholar
+		religion = old_gods
+		566 = { religion = old_gods }
+		567 = { religion = old_gods }
+		568 = { religion = old_gods }
+		569 = { religion = old_gods }
+		571 = { religion = old_gods }
+		572 = { religion = old_gods }
+		573 = { religion = old_gods }
+		575 = { religion = old_gods }
+		578 = { religion = old_gods }
+		create_bloodline = {
+			type = sphinx_bl
+		}	
+	}
+	option = {
+		name = {
+			text = "EVTOPTBmbs_valyrian_quest.6" #I shall be King!
+		}		
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 3
+				NOT = { is_old_gods_religion_trigger = yes }
+				trait = zealous
+			}
+		}
+		set_character_flag = no_mbs_sphinx
+		piety = 100	
+	}
+}
+#Galladon regalia
+province_event = {
+	id = mbs_valyrian_quest.701
+
+	hide_window = yes
+	has_flag = colony_province
+	
+	trigger = {
+		province_id = 1217
+		has_province_flag = ruined_province
+		NOT = { has_province_flag = regalia_found }
+		owner = { 
+			NOT = { culture = ruin } 
+			NOT = { has_character_flag = no_tarth_regalia }
+		}
+	}
+	
+	mean_time_to_happen = {
+		years = 60
+	}
+	
+	immediate = { owner = { narrative_event = { id = mbs_valyrian_quest.7 } } }
+
+	option = {
+		name = OK
+	}
+}
+narrative_event = {
+	id = mbs_valyrian_quest.7
+	title = "EVTtitlembs_valyrian_quest.7"
+	desc = "EVTDESCmbs_valyrian_quest.7"
+	picture = GFX_evt_oldstones
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAmbs_valyrian_quest.7" #Take it
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 5
+				trait = ambitious		
+			}
+			modifier = {
+				factor = 0
+				trait = content		
+			}
+			modifier = {
+				factor = 3
+				trait = proud		
+			}
+			modifier = {
+				factor = 0
+				trait = humble	
+			}
+			modifier = {
+				factor = 3
+				trait = ruthless	
+			}
+			modifier = {
+				factor = 0
+				trait = honorable
+			}
+		}
+		FROM = { set_province_flag = regalia_found }
+		add_artifact = just_maid
+		new_artifact = { set_artifact_flag = heirloom_@ROOT }
+		c_1030120 = {
+			random_playable_ruler = {
+				limit = { has_artifact = just_maid }
+				random_artifact = {
+					limit = { artifact_type = just_maid }
+					set_original_owner = PREVPREV
+				}
+			}
+		}	
+		new_artifact = { set_artifact_flag = heirloom_@ROOT }
+		wealth = 250		
+		prestige = 100
+		if = {
+			limit = {
+				NOT = { has_landed_title = d_tarth }
+			}
+			if = {
+				limit = { d_tarth = { has_holder = yes } }
+				d_tarth = { add_pressed_claim = ROOT }
+			}
+			if = {
+				limit = { 
+					d_tarth = { has_holder = no } 
+					NOT = { has_landed_title = d_tarth }
+				}
+				d_tarth = { add_pressed_claim = ROOT }
+			}
+			if = {
+				limit = { 
+					NOT = { trait = ambitious }
+					NOT = { trait = content }
+					NOT = { personality_traits = 6 }
+				}
+				add_trait = ambitious
+				hidden_tooltip = { character_event ={ id = 38278 } }
+			}
+		}	
+	}
+	option = {
+		name = "EVTOPTBmbs_valyrian_quest.7" #Leave it be
+		ai_chance = { factor = 10 }
+		piety = 150
+		set_character_flag = no_tarth_regalia
+		if = {
+			limit = { 
+				NOT = { trait = honorable }
+				NOT = { trait = ruthless }
+				NOT = { trait = deceitful }
+				NOT = { personality_traits = 6 }
+			}
+			random = {
+				chance = 50
+				add_trait = honorable
+				hidden_tooltip = { character_event = { id = 38314 } }
+			}
+		}
+	}
+}

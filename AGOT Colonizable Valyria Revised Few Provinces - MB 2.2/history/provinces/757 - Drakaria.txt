@@ -1,0 +1,32 @@
+#Aquos Dhaen
+# County Title
+title = c_drakaria
+
+# Settlements
+max_settlements = 6
+
+b_drakaria2 = castle
+b_drakaria = city
+b_drakaria3 = temple
+#b_jevas = castle
+#b_gerontys = city
+
+# Misc
+culture = eastern_valyrian
+religion = valyrian_rel
+
+# History
+1.1.1 = {
+	b_drakaria2 = ca_asoiaf_valyria_basevalue_1
+	b_drakaria2 = ca_asoiaf_valyria_basevalue_2
+	b_drakaria2 = ca_asoiaf_valyria_basevalue_3
+	b_drakaria2 = ca_asoiaf_valyria_basevalue_4
+	b_drakaria2 = ca_valyrian_architecture
+	
+	b_drakaria = ct_asoiaf_valyria_basevalue_1
+	b_drakaria = ct_asoiaf_valyria_basevalue_2
+	b_drakaria = ct_asoiaf_valyria_basevalue_3
+	b_drakaria = ct_asoiaf_valyria_basevalue_4	
+	b_drakaria = ct_valyrian_architecture
+}
+

@@ -1,0 +1,67 @@
+max_provinces = 1249
+definitions = "definition.csv"
+provinces = "provinces.bmp"
+positions = "positions.txt"
+terrain = "terrain.bmp"
+rivers = "rivers.bmp"
+terrain_definition = "terrain.txt"
+heightmap = "topology.bmp"
+tree_definition = "trees.bmp"
+continent = "continent.txt"
+adjacencies = "adjacencies.csv"
+climate = "climate.txt"
+region = "island_region.txt"
+geographical_region = "geographical_region.txt"
+static = "statics"
+seasons = "seasons.txt"
+
+sea_zones = { 877 884 }		#1 Ocean 1
+sea_zones = { 887 1019 }	#2 Ocean 2
+sea_zones = { 1021 1023 }	#3 Ocean 3
+sea_zones = { 1025 1026 }	#4 Ocean 4
+sea_zones = { 1028 1029 }	#5 Ocean 5
+sea_zones = { 1032 1075 }	#6 Ocean 6
+sea_zones = { 1081 1096 }	#7 Ocean 7
+sea_zones = { 1098 1105 }	#8 Ocean 8
+sea_zones = { 1107 1126 }	#9 Ocean 9
+sea_zones = { 1134 1144 }	#10 Ocean 10
+sea_zones = { 1214 1215 }	#11 More Provinces seazones
+sea_zones = { 1222 1223 }	#12 The Gorge
+sea_zones = { 886 886 }		#13 Qoyne
+sea_zones = { 1079 1079 } 	#14 Dagger Lake (Rhoyne)
+sea_zones = { 1106 1106 }	#15 Rhoyne
+sea_zones = { 1130 1130 } 	#16 Silver Sea (Sarne)
+sea_zones = { 1149 1150 }	#17 Sarne
+sea_zones = { 1183 1183 } 	#18 Qelbar
+sea_zones = { 885 885 } 	#19 Red Lake
+sea_zones = { 1076 1076 } 	#20 Sea of Sighs
+sea_zones = { 1077 1077 } 	#21 Womb of the World
+sea_zones = { 1078 1078 } 	#22 Poison Sea
+sea_zones = { 1080 1080 } 	#23 Darkwater
+sea_zones = { 1107 1107 } 	#24 Myrwater
+sea_zones = { 1122 1122 } 	#25 Lake of Myrth
+sea_zones = { 1127 1127 } 	#26 Hidden Sea
+sea_zones = { 1128 1128 } 	#27 Bleeding Sea
+sea_zones = { 1129 1129 } 	#28 Shrinking Sea
+
+ocean_region = { #Sea zones above that are considered connected
+	sea_zones = { 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 }
+}
+
+# Define which indices in trees.bmp palette which should count as trees for automatic terrain assignment
+tree = { 3 4 7 10 }
+
+major_rivers = 
+{
+	1083 1084 			#Mander
+	959 1141 1142 1143 	#Greenblood
+	1085 1086 1087 		#Blackwater
+	884 1088 1089 1090 1091 1092 1093 1094 #the Trident
+	1130 1134 1135 1136 1137 1138 1149 1150 #the Sarne
+	1144 				#Seagard Bay
+	#1183 				#the Qelbar = sea
+	#1006 1198 1079 	#Lower Rhoyne = sea
+	886 890 1106 1081 1139 1140   #Upper Rhoyne
+}
+
+externals = {  } 

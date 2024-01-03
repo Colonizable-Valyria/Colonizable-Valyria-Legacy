@@ -1,0 +1,576 @@
+# Geographical regions
+# Regions can be declared with one or more of the following fields:
+#	duchies = { }, takes duchy title names declared in landed_titles.txt
+#	counties = { }, takes county title names declared in landed_titles.txt
+#	provinces = { }, takes province id numbers declared in /history/provinces
+#	regions = { }, a region can also include other regions, however the subregions needs to be declared before the parent region. 
+#		E.g. If the region world_europe contains the region world_europe_west then world_europe_west needs to be declared as a region before (i.e. higher up in this file) world_europe.
+
+###########################################################################
+# World Regions
+#	These groups are mutually exclusive on the same tier
+###########################################################################
+
+### Westeros
+world_beyond_the_wall = {
+	duchies = {
+		d_upper_frostfangs d_lower_frostfangs d_frozen_shore d_shivering_shore d_haunted_forest d_milkwater d_hardhome d_ice_rivers
+	}
+}
+world_the_wall = {
+	counties = { 
+		c_castle_black c_eastwatch c_shadow_tower c_brandons_gift c_new_gift c_westwatch_mbs
+	}
+}
+world_east_coast_of_north = {
+	duchies = {
+		d_lasthearth d_karhold d_dreadfort d_whiteharbor d_skagos d_hornwood d_skane d_oldcastle d_widowswatch
+	}
+}
+world_north = {
+	duchies = {
+		d_winterfell d_lasthearth d_karhold d_dreadfort d_whiteharbor d_northclans d_skagos d_rills d_wolfswood d_barrowlands d_hornwood d_theneck d_flintsfinger d_stonyshore d_skane d_oldcastle d_widowswatch
+	}
+	counties = {
+		c_bearisland c_moatcailin c_brandons_gift c_new_gift
+	}
+}
+world_iron_isles = {
+	duchies = {
+		d_pyke d_great_wyk d_seastone_isles d_harlaw d_orkmont d_saltcliffe d_old_wyk
+	}
+	counties = {
+		c_lonely_light
+	}
+}
+world_riverlands = {
+	duchies = {
+		d_harrenhal d_riverrun d_thecrossing d_oldstones d_blackwood d_southstone d_acornsridge d_bayofclaws d_trident d_wayfarersrest d_willowwood d_esgaroth
+	}
+}
+world_westerlands = {
+	duchies = {
+		d_casterly_rock d_crakehall d_kayce d_ashemark d_golden_tooth d_the_crag d_castamere d_hornvale d_silverhill d_goldroad d_cornfield d_fair_isle
+	}
+}
+world_mountains_of_moon = {
+
+	provinces = {
+		133 135 136 140 145 129 134
+	}
+}
+world_the_sisters = {
+	duchies = {
+		d_the_sisters
+	}
+}
+world_vale = {
+	duchies = {
+		d_the_giants_lance d_gulltown d_northweald d_strongsong d_eastweald d_ironoaks d_runestone d_wickenden d_the_bite d_the_fingers d_redfort
+	}
+	counties = {
+		c_witch_isle
+	}
+}
+world_reach = {
+	duchies = {
+		d_highgarden d_oldtown d_the_arbor d_ocean_road d_red_lake d_goldengrove d_northmarch d_torrentpeak d_tumbleton d_roseroad d_mandervale d_blueburn d_the_shield_isles d_cockleswhent d_brightwater d_west_marches
+	}
+}
+world_crackclaw_point = {
+	duchies = {
+		d_crackclaw_point
+	}
+}
+world_dragonstone = {
+	duchies = {
+		d_dragonstone d_driftmark d_claw_isle d_sharp_point d_sweetport_sound
+	}
+}
+world_kingswood = {
+	duchies = {
+		d_kingswood d_wendwater
+	}
+	counties = {
+		c_dalston_keep c_langward_hall
+	}
+}
+world_masseys_hook = {
+	duchies = {
+		d_masseys_hook
+	}
+	counties = {
+		c_sharp_point
+	}
+}
+world_stormlands = {
+	duchies = {
+		d_shipbreaker d_wendwater d_red_watch d_tarth d_summerhall d_dornish_marches d_rainwood d_cape_wrath d_griffins_roost
+	}
+}
+world_rainwood = { 
+	duchies = {
+		d_rainwood
+	}
+	counties = {
+		c_mistwood c_weeping_tower c_tudbury_hall
+	}
+}
+world_dornish_marches = {
+	duchies = {
+		d_dornish_marches d_red_watch
+	}
+}
+world_dorne = {
+	duchies = {
+		d_brokenarm d_vaith d_ghosthills d_brimstone d_redmountains d_stoneway d_princespass 
+	}
+	counties = {
+		c_ghastongrey c_blackmont
+	}
+}
+world_red_mountains = { #corresponds to stone dornish culture area
+	provinces = {
+		336 335 332 327 333 331 328 329 330 334
+	}
+}
+world_dornish_desert = { #corresponds to sand dornish culture area
+	provinces = {
+		349 344 345 341 339 340 338 337
+	}
+}
+world_east_dorne = { #corresponds to salt dornish culture area
+	provinces = {
+		343 347 348 352 351 346 342
+	}
+}
+world_crownlands = {
+	regions = {
+		world_crackclaw_point world_dragonstone
+	}
+	duchies = {
+		d_duskendale d_blackwater_rush d_rosby d_kingswood d_kings_landing d_masseys_hook d_hayford d_stokeworth
+	}
+}
+world_westeros_north = {
+	regions = {
+		world_beyond_the_wall world_the_wall world_north world_riverlands
+	}
+}
+world_westeros_east = {
+	regions = {
+		world_vale world_stormlands world_crownlands world_the_sisters
+	}
+	duchies = {
+		d_bayofclaws
+	}
+}
+world_westeros_south = {
+	regions = {
+		world_reach world_stormlands world_dorne
+	}
+}
+world_westeros_west = {
+	regions = {
+		world_iron_isles world_westerlands world_reach
+	}
+}
+world_westeros = {
+	regions = {
+		world_westeros_north world_westeros_east world_westeros_south world_westeros_west
+	}
+}
+
+### Essos - put world_essos at end
+##Free Cities
+world_stepstones = {
+	duchies = {
+		d_central_stepstones d_western_stepstones d_northern_stepstones d_southern_stepstones
+	}
+}
+world_braavos = {
+	duchies = {
+		d_braavos d_braavosiancoastlands d_sweetwater d_east_braavosiancoastlands 
+	}
+}
+world_andalos = {
+	duchies = {
+		d_upper_rhoyne d_north_andalos d_andal_coast
+	}
+}
+world_lorath = {
+	duchies = {
+		d_lorath d_lorath_bay
+	}
+}
+world_norvos = {
+	duchies = {
+		d_norvos d_hills_of_norvos d_the_west_road d_the_axe
+	}
+}
+world_forest_of_qohor = {
+	duchies = {
+		d_northern_forest_qohor d_southern_forest_qohor
+	}
+	counties = {
+		c_qohor
+	}
+}
+world_qohor = {
+	duchies = {
+		d_qohor d_northern_forest_qohor d_southern_forest_qohor d_darkwater
+	}
+}
+world_pentos = {
+	duchies = {
+		d_pentos d_velvet_hills d_pentoshi_flatlands d_nontelos
+	}
+}
+world_rhoynar = {
+	duchies = {
+		d_ny_sar d_golden_fields d_ar_noy d_lower_rhoyne
+	}
+}
+world_myr = {
+	duchies = {
+		d_myr d_myrish_hinterlands d_myrish_disputed_lands d_myrish_flatlands
+	}
+}
+world_tyrosh = {
+	duchies = {
+		d_tyrosh d_tyroshi_lands
+	}
+}
+world_lys = {
+	duchies = {
+		d_lys d_lysene_disputed_lands
+	}
+}
+world_volantis = {
+	duchies = {
+		d_volantis d_orange_shore d_volontherys d_valysar d_selhorys d_valonsar d_volantene_disputed_lands d_volaena
+	}
+}
+world_essaria = {
+	duchies = {
+		d_essaria d_hills_essaria d_painted_mountains
+	}
+}
+world_north_valyria = {
+	duchies = {
+		d_mantarys d_tolos d_elyria d_dalos d_isle_of_cedars d_bhorash
+	}
+}
+world_disputed_lands = {
+	duchies = {
+		d_lysene_disputed_lands d_myrish_disputed_lands d_tyroshi_lands d_volantene_disputed_lands
+	}
+	counties = {
+		c_lyseneforest c_dyrenohill c_tyroshilanding
+	}
+}
+world_the_rhoyne = {
+	provinces = {
+		476 437 431 429 428 414 432 433 449 451 405 411 412 427 426 425 424 423 422 421 420 417 419 762 418 413 450 453 488 487 486
+	}
+}
+world_free_cities = {
+	regions = {
+		world_stepstones world_braavos world_andalos world_lorath world_norvos world_qohor world_pentos world_rhoynar world_myr world_tyrosh world_lys world_volantis world_essaria world_north_valyria
+	}
+}
+##Ghiscar
+world_hazdahn = {
+	duchies = {
+		d_hazdahn
+	}
+}
+world_meereen = {
+	duchies = {
+		d_meereen d_khyzaipass 
+	}
+}
+world_yunkai = {
+	duchies = {
+		d_yunkai d_yunkishhills 
+	}
+}
+world_astapor = {
+	duchies = {
+		d_astapor d_worm_river 
+	}
+}
+world_new_ghis = {
+	duchies = {
+		d_new_ghis d_old_ghis d_ghiscari_hills
+	}
+}
+world_lhazar = {
+	duchies = {
+		d_lhazosh d_hesh d_kosrak
+	}
+}
+world_skahazadhan = {
+	duchies = {
+		d_ghardaq d_skahaz_hills
+	}
+}
+world_slavers_bay = {
+	regions = {
+		world_meereen world_yunkai world_astapor
+	}
+	duchies = {
+		d_mantarys d_tolos d_elyria d_bhorash d_isle_of_cedars
+	}
+}
+world_ghiscar = {
+	regions = {
+		world_hazdahn world_meereen world_yunkai world_astapor world_new_ghis world_skahazadhan
+	}
+}
+
+##East
+world_bone_mountains = {
+	duchies = {
+		d_kayakayanaya d_samyriana d_bayasabhad d_adakhakileki d_hyrkoon
+	}
+}
+world_qarth = {
+	duchies = {
+		d_qarth d_qal d_qarkash d_port_yhos d_toqolarth
+	}
+	counties = {
+		c_old_waste_road
+	}
+}
+world_moraq = {
+	duchies = {
+		d_faros d_port_moraq d_vahar d_zabhad 
+	}
+	counties = {
+		c_bawrashar c_jadegate
+	}
+}
+world_shadowlands = {
+	duchies = {
+		d_shadowlands d_stygai
+	}
+}
+world_asshai = {
+	duchies = {
+		d_asshai d_shadowlands d_saffron_straits d_stygai
+	}
+}
+##Grasslands
+world_sarnor = {
+	duchies = {
+		d_saath d_rathylar d_morosh d_sarnath d_kasath d_gornath d_sarys d_mardosh d_sallosh d_sathar d_omber
+	}
+}
+world_dothraki = {
+	duchies = {
+		d_vaes_dothrak d_northern_steppe d_krazaaj_zasque d_krazaaj_niqe d_southern_steppe d_rhaesh_jim d_rhaesh_evronee
+	}
+}
+world_ifeqevron = {
+	duchies = {
+		d_vaes_leisi d_west_ifeqevron d_east_ifeqevron d_south_ifeqevron
+	}
+}
+world_ibben = {
+	duchies = {
+		d_portofibben d_iboss d_ibnor d_bayofwhales d_farib d_ibbish
+	}
+}
+world_ib_isle = {
+	duchies = {
+		d_portofibben d_iboss d_ibnor
+	}
+}
+world_dothraki_sea = {
+	regions = {
+		world_essaria world_dothraki world_ifeqevron world_skahazadhan world_hazdahn
+	}
+	duchies = {
+		d_volaena d_adakhakileki d_rathylar d_sarnath d_kasath d_gornath d_sarys d_mardosh d_sallosh d_sathar d_toqolarth
+	}
+	counties = {
+		c_selhoru c_death_swamps c_ibbish c_barkarth c_old_waste_road c_makhrosh c_qolahn
+	}
+}
+## Yi Ti
+world_leng = {
+	duchies = {
+		d_north_leng d_south_leng d_leng_ma
+	}
+	counties = {
+		c_manticore_isles c_marahai
+	}
+}
+world_yin = {
+	duchies = {
+		d_yin d_hidden_city
+	}
+	counties = {
+		c_isle_of_whips
+	}
+}
+world_jinqi = {
+	duchies = {
+		d_jinqi d_yiti_delta
+	}
+}
+world_tiqui = {
+	duchies = {
+		d_tiqui d_hills_tiqui
+	}
+}
+world_linqi = {
+	duchies = {
+		d_linqi d_linqi_jungle
+	}
+}
+world_piqui = {
+	duchies = {
+		d_piqui d_piqui_jungle
+	}
+}
+world_xin = {
+	duchies = {
+		d_xin d_north_xin
+	}
+}
+world_trader_town = {
+	duchies = {
+		d_trader_town
+	}
+}
+world_five_forts = {
+	duchies = {
+		d_the_five_forts
+	}
+}
+world_carcosa = {
+	duchies = {
+		d_carcosa d_carcosa_pass
+	}
+}
+world_yi_ti = {
+	regions = {
+		world_leng world_yin world_jinqi world_tiqui world_linqi world_piqui world_xin world_trader_town world_five_forts world_carcosa
+	}
+	duchies = {
+		d_asabhad
+	}
+}
+##Jogos Nhai
+world_jogo_nhai_plains = {
+	duchies = {
+		d_jhogwin d_howling_hills d_south_plains d_east_plains d_north_plains d_west_plains d_central_plains
+	}
+}
+world_nghai = {
+	duchies = {
+		d_nghai d_nefer
+	}
+	provinces = {
+		834 #thousand islands
+	}
+}
+world_jogos_nhai = {
+	regions = {
+		world_jogo_nhai_plains world_nghai
+	}
+}
+
+#
+world_shivering_sea = {
+	regions = {
+		world_nghai world_ibben
+	}
+	duchies = {
+		d_howling_hills d_jhogwin d_vaes_leisi d_west_ifeqevron d_sallosh d_omber d_mardosh d_sarys d_the_axe d_lorath d_lorath_bay d_east_braavosiancoastlands
+	}
+	counties = {
+		c_embonhor c_leviathan_sound c_akkovarat c_qevrak c_beccane c_morosh c_saath c_mikath c_satholik c_qohorikcoast c_willowsreach
+	}
+}
+world_jade_sea = {
+	regions = {
+		world_asshai world_yi_ti world_moraq world_qarth
+	}
+}
+world_far_east = {
+	regions = {
+		world_asshai world_yi_ti world_jogos_nhai world_bone_mountains
+	}
+}
+
+### Valyria
+world_valyria = {
+	duchies = {
+		d_valyria d_gelios d_tyria d_perzyria d_drakaria d_egrys d_nuqiria d_oros d_aeksios
+	}
+}
+world_valyrian_peninsula = {
+	regions = {
+		world_valyria
+    }
+}
+
+world_essos = {
+	regions = {
+		world_stepstones world_free_cities world_dothraki_sea world_ibben world_ghiscar world_jade_sea world_lhazar world_far_east world_valyrian_peninsula world_sarnor
+	}
+}
+	
+### Summer Sea
+world_summer_islands = {
+	duchies = {
+		d_walano d_last_lament d_tall_trees_valley d_sweet_lotus_vale d_west_jhala d_parrot_bay d_indigo_straits d_red_flower_vale d_golden_head d_the_three_exiles d_moluu d_omburu
+	}
+	counties = {
+		c_koj c_isle_of_birds
+	}
+}
+world_jhala = {
+	duchies = {
+		d_west_jhala d_red_flower_vale d_indigo_straits
+	}
+	counties = {
+		c_lotus_hills c_sweetwater c_ebonhead c_ebonhills c_parrotshore c_goldenheart c_tamarinu
+	}
+}
+world_walano = {
+	duchies = {
+		d_tall_trees_valley
+	}
+	counties = {
+		c_jalabuxon c_ambershore c_lotus_port c_lotus_valley c_mantisleaf c_last_lament
+	}
+}
+world_basilisk_isles = {
+	duchies = {
+		d_western_isles d_three_snakes d_eastern_isles d_gogossos
+	}
+	counties = {
+		c_isle_of_lice
+	}
+}
+world_sothoryos = {
+	duchies = {
+		d_zamettar d_yeen d_gorosh
+	}
+	counties = {
+		c_basiliskpoint
+	}
+}
+world_summer_sea = {
+	regions = {
+		world_summer_islands world_basilisk_isles world_sothoryos
+    }
+	duchies = {
+		d_naath
+    }
+}
+

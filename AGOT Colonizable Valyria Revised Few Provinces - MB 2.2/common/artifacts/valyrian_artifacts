@@ -1,0 +1,25 @@
+valyrian_staff = {
+	monthly_character_prestige = 0.5
+	martial = 2
+	combat_rating = 30
+	vassal_opinion = 10
+	quality = 5
+	flags = { combat_weapon sword combat_tier_4 valyrian_steel track_history reforging_sword named_sword }
+	stacking = no
+	picture = "GFX_dragonbone_scepter"
+	slot = weapon
+	indestructible = yes
+	allowed_gift = { always = no }
+}
+dragon_crown = {
+	quality = 4
+	monthly_character_prestige = 0.5
+	monthly_character_piety = 0.5
+	vassal_opinion = 5
+	diplomacy = 1
+	flags = { crown jewelry crown_jewel }
+	stacking = no
+	picture = "GFX_dragon_crown"
+	slot = crown
+	indestructible = yes
+}
