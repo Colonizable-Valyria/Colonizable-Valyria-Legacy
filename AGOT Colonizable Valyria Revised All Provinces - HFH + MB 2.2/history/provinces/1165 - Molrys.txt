@@ -6,8 +6,8 @@ title = c_molrys
 max_settlements = 3
 
 b_molrys = castle
-b_molryscity = city
-b_molrystemple = temple
+b_molrys2 = city
+b_molrys3 = temple
 
 # Misc
 culture = eastern_valyrian
@@ -19,6 +19,6 @@ religion = valyrian_rel
 	b_molrys = ca_asoiaf_valyria_basevalue_2
 	b_molrys = ca_asoiaf_valyria_basevalue_3
 		
-	b_molryscity = ct_asoiaf_valyria_basevalue_1
-	b_molryscity = ct_asoiaf_valyria_basevalue_2
+	b_molrys2 = ct_asoiaf_valyria_basevalue_1
+	b_molrys2 = ct_asoiaf_valyria_basevalue_2
 }

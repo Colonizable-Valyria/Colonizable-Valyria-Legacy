@@ -6,8 +6,8 @@ title = c_fire_road
 max_settlements = 3
 
 b_fire_road = castle
-b_fire_roadcastle = castle
-b_fire_roadtemple = temple
+b_fire_road2 = castle
+b_fire_road3 = temple
 
 # Misc
 culture = eastern_valyrian
@@ -21,7 +21,7 @@ religion = valyrian_rel
 	b_fire_road = ca_asoiaf_valyria_basevalue_4
 	b_fire_road = ca_valyrian_architecture
 		
-	b_fire_roadcastle = ca_asoiaf_valyria_basevalue_1
-	b_fire_roadcastle = ca_asoiaf_valyria_basevalue_2
-	b_fire_roadcastle = ca_asoiaf_valyria_basevalue_3
+	b_fire_road2 = ca_asoiaf_valyria_basevalue_1
+	b_fire_road2 = ca_asoiaf_valyria_basevalue_2
+	b_fire_road2 = ca_asoiaf_valyria_basevalue_3
 }

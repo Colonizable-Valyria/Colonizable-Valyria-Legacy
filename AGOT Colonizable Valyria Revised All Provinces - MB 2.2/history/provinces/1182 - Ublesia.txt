@@ -6,8 +6,8 @@ title = c_ublesia
 max_settlements = 3
 
 b_ublesia = castle
-b_ublesiacity = city
-b_ublesiatemple = temple
+b_ublesia2 = city
+b_ublesia3 = temple
 
 # Misc
 culture = eastern_valyrian
@@ -19,7 +19,7 @@ religion = valyrian_rel
 	b_ublesia = ca_asoiaf_valyria_basevalue_2
 	b_ublesia = ca_asoiaf_valyria_basevalue_3
 	
-	b_ublesiacity = ct_asoiaf_valyria_basevalue_1
-	b_ublesiacity = ct_asoiaf_valyria_basevalue_2
+	b_ublesia2 = ct_asoiaf_valyria_basevalue_1
+	b_ublesia2 = ct_asoiaf_valyria_basevalue_2
 }
 

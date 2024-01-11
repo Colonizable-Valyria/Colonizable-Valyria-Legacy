@@ -6,8 +6,8 @@ title = c_lentun
 max_settlements = 3
 
 b_lentun = castle
-b_lentuncity = city
-b_lentuntemple = temple
+b_lentun2 = city
+b_lentun3 = temple
 
 # Misc
 culture = eastern_valyrian
@@ -19,6 +19,6 @@ religion = valyrian_rel
 	b_lentun = ca_asoiaf_valyria_basevalue_2
 	b_lentun = ca_asoiaf_valyria_basevalue_3
 		
-	b_lentuncity = ct_asoiaf_valyria_basevalue_1	
-	b_lentuncity = ct_asoiaf_valyria_basevalue_2
+	b_lentun2 = ct_asoiaf_valyria_basevalue_1	
+	b_lentun2 = ct_asoiaf_valyria_basevalue_2
 }

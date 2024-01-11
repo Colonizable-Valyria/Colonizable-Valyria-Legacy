@@ -6,8 +6,8 @@ title = c_mentis
 max_settlements = 3
 
 b_mentis = castle
-b_mentiscity = city
-b_mentistemple = temple
+b_mentis2 = city
+b_mentis3 = temple
 
 # Misc
 culture = eastern_valyrian
@@ -17,8 +17,8 @@ religion = valyrian_rel
 1.1.1 = {
 	b_mentis = ca_asoiaf_valyria_basevalue_1
 	b_mentis = ca_asoiaf_valyria_basevalue_2
-	b_mentis = ct_asoiaf_valyria_basevalue_3
+	b_mentis = ca_asoiaf_valyria_basevalue_3
 		
-	b_mentiscity = ct_asoiaf_valyria_basevalue_1
-	b_mentiscity = ct_asoiaf_valyria_basevalue_2
+	b_mentis2 = ct_asoiaf_valyria_basevalue_1
+	b_mentis2 = ct_asoiaf_valyria_basevalue_2
 }

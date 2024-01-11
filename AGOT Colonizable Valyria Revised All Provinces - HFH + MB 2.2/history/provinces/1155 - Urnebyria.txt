@@ -6,8 +6,8 @@ title = c_urnebyria
 max_settlements = 3
 
 b_urnebyria = castle
-b_urnebyriacity = city
-b_urnebyriatemple = temple
+b_urnebyria2 = city
+b_urnebyria3 = temple
 
 
 # Misc
@@ -20,6 +20,6 @@ religion = valyrian_rel
 	b_urnebyria = ca_asoiaf_valyria_basevalue_2
 	b_urnebyria = ca_asoiaf_valyria_basevalue_3
 	
-	b_urnebyriacity = ct_asoiaf_valyria_basevalue_1
-	b_urnebyriacity = ct_asoiaf_valyria_basevalue_2
+	b_urnebyria2 = ct_asoiaf_valyria_basevalue_1
+	b_urnebyria2 = ct_asoiaf_valyria_basevalue_2
 }

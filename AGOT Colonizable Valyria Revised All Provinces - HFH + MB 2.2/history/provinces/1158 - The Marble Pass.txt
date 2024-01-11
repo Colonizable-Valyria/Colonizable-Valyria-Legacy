@@ -6,8 +6,8 @@ title = c_the_marble_pass
 max_settlements = 3
 
 b_the_marble_pass = castle
-b_the_marble_passcity = city
-b_the_marble_passtemple = temple
+b_the_marble_pass2 = city
+b_the_marble_pass3 = temple
 
 # Misc
 culture = eastern_valyrian
@@ -19,6 +19,6 @@ religion = valyrian_rel
 	b_the_marble_pass = ca_asoiaf_valyria_basevalue_2
 	b_the_marble_pass = ca_asoiaf_valyria_basevalue_3
 	
-	b_the_marble_passcity = ct_asoiaf_valyria_basevalue_1	
-	b_the_marble_passcity = ct_asoiaf_valyria_basevalue_2
+	b_the_marble_pass2 = ct_asoiaf_valyria_basevalue_1	
+	b_the_marble_pass2 = ct_asoiaf_valyria_basevalue_2
 }

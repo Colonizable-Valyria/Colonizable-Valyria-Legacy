@@ -6,8 +6,8 @@ title = c_vestperzys
 max_settlements = 3
 
 b_vestperzys = castle
-b_vestperzyscity = city
-b_vestperzystemple = temple
+b_vestperzys2 = city
+b_vestperzys3 = temple
 
 # Misc
 culture = eastern_valyrian
@@ -20,7 +20,7 @@ religion = valyrian_rel
 	b_vestperzys = ca_asoiaf_valyria_basevalue_3
 	
 	
-	b_vestperzyscity = ct_asoiaf_valyria_basevalue_1
-	b_vestperzyscity = ct_asoiaf_valyria_basevalue_2
-	b_vestperzyscity = ct_asoiaf_valyria_basevalue_3
+	b_vestperzys2 = ct_asoiaf_valyria_basevalue_1
+	b_vestperzys2 = ct_asoiaf_valyria_basevalue_2
+	b_vestperzys2 = ct_asoiaf_valyria_basevalue_3
 }

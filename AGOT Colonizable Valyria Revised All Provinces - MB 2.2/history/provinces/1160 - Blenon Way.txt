@@ -6,8 +6,8 @@ title = c_blenon_way
 max_settlements = 3
 
 b_blenon_way = castle
-b_blenon_waycity = city
-b_blenon_waytemple = temple
+b_blenon_way2 = city
+b_blenon_way3 = temple
 
 # Misc
 culture = eastern_valyrian
@@ -19,6 +19,6 @@ religion = valyrian_rel
 	b_blenon_way = ca_asoiaf_valyria_basevalue_2
 	b_blenon_way = ca_asoiaf_valyria_basevalue_3
 	
-	b_blenon_waycity = ct_asoiaf_valyria_basevalue_1
-	b_blenon_waycity = ct_asoiaf_valyria_basevalue_2
+	b_blenon_way2 = ct_asoiaf_valyria_basevalue_1
+	b_blenon_way2 = ct_asoiaf_valyria_basevalue_2
 }

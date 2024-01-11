@@ -7,8 +7,8 @@ title = c_gelenka_valleys
 max_settlements = 3
 
 b_gelenka_valleys = castle
-b_gelenka_valleyscity = city
-b_gelenka_valleystemple = temple
+b_gelenka_valleys2 = city
+b_gelenka_valleys3 = temple
 
 # Misc
 culture = eastern_valyrian
@@ -20,6 +20,6 @@ religion = valyrian_rel
 	b_gelenka_valleys = ca_asoiaf_valyria_basevalue_2
 	b_gelenka_valleys = ca_asoiaf_valyria_basevalue_3
 		
-	b_gelenka_valleyscity = ct_asoiaf_valyria_basevalue_1	
-	b_gelenka_valleyscity = ct_asoiaf_valyria_basevalue_2
+	b_gelenka_valleys2 = ct_asoiaf_valyria_basevalue_1	
+	b_gelenka_valleys2 = ct_asoiaf_valyria_basevalue_2
 }

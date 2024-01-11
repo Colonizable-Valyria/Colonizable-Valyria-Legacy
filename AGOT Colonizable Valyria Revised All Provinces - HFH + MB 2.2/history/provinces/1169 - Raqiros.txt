@@ -6,8 +6,8 @@ title = c_raqiros
 max_settlements = 3
 
 b_raqiros = castle
-b_raqiroscity = city
-b_raqirostemple = temple
+b_raqiros2 = city
+b_raqiros3 = temple
 
 # Misc
 culture = eastern_valyrian
@@ -19,6 +19,6 @@ religion = valyrian_rel
 	b_raqiros = ca_asoiaf_valyria_basevalue_2
 	b_raqiros = ca_asoiaf_valyria_basevalue_3
 		
-	b_raqiroscity = ct_asoiaf_valyria_basevalue_1
-	b_raqiroscity = ct_asoiaf_valyria_basevalue_2
+	b_raqiros2 = ct_asoiaf_valyria_basevalue_1
+	b_raqiros2 = ct_asoiaf_valyria_basevalue_2
 }

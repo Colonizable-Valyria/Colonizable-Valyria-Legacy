@@ -6,8 +6,8 @@ title = c_dromon_hill
 max_settlements = 3
 
 b_dromon_hill = castle
-b_dromon_hillcity = city
-b_dromon_hilltemple = temple
+b_dromon_hill2 = city
+b_dromon_hill3 = temple
 
 # Misc
 culture = eastern_valyrian
@@ -19,6 +19,6 @@ religion = valyrian_rel
 	b_dromon_hill = ca_asoiaf_valyria_basevalue_2
 	b_dromon_hill = ca_asoiaf_valyria_basevalue_3
 		
-	b_dromon_hillcity = ct_asoiaf_valyria_basevalue_1
-	b_dromon_hillcity = ct_asoiaf_valyria_basevalue_2
+	b_dromon_hill2 = ct_asoiaf_valyria_basevalue_1
+	b_dromon_hill2 = ct_asoiaf_valyria_basevalue_2
 }

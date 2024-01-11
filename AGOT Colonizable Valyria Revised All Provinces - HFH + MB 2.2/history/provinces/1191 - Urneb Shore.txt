@@ -7,8 +7,8 @@ title = c_urneb_shore
 max_settlements = 3
 
 b_urneb_shore = castle
-b_urneb_shorecity = city
-b_urneb_shoretemple = temple
+b_urneb_shore2 = city
+b_urneb_shore3 = temple
 
 # Misc
 culture = eastern_valyrian
@@ -20,6 +20,6 @@ religion = valyrian_rel
 	b_urneb_shore = ca_asoiaf_valyria_basevalue_2
 	b_urneb_shore = ca_asoiaf_valyria_basevalue_3
 	
-	b_urneb_shorecity = ct_asoiaf_valyria_basevalue_1
-	b_urneb_shorecity = ct_asoiaf_valyria_basevalue_2
+	b_urneb_shore2 = ct_asoiaf_valyria_basevalue_1
+	b_urneb_shore2 = ct_asoiaf_valyria_basevalue_2
 }

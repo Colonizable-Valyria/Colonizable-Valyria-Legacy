@@ -6,8 +6,8 @@ title = c_bianoros
 max_settlements = 3
 
 b_bianoros = castle
-b_bianoroscity = city
-b_bianorostemple = temple
+b_bianoros2 = city
+b_bianoros3 = temple
 
 # Misc
 culture = eastern_valyrian
@@ -19,6 +19,6 @@ religion = valyrian_rel
 	b_bianoros = ca_asoiaf_valyria_basevalue_2
 	b_bianoros = ca_asoiaf_valyria_basevalue_3
 	
-	b_bianoroscity = ct_asoiaf_valyria_basevalue_1
-	b_bianoroscity = ct_asoiaf_valyria_basevalue_2
+	b_bianoros2 = ct_asoiaf_valyria_basevalue_1
+	b_bianoros2 = ct_asoiaf_valyria_basevalue_2
 }

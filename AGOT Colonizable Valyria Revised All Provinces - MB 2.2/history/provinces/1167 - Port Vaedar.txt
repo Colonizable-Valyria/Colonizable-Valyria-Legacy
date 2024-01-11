@@ -6,8 +6,8 @@ title = c_port_vaedar
 max_settlements = 3
 
 b_port_vaedar = castle
-b_port_vaedarcity = city
-b_port_vaedartemple = temple
+b_port_vaedar2 = city
+b_port_vaedar3 = temple
 
 # Misc
 culture = eastern_valyrian
@@ -19,6 +19,6 @@ religion = valyrian_rel
 	b_port_vaedar = ca_asoiaf_valyria_basevalue_2
 	b_port_vaedar = ca_asoiaf_valyria_basevalue_3
 		
-	b_port_vaedarcity = ct_asoiaf_valyria_basevalue_1	
-	b_port_vaedarcity = ct_asoiaf_valyria_basevalue_2
+	b_port_vaedar2 = ct_asoiaf_valyria_basevalue_1	
+	b_port_vaedar2 = ct_asoiaf_valyria_basevalue_2
 }

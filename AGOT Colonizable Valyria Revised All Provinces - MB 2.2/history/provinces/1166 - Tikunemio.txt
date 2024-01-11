@@ -6,8 +6,8 @@ title = c_tikunemio
 max_settlements = 3
 
 b_tikunemio = castle
-b_tikunemiocity = city
-b_tikunemiotemple = temple
+b_tikunemio2 = city
+b_tikunemio3 = temple
 
 # Misc
 culture = eastern_valyrian
@@ -19,6 +19,6 @@ religion = valyrian_rel
 	b_tikunemio = ca_asoiaf_valyria_basevalue_2
 	b_tikunemio = ca_asoiaf_valyria_basevalue_3
 	
-	b_tikunemiocity = ct_asoiaf_valyria_basevalue_1
-	b_tikunemiocity = ct_asoiaf_valyria_basevalue_2
+	b_tikunemio2 = ct_asoiaf_valyria_basevalue_1
+	b_tikunemio2 = ct_asoiaf_valyria_basevalue_2
 }

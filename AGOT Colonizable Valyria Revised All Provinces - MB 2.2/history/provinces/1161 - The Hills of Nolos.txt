@@ -6,8 +6,8 @@ title = c_the_hills_of_nolos
 max_settlements = 3
 
 b_the_hills_of_nolos = castle
-b_the_hills_of_noloscity = city
-b_the_hills_of_nolostemple = temple
+b_the_hills_of_nolos2 = city
+b_the_hills_of_nolos3 = temple
 
 # Misc
 culture = eastern_valyrian
@@ -19,6 +19,6 @@ religion = valyrian_rel
 	b_the_hills_of_nolos = ca_asoiaf_valyria_basevalue_2
 	b_the_hills_of_nolos = ca_asoiaf_valyria_basevalue_3
 	
-	b_the_hills_of_noloscity = ct_asoiaf_valyria_basevalue_1	
-	b_the_hills_of_noloscity = ct_asoiaf_valyria_basevalue_2
+	b_the_hills_of_nolos2 = ct_asoiaf_valyria_basevalue_1	
+	b_the_hills_of_nolos2 = ct_asoiaf_valyria_basevalue_2
 }

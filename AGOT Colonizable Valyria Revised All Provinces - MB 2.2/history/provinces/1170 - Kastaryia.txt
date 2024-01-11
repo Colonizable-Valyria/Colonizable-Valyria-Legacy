@@ -6,8 +6,8 @@ title = c_kastaryia
 max_settlements = 3
 
 b_kastaryia = castle
-b_kastaryiacity = city
-b_kastaryiatemple = temple
+b_kastaryia2 = city
+b_kastaryia3 = temple
 
 # Misc
 culture = eastern_valyrian
@@ -19,6 +19,6 @@ religion = valyrian_rel
 	b_kastaryia = ca_asoiaf_valyria_basevalue_2
 	b_kastaryia = ca_asoiaf_valyria_basevalue_3
 		
-	b_kastaryiacity = ct_asoiaf_valyria_basevalue_1
-	b_kastaryiacity = ct_asoiaf_valyria_basevalue_2	
+	b_kastaryia2 = ct_asoiaf_valyria_basevalue_1
+	b_kastaryia2 = ct_asoiaf_valyria_basevalue_2	
 }

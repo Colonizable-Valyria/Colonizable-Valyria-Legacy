@@ -6,8 +6,8 @@ title = c_long_summer_way
 max_settlements = 3
 
 b_long_summer_way = castle
-b_long_summer_waycity = city
-b_long_summer_waytemple = temple
+b_long_summer_way2 = city
+b_long_summer_way3 = temple
 
 # Misc
 culture = eastern_valyrian
@@ -18,7 +18,7 @@ religion = valyrian_rel
 	b_long_summer_way = ca_asoiaf_valyria_basevalue_1
 	b_long_summer_way = ca_asoiaf_valyria_basevalue_2
 		
-	b_long_summer_waycity = ct_asoiaf_valyria_basevalue_1
-	b_long_summer_waycity = ct_asoiaf_valyria_basevalue_2
-	b_long_summer_waycity = ct_asoiaf_valyria_basevalue_3
+	b_long_summer_way2 = ct_asoiaf_valyria_basevalue_1
+	b_long_summer_way2 = ct_asoiaf_valyria_basevalue_2
+	b_long_summer_way2 = ct_asoiaf_valyria_basevalue_3
 }

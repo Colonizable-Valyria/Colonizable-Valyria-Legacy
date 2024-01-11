@@ -30,6 +30,7 @@ world_east_coast_of_north = {
 world_north = {
 	duchies = {
 		d_winterfell d_lasthearth d_karhold d_dreadfort d_whiteharbor d_northclans d_skagos d_rills d_wolfswood d_barrowlands d_hornwood d_theneck d_flintsfinger d_stonyshore d_skane d_oldcastle d_widowswatch
+	}
 	counties = {
 		c_bearisland c_moatcailin c_brandons_gift c_new_gift
 	}
