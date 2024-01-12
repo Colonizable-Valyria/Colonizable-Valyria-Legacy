@@ -441,9 +441,9 @@ e_new_valyria = {
 				
 				b_the_hills_of_nolos = {
 				}
-				b_the_hills_of_noloscity = {
+				b_the_hills_of_nolos2 = {
 				}
-				b_the_hills_of_nolostemple = {
+				b_the_hills_of_nolos3 = {
 				}
 			}	
 			c_iedrarys = {
@@ -452,9 +452,9 @@ e_new_valyria = {
 				
 				b_iedrarys = {
 				}
-				b_iedraryscity = {
+				b_iedrarys2 = {
 				}
-				b_iedrarystemple = {
+				b_iedrarys3 = {
 				}				
 			}
 			c_molrys = {
@@ -463,9 +463,9 @@ e_new_valyria = {
 				
 				b_molrys = {
 				}	
-				b_molryscity = {
+				b_molrys2 = {
 				}
-				b_molrystemple = {
+				b_molrys3 = {
 				}
 			}
 		}
@@ -520,9 +520,9 @@ e_new_valyria = {
 				
 				b_dromon_hill = {
 				}
-				b_dromon_hillcity = {
+				b_dromon_hill2 = {
 				}
-				b_dromon_hilltemple = {
+				b_dromon_hill3 = {
 				}
 			}
 			c_bane_road = {
@@ -531,9 +531,9 @@ e_new_valyria = {
 				
 				b_bane_road = {
 				}	
-				b_bane_roadcity = {
+				b_bane_road2 = {
 				}
-				b_bane_roadtemple = {
+				b_bane_road3 = {
 				}
 			}
 			c_urnebyria = {
@@ -542,9 +542,9 @@ e_new_valyria = {
 				
 				b_urnebyria = {
 				}	
-				b_urnebyriacity = {
+				b_urnebyria2 = {
 				}
-				b_urnebyriatemple = {
+				b_urnebyria3 = {
 				}
 			}
 			
@@ -565,9 +565,9 @@ e_new_valyria = {
 				
 				b_vestperzys = {
 				}	
-				b_vestperzyscity = {
+				b_vestperzys2 = {
 				}
-				b_vestperzystemple = {
+				b_vestperzys3 = {
 				}
 			}
 		}	
@@ -615,9 +615,9 @@ e_new_valyria = {
 				
 				b_blenon_way = {
 				}	
-				b_blenon_waycity = {
+				b_blenon_way2 = {
 				}
-				b_blenon_waytemple = {
+				b_blenon_way3 = {
 				}
 			}
 			
@@ -627,9 +627,9 @@ e_new_valyria = {
 				
 				b_tikunemio = {
 				}	
-				b_tikunemiocity = {
+				b_tikunemio2 = {
 				}
-				b_tikunemiotemple = {
+				b_tikunemio3 = {
 				}
 			}
 			
@@ -639,9 +639,9 @@ e_new_valyria = {
 				
 				b_fire_road = {
 				}	
-				b_fire_roadcastle = {
+				b_fire_road2 = {
 				}
-				b_fire_roadtemple = {
+				b_fire_road3 = {
 				}
 			}
 			
@@ -651,9 +651,9 @@ e_new_valyria = {
 				
 				b_fire_isle = {
 				}	
-				b_fire_islecity = {
+				b_fire_isle2 = {
 				}
-				b_fire_isletemple = {
+				b_fire_isle3 = {
 				}
 			}
 			c_elieperzys = {
@@ -662,9 +662,9 @@ e_new_valyria = {
 				
 				b_elieperzys = {
 				}	
-				b_elieperzyscity = {
+				b_elieperzys2 = {
 				}
-				b_elieperzystemple = {
+				b_elieperzys3 = {
 				}
 			}
 		}
@@ -711,9 +711,9 @@ e_new_valyria = {
 				
 				b_port_vaedar = {
 				}	
-				b_port_vaedarcity = {
+				b_port_vaedar2 = {
 				}
-				b_port_vaedartemple = {
+				b_port_vaedar3 = {
 				}
 			}
 			c_raqiros = {
@@ -722,9 +722,9 @@ e_new_valyria = {
 				
 				b_raqiros = {
 				}	
-				b_raqiroscity = {
+				b_raqiros2 = {
 				}
-				b_raqirostemple = {
+				b_raqiros3 = {
 				}
 			}
 			c_kastaryia = {
@@ -733,9 +733,9 @@ e_new_valyria = {
 				
 				b_kastaryia = {
 				}	
-				b_kastaryiacity = {
+				b_kastaryia2 = {
 				}
-				b_kastaryiatemple = {
+				b_kastaryia3 = {
 				}
 			}
 			c_lentun = {
@@ -744,9 +744,9 @@ e_new_valyria = {
 				
 				b_lentun = {
 				}	
-				b_lentuncity = {
+				b_lentun2 = {
 				}
-				b_lentuntemple = {
+				b_lentun3 = {
 				}
 			}
 		}	
@@ -788,9 +788,9 @@ e_new_valyria = {
 				
 				b_ruklonos = {
 				}	
-				b_ruklonoscity = {
+				b_ruklonos2 = {
 				}
-				b_ruklonostemple = {
+				b_ruklonos3 = {
 				}
 			}
 			c_qrimbroz = {
@@ -850,9 +850,9 @@ e_new_valyria = {
 				
 				b_bianoros = {
 				}	
-				b_bianoroscity = {
+				b_bianoros2 = {
 				}
-				b_bianorostemple = {
+				b_bianoros3 = {
 				}
 			}	
 			c_elenar_coast = { #14
@@ -872,9 +872,9 @@ e_new_valyria = {
 				
 				b_the_marble_pass = {
 				}
-				b_the_marble_passcity = {
+				b_the_marble_pass2 = {
 				}
-				b_the_marble_passtemple = {
+				b_the_marble_pass3 = {
 				}
 			}
 		}
@@ -954,9 +954,9 @@ e_new_valyria = {
 				
 				b_izulaperzys = {
 				}	
-				b_izulaperzyscity = {
+				b_izulaperzys2 = {
 				}
-				b_izulaperzystemple = {
+				b_izulaperzys3 = {
 				}
 			}
 			c_gelenka_valleys = {
@@ -965,9 +965,9 @@ e_new_valyria = {
 				
 				b_gelenka_valleys = {
 				}	
-				b_gelenka_valleyscity = {
+				b_gelenka_valleys2 = {
 				}
-				b_gelenka_valleystemple = {
+				b_gelenka_valleys3 = {
 				}
 			}
 		}
@@ -1005,9 +1005,9 @@ e_new_valyria = {
 				
 				b_port_orbar = {
 				}	
-				b_port_orbarcity = {
+				b_port_orbar2 = {
 				}
-				b_port_orbartemple = {
+				b_port_orbar3 = {
 				}
 			}
 			c_lopor_cove = {
@@ -1016,9 +1016,9 @@ e_new_valyria = {
 				
 				b_lopor_cove = {
 				}	
-				b_lopor_covecity = {
+				b_lopor_cove2 = {
 				}
-				b_lopor_covetemple = {
+				b_lopor_cove3 = {
 				}
 			}
 			c_mentis = {
@@ -1027,9 +1027,9 @@ e_new_valyria = {
 				
 				b_mentis = {
 				}	
-				b_mentiscity = {
+				b_mentis2 = {
 				}
-				b_mentistemple = {
+				b_mentis3 = {
 				}
 			}
 			c_urneb_shore = {
@@ -1038,9 +1038,9 @@ e_new_valyria = {
 				
 				b_urneb_shore = {
 				}	
-				b_urneb_shorecity = {
+				b_urneb_shore2 = {
 				}
-				b_urneb_shoretemple = {
+				b_urneb_shore3 = {
 				}
 			}
 		}
@@ -1078,9 +1078,9 @@ e_new_valyria = {
 				
 				b_otor_lands = {
 				}	
-				b_otor_landscity = {
+				b_otor_lands2 = {
 				}
-				b_otor_landstemple = {
+				b_otor_lands3 = {
 				}
 			}
 			c_long_summer_way = {
@@ -1089,9 +1089,9 @@ e_new_valyria = {
 				
 				b_long_summer_way = {
 				}	
-				b_long_summer_waycity = {
+				b_long_summer_way2 = {
 				}
-				b_long_summer_waytemple = {
+				b_long_summer_way3 = {
 				}
 			}
 		}
@@ -1129,9 +1129,9 @@ e_new_valyria = {
 				
 				b_zoklos = {
 				}	
-				b_zokloscity = {
+				b_zoklos2 = {
 				}
-				b_zoklostemple = {
+				b_zoklos3 = {
 				}
 			}
 			c_melior_march = {
@@ -3582,9 +3582,9 @@ e_new_valyria = {
 				
 				b_ublesia = {
 				}
-				b_ublesiacity = {
+				b_ublesia2 = {
 				}
-				b_ublesiatemple = {
+				b_ublesia3 = {
 				}
 			}
 		}
