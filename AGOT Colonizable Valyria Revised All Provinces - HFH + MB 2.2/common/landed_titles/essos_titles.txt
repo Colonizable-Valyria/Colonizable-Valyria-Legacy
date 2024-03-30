@@ -135,7 +135,6 @@ c_ibben_rel = {
 	# Always exists
 	landless = yes
 	
-	
 	# Controls a religion
 	controls_religion = gods_ibben
 	culture = ibbenese
@@ -238,13 +237,6 @@ k_stepstones = {
 			b_shameisle = {
 			}
 		}
-		c_dwarfstone = {
-			color = { 0 224 252 }
-			color2={ 255 255 255 }
-					
-			b_dwarfstone = {
-			}
-		}
 	}
 
 	d_northern_stepstones = {
@@ -275,50 +267,6 @@ k_stepstones = {
 			b_theskulls = {
 			}
 		}
-		c_fishskins = {
-			color={ 53 33 174 }
-			color2={ 255 255 255 }
-					
-			b_fishskins = {
-			}
-		}
-	}
-
-	d_eastern_stepstones = {
-		color={ 70 220 215 }
-		color2={ 255 255 255 }
-		
-		allow = {
-			OR = {				
-				custom_tooltip = {
-					text = TOOLTIPhl_creation_requirement
-					hidden_tooltip = { any_demesne_province = { duchy = { title = FROM } } }
-				}	
-				has_game_rule = { name = hl_creation_requirement value = off }
-			}	
-		}
-				
-		c_dim_cove = {
-			color={ 53 33 174 }
-			color2={ 255 255 255 }
-					
-			b_dim_cove = {
-			}
-		}
-		c_torturersdeep = {
-			color={ 175 224 253 }
-			color2={ 255 255 255 }
-					
-			b_torturersdeep = {
-			}
-		}
-		c_lastrefuge = {
-			color={ 53 33 174 }
-			color2={ 255 255 255 }
-					
-			b_lastrefuge = {
-			}
-		}
 	}
 
 	d_southern_stepstones = {
@@ -342,19 +290,18 @@ k_stepstones = {
 			b_greygallows = {
 			}
 		}
-
-		c_last_lamp = {
+		c_torturersdeep = {
+			color={ 175 224 253 }
+			color2={ 255 255 255 }
+					
+			b_torturersdeep = {
+			}
+		}
+		c_lastrefuge = {
 			color={ 53 33 174 }
 			color2={ 255 255 255 }
 					
-			b_last_lamp = {
-			}
-		}
-		c_southstone = {
-			color = { 0 224 252 }
-			color2={ 255 255 255 }
-					
-			b_southstone = {
+			b_lastrefuge = {
 			}
 		}
 	}
@@ -1208,7 +1155,7 @@ e_new_valyria = {
 				color2={ 255 201 14 }
 				
 				holy_site = pirate
-				holy_site = pentoshi_religion
+				holy_site = rhllor
 				holy_site = trios
 				holy_site = trios_reformed
 				holy_site = moonsingers
@@ -1229,6 +1176,7 @@ e_new_valyria = {
 				b_sunrisegate = {
 				}
 				b_redtemplepentos = {
+					pentarchy = yes
 					old_andal = Pentland
 				}
 				b_olynos = {
@@ -1251,8 +1199,6 @@ e_new_valyria = {
 				color={ 68 240 255 }
 				color2={ 255 255 255 }
 				
-				holy_site = pentoshi_religion
-				
 				b_thegreatarm = {
 				}
 				b_thegreatarm_castle = {
@@ -1266,8 +1212,6 @@ e_new_valyria = {
 				color2={ 255 255 255 }
 				
 				old_andal = "Rutland"
-				
-				holy_site = pentoshi_religion
 				
 				b_princesshore = {
 					old_andal = "Rutland"
@@ -1546,6 +1490,7 @@ e_new_valyria = {
 				holy_site = weeping_lady
 				holy_site = weeping_lady_reformed
 				holy_site = pirate
+				holy_site = rhllor
 				#holy_site = bakkalon
 				#holy_site = bakkalon_reformed
 				
@@ -1560,6 +1505,7 @@ e_new_valyria = {
 				}
 				b_redtemplelys = {
 					old_andal = "South Isle"
+					pentarchy = yes
 				}
 				b_tear_tower = {
 				}
@@ -1589,7 +1535,6 @@ e_new_valyria = {
 				holy_site = weeping_lady_reformed
 				holy_site = trios
 				holy_site = trios_reformed
-				holy_site = myrish_religion
 				
 				b_lyseneforest = {
 				}
@@ -2183,9 +2128,6 @@ e_new_valyria = {
 				color2={ 255 255 255 }
 				
 				holy_site = pirate
-				holy_site = rahlooism
-				holy_site = myrish_religion
-				holy_site = pentoshi_religion
 				
 				old_andal = "Bittertown"
 				
@@ -2196,6 +2138,7 @@ e_new_valyria = {
 				}
 				b_redtemplemyr = {
 					old_andal = "Bittertown"
+					pentarchy = yes
 				}
 				b_vyrelos = {
 					old_andal = "Bitter Keep"
@@ -2316,7 +2259,6 @@ e_new_valyria = {
 				holy_site = weeping_lady_reformed
 				holy_site = trios
 				holy_site = trios_reformed
-				holy_site = myrish_religion
 				
 				b_forestofmyr = {
 				}
@@ -2486,10 +2428,8 @@ e_new_valyria = {
 				color2={ 255 255 255 }
 				
 				holy_site = pirate
-				holy_site = pentoshi_religion
 				holy_site = trios
 				holy_site = trios_reformed
-				holy_site = myrish_religion
 				
 				old_andal = "Northstone"
 				
@@ -2505,7 +2445,6 @@ e_new_valyria = {
 				}
 				b_templeoftrios = {
 					old_andal = "Northstone"
-					pentarchy = yes
 				}
 				b_zernosh = {
 				}
@@ -2601,7 +2540,6 @@ e_new_valyria = {
 				holy_site = weeping_lady_reformed
 				holy_site = trios
 				holy_site = trios_reformed
-				holy_site = myrish_religion
 				
 				b_vysosplains = {
 				}
@@ -2759,7 +2697,6 @@ e_new_valyria = {
 				color2={ 255 255 255 }
 				
 				holy_site = rhllor
-				holy_site = rahlooism
 					
 				b_templelordoflight = {
 					pentarchy = yes
@@ -2844,6 +2781,7 @@ e_new_valyria = {
 				b_volontherys_castle = {
 				}
 				b_volontherys_temple = {
+					pentarchy=yes
 				}
 				b_theryia = {
 				}
@@ -7183,6 +7121,8 @@ e_qarth = {
 				holy_site = corsair
 				holy_site = pagan
 				holy_site = ruin_rel
+				holy_site = aztec_reformed
+				holy_site = aztec
 			
 				b_hall_thrones = {
 				}	
@@ -7230,63 +7170,6 @@ e_qarth = {
 				b_matsartown = {
 				}
 				b_matsartemple = {
-				}
-			}
-			c_mbs_outer_wall = {
-				color={ 175 117 117 }
-				color2={ 6 128 0 }
-						
-				b_mbs_outerwalls = {
-				}
-				b_mbs_outerwalls_1 = {
-				}
-				b_mbs_outerwalls_2 = {
-				}
-				b_mbs_outerwalls_3 = {
-				}
-				b_mbs_outerwalls_4 = {
-				}
-				b_mbs_outerwalls_5 = {
-				}
-				b_mbs_outerwalls_6 = {
-				}
-			}
-			c_mbs_middle_wall = {
-				color={ 175 117 117 }
-				color2={ 6 128 0 }
-						
-				b_mbs_middlewalls = {
-				}
-				b_mbs_middlewalls_1 = {
-				}
-				b_mbs_middlewalls_2 = {
-				}
-				b_mbs_middlewalls_3 = {
-				}
-				b_mbs_middlewalls_4 = {
-				}
-				b_mbs_middlewalls_5 = {
-				}
-				b_mbs_middlewalls_6 = {
-				}
-			}
-			c_mbs_innermost_wall = {
-				color={ 175 117 117 }
-				color2={ 6 128 0 }
-						
-				b_mbs_innermostwalls = {
-				}
-				b_mbs_innermostwalls_1 = {
-				}
-				b_mbs_innermostwalls_2 = {
-				}
-				b_mbs_innermostwalls_3 = {
-				}
-				b_mbs_innermostwalls_4 = {
-				}
-				b_mbs_innermostwalls_5 = {
-				}
-				b_mbs_innermostwalls_6 = {
 				}
 			}
 		}
@@ -8744,6 +8627,8 @@ e_yi_ti = {
 				
 				holy_site = pagan
 				holy_site = ruin_rel
+				holy_site = aztec_reformed
+				holy_site = aztec
 			
 				b_golden_fort = {
 				}	
@@ -9735,7 +9620,7 @@ b_rogare = {
 	religion = rhllor
 }
 
-b_haen = {
+b_sathmantes = {
 	culture = lysene
 	religion = rhllor
 }
